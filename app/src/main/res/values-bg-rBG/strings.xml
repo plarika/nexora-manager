@@ -51,7 +51,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">Пачни приложение</string>
   <string name="fab_add_patches">Добави пачове</string>
   <string name="new_downloader_notification">Налични са нови изтеглящи програми. Кликнете тук, за да ги конфигурирате.</string>
-  <string name="unsupported_architecture_warning">Закърпването на тази архитектура на устройството не се поддържа и най-вероятно ще се провали.</string>
   <string name="import_">Импортиране</string>
   <string name="import_patches">Импортиране на пачове</string>
   <string name="file_field_set">Избрано</string>
@@ -65,7 +64,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">Без име</string>
   <string name="android_11_bug_dialog_title">Бъг в Android 11</string>
   <string name="android_11_bug_dialog_description">Разрешението за инсталиране на приложението трябва да бъде предоставено предварително, за да се избегне бъг в системата на Android 11, който ще повлияе негативно на потребителското изживяване.</string>
-  <string name="no_network_toast">Няма налична интернет връзка</string>
   <string name="selected_app_meta_any_version">Всяка налична версия</string>
   <string name="app_source_dialog_title">Изберете източник</string>
   <string name="app_source_dialog_option_auto">Автоматично</string>
@@ -73,12 +71,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">Не е намерено съвместимо приложение или достъпни изтеглящи програми</string>
   <string name="app_source_dialog_option_installed_no_root">Монтираните приложения не могат да бъдат пачвани отново без root достъп</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">Версия %s не съответства на предложената версия</string>
-  <string name="patch_item_description">Започнете закърпване на приложението</string>
   <string name="patch_selector_item">Изберете пачове</string>
   <string name="patch_selector_item_description">%d избрани пачове</string>
   <string name="patch_selection_changed_warning">Изборът на пачове е променен</string>
   <string name="no_patches_selected">Няма избрани пачове</string>
-  <string name="network_unavailable_warning">Устройството ви не е свързано с интернет. Изтеглянето ще се провали по-късно.</string>
   <string name="network_metered_warning">В момента сте на лимитирана връзка. Могат да бъдат приложени такси за данни от вашия доставчик на услуги.</string>
   <string name="apk_source_selector_item">Изберете източник на APK</string>
   <string name="apk_source_auto">Авто</string>
@@ -168,13 +164,9 @@ Second \"item\" text"</string>
 
 Няма да можете да актуализирате предишно инсталираните приложения от този източник.</string>
   <string name="regenerate_keystore_success">Хранилището за ключове е успешно заменено</string>
-  <string name="import_patch_selection">Импортиране на избор на пачове</string>
-  <string name="import_patch_selection_description">Импортиране на избор на пачове от JSON файл</string>
   <string name="import_patch_selection_fail">Не може да се импортира изборът на пачове: %s</string>
   <string name="import_patch_selection_success">Импортиран избор на пачове</string>
   <string name="select_bundle_for_import">Изберете пакет за импортиране в</string>
-  <string name="export_patch_selection">Експортиране на избор на пачове</string>
-  <string name="export_patch_selection_description">Експортиране на избор на пачове в JSON файл</string>
   <string name="export_patch_selection_fail">Не може да се експортира изборът на пачове: %s</string>
   <string name="export_patch_selection_success">Експортиран избор на пачове</string>
   <string name="select_bundle_for_export">Изберете пакет за експортиране от</string>
@@ -182,28 +174,8 @@ Second \"item\" text"</string>
   <string name="patch_selection_entries">Общо избрани пачове</string>
   <string name="reset_configuration">Нулиране на конфигурацията</string>
   <string name="reset_patch_selection">Избор на пачове</string>
-  <string name="reset_patch_selection_description">Нулиране на запазения избор на пачове</string>
   <string name="reset_patch_options">Опции за пачване</string>
-  <string name="reset_patch_options_description">Нулиране на запазените опции за пачове</string>
   <string name="reset_patch_selection_success">Изборът на пачове е нулиран</string>
-  <string name="patch_selection_reset_all">Нулиране на избора на пачове глобално</string>
-  <string name="patch_selection_reset_all_dialog_description">Предстои ви да нулирате всички избрани пачове. Ще трябва ръчно да изберете всеки пач отново.</string>
-  <string name="patch_selection_reset_all_description">Нулира всички избрани пачове</string>
-  <string name="patch_selection_reset_package">Нулиране на избора на пачове за приложение</string>
-  <string name="patch_selection_reset_package_dialog_description">Предстои ви да нулирате избора на пачове за приложението \"%s\". Ще трябва ръчно да изберете всеки пач отново.</string>
-  <string name="patch_selection_reset_package_description">Нулира избора на пачове за едно приложение</string>
-  <string name="patch_selection_reset_patches">Нулиране на избора на пачове (единично)</string>
-  <string name="patch_selection_reset_patches_dialog_description">Предстои да нулирате избора на пачове за \"%s\". Ще трябва да изберете ръчно всеки пач отново.</string>
-  <string name="patch_selection_reset_patches_description">Нулира избора на пачове за определена колекция от пачове</string>
-  <string name="patch_options_reset_package">Нулиране на опциите за пачове за приложението</string>
-  <string name="patch_options_reset_package_dialog_description">Предстои да нулирате опциите за пачове за приложението \"%s\". Ще трябва да приложите отново всяка опция.</string>
-  <string name="patch_options_reset_package_description">Нулира опциите за пачове за едно приложение</string>
-  <string name="patch_options_reset_patches">Нулиране на опциите за пачове (единично)</string>
-  <string name="patch_options_reset_patches_dialog_description">Предстои да нулирате опциите за пачове за \"%s\". Ще трябва да приложите отново всяка опция.</string>
-  <string name="patch_options_reset_patches_description">Нулира опциите за пачове за определена колекция от пачове</string>
-  <string name="patch_options_reset_all">Нулиране на опциите за пачове глобално</string>
-  <string name="patch_options_reset_all_dialog_description">Предстои да нулирате всички опции за пачове. Ще трябва да приложите отново всяка опция.</string>
-  <string name="patch_options_reset_all_description">Нулира всички опции за пачове</string>
   <string name="downloaders">Изтеглящи</string>
   <string name="downloader_prereleases">Използвай предварителни версии</string>
   <string name="downloader_prereleases_description">Използвай предварителни версии на основната програма за изтегляне</string>
@@ -220,9 +192,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">Добавяне на нови изтеглящи програми от URL адрес или локални файлове</string>
   <string name="local_downloaders_description">Добавяне на изтеглящи програми от локално хранилище.</string>
   <string name="remote_downloaders_description">Добавяне на изтеглящи програми от URL адрес. Могат да бъдат автоматично актуализирани.</string>
-  <string name="install_revanced_downloaders">Инсталирайте изтеглящи програми, за да получавате приложения директно в Nexora Manager.</string>
-  <string name="cancel_downloader_install_title">Отмени инсталацията на изтеглящи програми?</string>
-  <string name="cancel_downloader_install_description">Инсталацията на изтеглящи програми е в ход. Ако напуснете сега, изтеглянето ще бъде отменено.</string>
   <string name="downloader_sources_unavailable_title">Тези изтеглящи програми липсват</string>
   <string name="downloader_sources_unavailable_description">Натиснете бутона за актуализация, за да го поправите.</string>
   <string name="downloader_update_failed">Неуспешна актуализация на изтеглящата програма: %s</string>
@@ -356,7 +325,6 @@ Second \"item\" text"</string>
   <string name="downloader_error">Грешка в изтеглящия инструмент: %s</string>
   <string name="no_downloaders_installed">Няма инсталирани изтеглящи програми за приложения!</string>
   <string name="no_downloaders_trusted">Няма доверени изтеглящи програми за приложения! Моля, проверете настройките си.</string>
-  <string name="already_patched">Вече е пачнато</string>
   <string name="patch_selector_sheet_filter_title">Филтър</string>
   <string name="patch_selector_sheet_filter_compat_title">Съвместимост</string>
   <string name="patch_selector_sheet_filter_packages_title">Пакети</string>
@@ -482,9 +450,7 @@ Nexora Manager ще се затвори при актуализиране.</stri
   <string name="hours_ago">преди %sh</string>
   <string name="days_ago">преди %sd</string>
   <string name="invalid_date">Невалидна дата</string>
-  <string name="disable_battery_optimization">Деактивиране на оптимизацията на батерията</string>
   <string name="input_dialog_value_invalid">Невалидна стойност</string>
-  <string name="option_required">Тази опция е задължителна</string>
   <string name="required_options_screen">Задължителни опции</string>
   <string name="failed_to_check_updates">Неуспешна проверка за актуализации: %s</string>
   <string name="no_update_available">Няма налична актуализация</string>

@@ -92,9 +92,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">Gehitu deskargatzaile berriak URLetatik edo tokiko fitxategietatik</string>
   <string name="local_downloaders_description">Gehitu deskargatzaileak tokiko biltegitik.</string>
   <string name="remote_downloaders_description">Gehitu deskargatzaileak URLetatik. Automatikoki eguneratu daitezke.</string>
-  <string name="install_revanced_downloaders">Instalatu deskargatzaileak aplikazioak zuzenean Nexora Manager-en barruan lortzeko.</string>
-<string name="cancel_downloader_install_title">Deskargatzaileen instalazioa bertan behera utzi?</string>
-  <string name="cancel_downloader_install_description">Deskargatzaileen instalazio bat martxan dago. Orain alde egiten baduzu, deskarga bertan behera geratuko da.</string>
   <string name="downloader_sources_unavailable_title">Deskargatzaile hauek falta dira</string>
   <string name="downloader_sources_unavailable_description">Egin klik eguneratzeko botoian konpontzeko.</string>
   <string name="downloader_update_failed">Ezin izan da deskargatzailea eguneratu: %s</string>

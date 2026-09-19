@@ -89,9 +89,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">Engeza izilandi ezintsha kusuka ku-URL noma kumafayela endawo</string>
   <string name="local_downloaders_description">Engeza izilandi kusuka kusitoreji sendawo.</string>
   <string name="remote_downloaders_description">Engeza izilandi kusuka ku-URL. Zingabuyekezwa ngokuzenzakalelayo.</string>
-  <string name="install_revanced_downloaders">Faka izilandi ukuze uthole izinhlelo zokusebenza ngokuqondile ngaphakathi kwe-Nexora Manager.</string>
-  <string name="cancel_downloader_install_title">Khansela ukufakwa kwezilandi?</string>
-  <string name="cancel_downloader_install_description">Ukufakwa kwezilandi kuyaqhubeka. Uma uhamba manje, ukulanda kuzokhanselwa.</string>
   <string name="downloader_sources_unavailable_title">Lezi zilandi azikho</string>
   <string name="downloader_sources_unavailable_description">Chofoza inkinobho yokubuyekeza ukuze ukulungise.</string>
   <string name="downloader_update_failed">Yehlulekile ukubuyekeza isilandi: %s</string>

@@ -48,7 +48,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">Tətbiqi yamaqla</string>
   <string name="fab_add_patches">Yamalar əlavə et</string>
   <string name="new_downloader_notification">Yeni yükləyici(lər) mövcuddur. Onları konfiqurasiya etmək üçün bura klikləyin.</string>
-  <string name="unsupported_architecture_warning">Bu cihaz arxitekturasında yamaqlama dəstəklənmir və çox güman ki uğursuz olacaq.</string>
   <string name="import_">İdxal</string>
   <string name="import_patches">Yamaqları idxal et</string>
   <string name="file_field_set">Seçildi</string>
@@ -62,7 +61,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">Adsız</string>
   <string name="android_11_bug_dialog_title">Android 11 səhvi</string>
   <string name="android_11_bug_dialog_description">Tətbiqin quraşdırılması icazəsi, Android 11 sistemində istifadəçi təcrübəsinə mənfi təsir göstərəcək bir səhvin qarşısını almaq üçün əvvəlcədən verilməlidir.</string>
-  <string name="no_network_toast">İnternet bağlantısı yoxdur</string>
   <string name="selected_app_meta_any_version">Hər hansı mövcud versiya</string>
   <string name="app_source_dialog_title">Mənbə seçin</string>
   <string name="app_source_dialog_option_auto">Avtomatik</string>
@@ -70,12 +68,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">Uyğun tətbiq və ya yükləyicilər tapılmadı</string>
   <string name="app_source_dialog_option_installed_no_root">Quraşdırılmış tətbiqlərə kök icazəsi olmadan yenidən yamaq tətbiq edilə bilməz</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">Versiya %s təklif olunan versiyaya uyğun gəlmir</string>
-  <string name="patch_item_description">Tətbiqi yamaqlamağa başlayın</string>
   <string name="patch_selector_item">Yamaları seçin</string>
   <string name="patch_selector_item_description">%d yamaq seçildi</string>
   <string name="patch_selection_changed_warning">Yamaq seçimi dəyişdirilib</string>
   <string name="no_patches_selected">Heç bir yamaq seçilməyib</string>
-  <string name="network_unavailable_warning">Cihazınız internetə qoşulmayıb. Yükləmə daha sonra uğursuz olacaq.</string>
   <string name="network_metered_warning">Hazırda ölçülü bir bağlantıdasınız. Xidmət təminatçınızdan məlumat haqları tətbiq oluna bilər.</string>
   <string name="apk_source_selector_item">APK mənbəyini seçin</string>
   <string name="apk_source_auto">Avtomatik</string>
@@ -165,13 +161,9 @@ Yenə də aktiv edilsin?</string>
 
 Bu mənbədən əvvəlcədən quraşdırılmış tətbiqləri yeniləyə bilməyəcəksiniz.</string>
   <string name="regenerate_keystore_success">Açar anbarı uğurla dəyişdirildi</string>
-  <string name="import_patch_selection">Yamaq seçimini idxal et</string>
-  <string name="import_patch_selection_description">JSON faylından yamaq seçimini idxal et</string>
   <string name="import_patch_selection_fail">Yamaq seçimi idxal edilə bilmədi: %s</string>
   <string name="import_patch_selection_success">İdxal edilmiş yamaq seçimi</string>
   <string name="select_bundle_for_import">İdxal etmək üçün paket seçin</string>
-  <string name="export_patch_selection">Yamaq seçimini ixrac et</string>
-  <string name="export_patch_selection_description">Yamaq seçimini JSON faylına ixrac et</string>
   <string name="export_patch_selection_fail">Yamaq seçimi ixrac edilə bilmədi: %s</string>
   <string name="export_patch_selection_success">İxrac edilmiş yamaq seçimi</string>
   <string name="select_bundle_for_export">İxrac etmək üçün paket seçin</string>
@@ -179,28 +171,8 @@ Bu mənbədən əvvəlcədən quraşdırılmış tətbiqləri yeniləyə bilməy
   <string name="patch_selection_entries">Seçilmiş yamaların ümumi sayı</string>
   <string name="reset_configuration">Konfiqurasiyanı sıfırla</string>
   <string name="reset_patch_selection">Yamaq seçimləri</string>
-  <string name="reset_patch_selection_description">Saxlanmış yamaq seçimini sıfırla</string>
   <string name="reset_patch_options">Yamaq seçimləri</string>
-  <string name="reset_patch_options_description">Saxlanmış yamaq seçimlərini sıfırla</string>
   <string name="reset_patch_selection_success">Yamaq seçimi sıfırlandı</string>
-  <string name="patch_selection_reset_all">Yamaq seçimini qlobal olaraq sıfırla</string>
-  <string name="patch_selection_reset_all_dialog_description">Bütün yamaq seçimlərini sıfırlamaq üzrəsiniz. Hər bir yamağı yenidən əl ilə seçməli olacaqsınız.</string>
-  <string name="patch_selection_reset_all_description">Bütün yamaq seçimlərini sıfırlayır</string>
-  <string name="patch_selection_reset_package">Tətbiq üçün yamaq seçimini sıfırla</string>
-  <string name="patch_selection_reset_package_dialog_description">Siz \"%s\" tətbiqi üçün yamaq seçimini sıfırlamaq üzrəsiniz. Hər bir yamağı yenidən əl ilə seçməli olacaqsınız.</string>
-  <string name="patch_selection_reset_package_description">Tək bir tətbiq üçün yamaq seçimini sıfırlayır</string>
-  <string name="patch_selection_reset_patches">Yamaq seçimini sıfırla (tək)</string>
-  <string name="patch_selection_reset_patches_dialog_description">\"%s\" üçün yamaq seçimini sıfırlamaq üzrəsiniz. Hər bir yamağı yenidən əl ilə seçməli olacaqsınız.</string>
-  <string name="patch_selection_reset_patches_description">Müəyyən yamaq kolleksiyası üçün yamaq seçimini sıfırlayır</string>
-  <string name="patch_options_reset_package">Tətbiq üçün yamaq seçimlərini sıfırla</string>
-  <string name="patch_options_reset_package_dialog_description">\"%s\" tətbiqi üçün yamaq seçimlərini sıfırlamaq üzrəsiniz. Hər bir seçimi yenidən tətbiq etməli olacaqsınız.</string>
-  <string name="patch_options_reset_package_description">Tək bir tətbiq üçün yamaq seçimlərini sıfırlayır</string>
-  <string name="patch_options_reset_patches">Yamaq seçimlərini sıfırla (tək)</string>
-  <string name="patch_options_reset_patches_dialog_description">\"%s\" üçün yamaq seçimlərini sıfırlamaq üzrəsiniz. Hər bir seçimi yenidən tətbiq etməli olacaqsınız.</string>
-  <string name="patch_options_reset_patches_description">Müəyyən yamaq kolleksiyası üçün yamaq seçimlərini sıfırlayır</string>
-  <string name="patch_options_reset_all">Yamaq seçimlərini qlobal olaraq sıfırla</string>
-  <string name="patch_options_reset_all_dialog_description">Bütün yamaq seçimlərini sıfırlamaq üzrəsiniz. Hər bir seçimi yenidən tətbiq etməli olacaqsınız.</string>
-  <string name="patch_options_reset_all_description">Bütün yamaq seçimlərini sıfırlayır</string>
   <string name="downloaders">Yükləyicilər</string>
   <string name="downloader_prereleases">İlkin buraxılışları istifadə et</string>
   <string name="downloader_prereleases_description">Əsas yükləyicinin ilkin buraxılış versiyalarını istifadə et</string>
@@ -217,9 +189,6 @@ Bu mənbədən əvvəlcədən quraşdırılmış tətbiqləri yeniləyə bilməy
   <string name="select_downloader_type_dialog_description">URL-dən və ya yerli fayllardan yeni endiricilər əlavə edin</string>
   <string name="local_downloaders_description">Yerli yaddaşdan endiricilər əlavə edin.</string>
   <string name="remote_downloaders_description">URL-dən endiricilər əlavə edin. Avtomatik olaraq yenilənə bilər.</string>
-  <string name="install_revanced_downloaders">Tətbiqləri birbaşa Nexora Manager daxilində əldə etmək üçün yükləyiciləri quraşdırın.</string>
-<string name="cancel_downloader_install_title">Yükləyicilərin quraşdırılması ləğv edilsin?</string>
-  <string name="cancel_downloader_install_description">Yükləyicilərin quraşdırılması prosesi davam edir. İndi çıxsanız, yükləmə ləğv ediləcək.</string>
   <string name="downloader_sources_unavailable_title">Bu endiricilər çatışmır</string>
   <string name="downloader_sources_unavailable_description">Düzəltmək üçün yeniləmə düyməsinə klikləyin.</string>
   <string name="downloader_update_failed">Endirici yenilənərkən xəta baş verdi: %s</string>
@@ -353,7 +322,6 @@ Bu mənbədən əvvəlcədən quraşdırılmış tətbiqləri yeniləyə bilməy
   <string name="downloader_error">Yükləyici xətası: %s</string>
   <string name="no_downloaders_installed">Heç bir tətbiq yükləyicisi quraşdırılmayıb!</string>
   <string name="no_downloaders_trusted">Heç bir tətbiq yükləyicisinə etibar edilməyib! Xahiş edirik parametrlərinizi yoxlayın.</string>
-  <string name="already_patched">Artıq yamalanıb</string>
   <string name="patch_selector_sheet_filter_title">Filtr</string>
   <string name="patch_selector_sheet_filter_compat_title">Uyğunluq</string>
   <string name="patch_selector_sheet_filter_packages_title">Paketlər</string>
@@ -478,9 +446,7 @@ Bu mənbədən əvvəlcədən quraşdırılmış tətbiqləri yeniləyə bilməy
   <string name="hours_ago">%s saat əvvəl</string>
   <string name="days_ago">%s gün əvvəl</string>
   <string name="invalid_date">Yanlış tarix</string>
-  <string name="disable_battery_optimization">Batareya optimizasiyasını söndür</string>
   <string name="input_dialog_value_invalid">Yanlış dəyər</string>
-  <string name="option_required">Bu seçim tələb olunur</string>
   <string name="required_options_screen">Tələb olunan seçimlər</string>
   <string name="failed_to_check_updates">Yeniləmələri yoxlamaq alınmadı: %s</string>
   <string name="no_update_available">Yeniləmə mövcud deyil</string>

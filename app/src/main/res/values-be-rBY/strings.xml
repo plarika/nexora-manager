@@ -51,7 +51,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">Запаткаваць праграму</string>
   <string name="fab_add_patches">Дадаць патчы</string>
   <string name="new_downloader_notification">Даступны новы загрузнік(і). Націсніце тут, каб наладзіць іх.</string>
-  <string name="unsupported_architecture_warning">Патчынг на гэтай архітэктуры прылады не падтрымліваецца і, хутчэй за ўсё, не атрымаецца.</string>
   <string name="import_">Імпарт</string>
   <string name="import_patches">Імпартаваць патчы</string>
   <string name="file_field_set">Выбрана</string>
@@ -65,7 +64,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">Без назвы</string>
   <string name="android_11_bug_dialog_title">Памылка Android 11</string>
   <string name="android_11_bug_dialog_description">Дазвол на ўстаноўку праграм павінен быць выдадзены загадзя, каб пазбегнуць памылкі ў сістэме Android 11, якая негатыўна паўплывае на зручнасць карыстання.</string>
-  <string name="no_network_toast">Няма падключэння да інтэрнэту</string>
   <string name="selected_app_meta_any_version">Любая даступная версія</string>
   <string name="app_source_dialog_title">Выберыце крыніцу</string>
   <string name="app_source_dialog_option_auto">Аўтаматычна</string>
@@ -73,12 +71,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">Сумяшчальных праграм ці загрузчыкаў няма</string>
   <string name="app_source_dialog_option_installed_no_root">Змантаваныя праграмы нельга зноў выправіць без root-доступу</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">Версія %s не адпавядае прапанаванай версіі</string>
-  <string name="patch_item_description">Пачаць патчынг праграмы</string>
   <string name="patch_selector_item">Выбраць патчы</string>
   <string name="patch_selector_item_description">Выбрана %d патчаў</string>
   <string name="patch_selection_changed_warning">Выбар выпраўленняў зменены.</string>
   <string name="no_patches_selected">Няма выбраных патчаў</string>
-  <string name="network_unavailable_warning">Ваша прылада не падключана да інтэрнэту. Загрузка не ўдасца пазней.</string>
   <string name="network_metered_warning">Вы зараз карыстаецеся тарыфікуемым падключэннем. Можа спаганяцца плата за перадачу даных ад вашага пастаўшчыка паслуг.</string>
   <string name="apk_source_selector_item">Выбраць крыніцу APK</string>
   <string name="apk_source_auto">Аўто</string>
@@ -168,13 +164,9 @@ Second \"item\" text"</string>
 
 Вы не зможаце абнавіць раней усталяваныя праграмы з гэтай крыніцы.</string>
   <string name="regenerate_keystore_success">Сховішча ключоў было паспяхова заменена</string>
-  <string name="import_patch_selection">Імпартаваць выбар патчаў</string>
-  <string name="import_patch_selection_description">Імпартаваць выбар патчаў з файла JSON</string>
   <string name="import_patch_selection_fail">Не ўдалося імпартаваць выбар патчаў: %s</string>
   <string name="import_patch_selection_success">Імпартаваны выбар патчаў</string>
   <string name="select_bundle_for_import">Выбраць пакет для імпарту</string>
-  <string name="export_patch_selection">Экспартаваць выбар патчаў</string>
-  <string name="export_patch_selection_description">Экспартаваць выбар патчаў у файл JSON</string>
   <string name="export_patch_selection_fail">Не ўдалося экспартаваць выбар патчаў: %s</string>
   <string name="export_patch_selection_success">Экспартаваны выбар патчаў</string>
   <string name="select_bundle_for_export">Выбраць пакет для экспарту</string>
@@ -182,28 +174,8 @@ Second \"item\" text"</string>
   <string name="patch_selection_entries">Усяго выбрана патчаў</string>
   <string name="reset_configuration">Скінуць канфігурацыю</string>
   <string name="reset_patch_selection">Выбары патчаў</string>
-  <string name="reset_patch_selection_description">Скінуць захаваны выбар патчаў</string>
   <string name="reset_patch_options">Параметры патча</string>
-  <string name="reset_patch_options_description">Скінуць захаваныя параметры патчаў</string>
   <string name="reset_patch_selection_success">Выбар патчаў скінуты</string>
-  <string name="patch_selection_reset_all">Скінуць выбар патчаў глабальна</string>
-  <string name="patch_selection_reset_all_dialog_description">Вы збіраецеся скінуць усе выбраныя патчы. Вам трэба будзе ўручную зноў выбраць кожны патч.</string>
-  <string name="patch_selection_reset_all_description">Скідвае ўсе выбраныя патчы</string>
-  <string name="patch_selection_reset_package">Скінуць выбар патчаў для праграмы</string>
-  <string name="patch_selection_reset_package_dialog_description">Вы збіраецеся скінуць выбар патчаў для праграмы \"%s\". Вам прыйдзецца ўручную зноў выбраць кожны патч.</string>
-  <string name="patch_selection_reset_package_description">Скідвае выбар патчаў для адной праграмы</string>
-  <string name="patch_selection_reset_patches">Скінуць выбар патчаў (адзін)</string>
-  <string name="patch_selection_reset_patches_dialog_description">Вы збіраецеся скінуць выбар патчаў для \"%s\". Вам прыйдзецца выбіраць кожны патч уручную нанова.</string>
-  <string name="patch_selection_reset_patches_description">Скідвае выбар патчаў для пэўнай калекцыі патчаў</string>
-  <string name="patch_options_reset_package">Скінуць параметры патчаў для праграмы</string>
-  <string name="patch_options_reset_package_dialog_description">Вы збіраецеся скінуць параметры патчаў для праграмы \"%s\". Вам прыйдзецца паўторна ўжываць кожны параметр нанова.</string>
-  <string name="patch_options_reset_package_description">Скідвае параметры патчаў для адной праграмы</string>
-  <string name="patch_options_reset_patches">Скінуць параметры патчаў (адзін)</string>
-  <string name="patch_options_reset_patches_dialog_description">Вы збіраецеся скінуць параметры патчаў для \"%s\". Вам прыйдзецца паўторна ўжываць кожны параметр нанова.</string>
-  <string name="patch_options_reset_patches_description">Скідвае параметры патчаў для пэўнай калекцыі патчаў</string>
-  <string name="patch_options_reset_all">Скінуць параметры патчаў глабальна</string>
-  <string name="patch_options_reset_all_dialog_description">Вы збіраецеся скінуць усе параметры патчаў. Вам прыйдзецца паўторна ўжываць кожны параметр нанова.</string>
-  <string name="patch_options_reset_all_description">Скідвае ўсе параметры патчаў</string>
   <string name="downloaders">Спампоўшчыкі</string>
   <string name="downloader_prereleases">Выкарыстоўваць папярэднія версіі</string>
   <string name="downloader_prereleases_description">Выкарыстоўваць папярэднія версіі асноўнага загрузніка</string>
@@ -220,9 +192,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">Дадаць новыя загрузчыкі з URL або лакальных файлаў</string>
   <string name="local_downloaders_description">Дадаць загрузчыкі з лакальнага сховішча.</string>
   <string name="remote_downloaders_description">Дадаць загрузчыкі з URL. Могуць аўтаматычна абнаўляцца.</string>
-  <string name="install_revanced_downloaders">Усталюйце загрузнікі, каб атрымліваць праграмы непасрэдна ў Nexora Manager.</string>
-  <string name="cancel_downloader_install_title">Адмяніць устаноўку загрузнікаў?</string>
-  <string name="cancel_downloader_install_description">Ідзе ўстаноўка загрузнікаў. Калі вы зараз выйдзеце, спампоўка будзе адменена.</string>
   <string name="downloader_sources_unavailable_title">Гэтыя загрузчыкі адсутнічаюць</string>
   <string name="downloader_sources_unavailable_description">Націсніце кнопку абнаўлення, каб выправіць гэта.</string>
   <string name="downloader_update_failed">Не ўдалося абнавіць загрузчык: %s</string>
@@ -356,7 +325,6 @@ Second \"item\" text"</string>
   <string name="downloader_error">Памылка спампоўшчыка: %s</string>
   <string name="no_downloaders_installed">Загрузнікі праграм не ўсталяваны!</string>
   <string name="no_downloaders_trusted">Ніводзін загрузнік праграм не давераны! Калі ласка, праверце налады.</string>
-  <string name="already_patched">Ужо адпачана</string>
   <string name="patch_selector_sheet_filter_title">Фільтр</string>
   <string name="patch_selector_sheet_filter_compat_title">Сумяшчальнасць</string>
   <string name="patch_selector_sheet_filter_packages_title">Пакеты</string>
@@ -482,9 +450,7 @@ Nexora Manager закрыецца падчас абнаўлення.</string>
   <string name="hours_ago">%s гадз. таму</string>
   <string name="days_ago">%s дн. таму</string>
   <string name="invalid_date">Недапушчальная дата</string>
-  <string name="disable_battery_optimization">Адключыць аптымізацыю батарэі</string>
   <string name="input_dialog_value_invalid">Недапушчальнае значэнне</string>
-  <string name="option_required">Гэты параметр абавязковы</string>
   <string name="required_options_screen">Абавязковыя параметры</string>
   <string name="failed_to_check_updates">Не ўдалося праверыць наяўнасць абнаўленняў: %s</string>
   <string name="no_update_available">Абнаўлення няма</string>

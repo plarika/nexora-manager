@@ -51,7 +51,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">تعديل تطبيق</string>
   <string name="fab_add_patches">إضافة تعديلات</string>
   <string name="new_downloader_notification">تتوفر أدوات تنزيل جديدة. انقر هنا لتهيئتها.</string>
-  <string name="unsupported_architecture_warning">التعديل على بنية هذا الجهاز غير مدعوم ومن المرجح أن يفشل.</string>
   <string name="import_">استيراد</string>
   <string name="import_patches">استيراد التعديلات</string>
   <string name="file_field_set">محدد</string>
@@ -65,7 +64,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">غير مُسمى</string>
   <string name="android_11_bug_dialog_title">خطأ Android 11</string>
   <string name="android_11_bug_dialog_description">يجب منح إذن تثبيت التطبيق مسبقًا لتجنب خطأ في نظام Android 11 سيؤثر سلبًا على تجربة المستخدم.</string>
-  <string name="no_network_toast">لا يوجد اتصال بالإنترنت متاح</string>
   <string name="selected_app_meta_any_version">أي إصدار متاح</string>
   <string name="app_source_dialog_title">حدد المصدر</string>
   <string name="app_source_dialog_option_auto">تلقائي</string>
@@ -73,12 +71,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">لا يوجد تطبيق متوافق أو أدوات تنزيل متاحة</string>
   <string name="app_source_dialog_option_installed_no_root">لا يمكن تعديل التطبيقات المثبتة مرة أخرى بدون صلاحيات Root</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">الإصدار %s لا يطابق الإصدار الموصى به</string>
-  <string name="patch_item_description">بدء تعديل التطبيق</string>
   <string name="patch_selector_item">حدد التعديلات</string>
   <string name="patch_selector_item_description">تم تحديد %d تعديل</string>
   <string name="patch_selection_changed_warning">تم تغيير اختيار التصحيحات</string>
   <string name="no_patches_selected">لم يتم تحديد أي تعديلات</string>
-  <string name="network_unavailable_warning">جهازك غير متصل بالإنترنت. سيفشل التنزيل لاحقًا.</string>
   <string name="network_metered_warning">أنت حاليًا تستخدم اتصالًا محدودًا. قد يتم تطبيق رسوم بيانات من مزود الخدمة الخاص بك.</string>
   <string name="apk_source_selector_item">حدد مصدر APK</string>
   <string name="apk_source_auto">تلقائي</string>
@@ -168,13 +164,9 @@ Second \"item\" text"</string>
 
 لن تتمكن من تحديث التطبيقات المثبتة مسبقًا من هذا المصدر.</string>
   <string name="regenerate_keystore_success">تم استبدال مخزن المفاتيح بنجاح</string>
-  <string name="import_patch_selection">استيراد التعديل المحدد</string>
-  <string name="import_patch_selection_description">استيراد التعديل المحدد من ملف JSON</string>
   <string name="import_patch_selection_fail">تعذر استيراد التعديل المحدد: %s</string>
   <string name="import_patch_selection_success">تم استيراد التعديل المحدد</string>
   <string name="select_bundle_for_import">حدد الحزمة للاستيراد إليها</string>
-  <string name="export_patch_selection">تصدير التعديل المحدد</string>
-  <string name="export_patch_selection_description">تصدير التعديل المحدد إلى ملف JSON</string>
   <string name="export_patch_selection_fail">تعذر تصدير التعديل المحدد: %s</string>
   <string name="export_patch_selection_success">تم تصدير التعديل المحدد</string>
   <string name="select_bundle_for_export">حدد الحزمة للتصدير منها</string>
@@ -182,28 +174,8 @@ Second \"item\" text"</string>
   <string name="patch_selection_entries">إجمالي التعديلات المحددة</string>
   <string name="reset_configuration">إعادة تعيين التكوين</string>
   <string name="reset_patch_selection">تحديدات التعديل</string>
-  <string name="reset_patch_selection_description">إعادة تعيين التعديل المحدد المخزن</string>
   <string name="reset_patch_options">خيارات التعديل</string>
-  <string name="reset_patch_options_description">إعادة تعيين خيارات التعديل المخزنة</string>
   <string name="reset_patch_selection_success">تم إعادة تعيين التعديل المحدد</string>
-  <string name="patch_selection_reset_all">إعادة تعيين التعديل المحدد عمومًا</string>
-  <string name="patch_selection_reset_all_dialog_description">أنت على وشك إعادة تعيين جميع التعديلات المحددة. ستحتاج إلى تحديد كل تعديل يدويًا مرة أخرى.</string>
-  <string name="patch_selection_reset_all_description">يعيد تعيين جميع التعديلات المحددة</string>
-  <string name="patch_selection_reset_package">إعادة تعيين التعديل المحدد للتطبيق</string>
-  <string name="patch_selection_reset_package_dialog_description">أنت على وشك إعادة تعيين التعديل المحدد للتطبيق \"%s\". سيتعين عليك تحديد كل تعديل يدويًا مرة أخرى.</string>
-  <string name="patch_selection_reset_package_description">يعيد تعيين التعديل المحدد لتطبيق واحد</string>
-  <string name="patch_selection_reset_patches">إعادة تعيين التعديل المحدد (فردي)</string>
-  <string name="patch_selection_reset_patches_dialog_description">أنت على وشك إعادة تعيين التعديل المحدد لـ \"%s\". سيتعين عليك تحديد كل تعديل يدويًا مرة أخرى.</string>
-  <string name="patch_selection_reset_patches_description">يعيد تعيين التعديل المحدد لمجموعة محددة من التعديلات</string>
-  <string name="patch_options_reset_package">إعادة تعيين خيارات التعديل للتطبيق</string>
-  <string name="patch_options_reset_package_dialog_description">أنت على وشك إعادة تعيين خيارات التعديل للتطبيق \"%s\". سيتعين عليك إعادة تطبيق كل خيار مرة أخرى.</string>
-  <string name="patch_options_reset_package_description">يعيد تعيين خيارات التعديل لتطبيق واحد</string>
-  <string name="patch_options_reset_patches">إعادة تعيين خيارات التعديل (فردي)</string>
-  <string name="patch_options_reset_patches_dialog_description">أنت على وشك إعادة تعيين خيارات التعديل لـ \"%s\". سيتعين عليك إعادة تطبيق كل خيار مرة أخرى.</string>
-  <string name="patch_options_reset_patches_description">يعيد تعيين خيارات التعديل لمجموعة محددة من التعديلات</string>
-  <string name="patch_options_reset_all">إعادة تعيين خيارات التعديل عمومًا</string>
-  <string name="patch_options_reset_all_dialog_description">أنت على وشك إعادة تعيين جميع خيارات التعديل. سيتعين عليك إعادة تطبيق كل خيار مرة أخرى.</string>
-  <string name="patch_options_reset_all_description">يعيد تعيين جميع خيارات التعديل</string>
   <string name="downloaders">أدوات التنزيل</string>
   <string name="downloader_prereleases">استخدام إصدارات ما قبل الإطلاق</string>
   <string name="downloader_prereleases_description">استخدام إصدارات ما قبل الإطلاق من أداة التنزيل الرئيسية</string>
@@ -220,9 +192,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">إضافة منزّلات جديدة من عنوان URL أو الملفات المحلية</string>
   <string name="local_downloaders_description">إضافة منزّلات من التخزين المحلي.</string>
   <string name="remote_downloaders_description">إضافة منزّلات من عنوان URL. يمكن تحديثها تلقائيًا.</string>
-  <string name="install_revanced_downloaders">قم بتثبيت أدوات التنزيل للحصول على التطبيقات مباشرة داخل Nexora Manager.</string>
-  <string name="cancel_downloader_install_title">إلغاء تثبيت أدوات التنزيل؟</string>
-  <string name="cancel_downloader_install_description">تثبيت أدوات التنزيل قيد التقدم. إذا غادرت الآن، فسيتم إلغاء التنزيل.</string>
   <string name="downloader_sources_unavailable_title">هذه المنزّلات مفقودة</string>
   <string name="downloader_sources_unavailable_description">انقر على زر التحديث لإصلاح ذلك.</string>
   <string name="downloader_update_failed">فشل تحديث المنزّل: %s</string>
@@ -356,7 +325,6 @@ Second \"item\" text"</string>
   <string name="downloader_error">خطأ في أداة التنزيل: %s</string>
   <string name="no_downloaders_installed">لم يتم تثبيت أي أدوات تنزيل للتطبيقات!</string>
   <string name="no_downloaders_trusted">لم يتم الوثوق بأي أدوات تنزيل للتطبيقات! يرجى التحقق من إعداداتك.</string>
-  <string name="already_patched">تم تعديله بالفعل</string>
   <string name="patch_selector_sheet_filter_title">تصفية</string>
   <string name="patch_selector_sheet_filter_compat_title">التوافق</string>
   <string name="patch_selector_sheet_filter_packages_title">حزم</string>
@@ -482,9 +450,7 @@ Second \"item\" text"</string>
   <string name="hours_ago">منذ %s ساعة</string>
   <string name="days_ago">منذ %s يوم</string>
   <string name="invalid_date">تاريخ غير صالح</string>
-  <string name="disable_battery_optimization">تعطيل تحسين البطارية</string>
   <string name="input_dialog_value_invalid">قيمة غير صالحة</string>
-  <string name="option_required">هذا الخيار مطلوب</string>
   <string name="required_options_screen">الخيارات المطلوبة</string>
   <string name="failed_to_check_updates">فشل التحقق من توفر تحديثات: %s</string>
   <string name="no_update_available">لا يوجد تحديث متاح</string>

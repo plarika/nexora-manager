@@ -51,7 +51,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">Paisteáil aip</string>
   <string name="fab_add_patches">Cuir paistí leis</string>
   <string name="new_downloader_notification">Íoslódálaithe nua ar fáil. Cliceáil anseo chun iad a chumrú.</string>
-  <string name="unsupported_architecture_warning">Níl paisteáil ar ailtireacht an fheiste seo tacaithe agus is dócha go dteipfidh air.</string>
   <string name="import_">Iompórtáil</string>
   <string name="import_patches">Iompórtáil paistí</string>
   <string name="file_field_set">Roghnaithe</string>
@@ -65,7 +64,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">Gan ainm</string>
   <string name="android_11_bug_dialog_title">Fabht Android 11</string>
   <string name="android_11_bug_dialog_description">Ní mór an cead suiteála aip a dheonú roimh ré chun fabht sa chóras Android 11 a sheachaint a dhéanfaidh difear diúltach d\'eispéireas an úsáideora.</string>
-  <string name="no_network_toast">Níl aon nasc idirlín ar fáil</string>
   <string name="selected_app_meta_any_version">Aon leagan ar fáil</string>
   <string name="app_source_dialog_title">Roghnaigh foinse</string>
   <string name="app_source_dialog_option_auto">Uath</string>
@@ -73,12 +71,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">Gan aip chomhoiriúnach nó íoslódálaithe ar fáil</string>
   <string name="app_source_dialog_option_installed_no_root">Ní féidir aipeanna suiteáilte a phaisteáil arís gan rochtain fréamh</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">Ní thagann leagan %s leis an leagan molta</string>
-  <string name="patch_item_description">Tosaigh ag paisteáil an fheidhmchláir</string>
   <string name="patch_selector_item">Roghnaigh paistí</string>
   <string name="patch_selector_item_description">%d paistí roghnaithe</string>
   <string name="patch_selection_changed_warning">Tá athrú tagtha ar roghnú na bpaistí</string>
   <string name="no_patches_selected">Níl aon phaistí roghnaithe</string>
-  <string name="network_unavailable_warning">Níl do ghléas ceangailte leis an idirlíon. Teipfidh ar an íoslódáil níos déanaí.</string>
   <string name="network_metered_warning">Tá tú ar nasc méadraithe faoi láthair. D\'fhéadfadh táillí sonraí ón do sholáthraí seirbhíse a bheith i gceist.</string>
   <string name="apk_source_selector_item">Roghnaigh foinse APK</string>
   <string name="apk_source_auto">Uath</string>
@@ -168,13 +164,9 @@ Cumasaigh ar aon nós?</string>
 
 Ní bheidh tú in ann na haipeanna a suiteáladh roimhe seo ón bhfoinse seo a nuashonrú.</string>
   <string name="regenerate_keystore_success">Tá an stór eochrach curtha in ionad go rathúil</string>
-  <string name="import_patch_selection">Iompórtáil roghnú paiste</string>
-  <string name="import_patch_selection_description">Iompórtáil roghnú paiste ó chomhad JSON</string>
   <string name="import_patch_selection_fail">Níorbh fhéidir roghnú paiste a iompórtáil: %s</string>
   <string name="import_patch_selection_success">Roghú paiste iompórtáilte</string>
   <string name="select_bundle_for_import">Roghnaigh pacáiste le hallmhairiú isteach ann</string>
-  <string name="export_patch_selection">Easpórtáil roghnú paiste</string>
-  <string name="export_patch_selection_description">Easpórtáil roghnú paiste chuig comhad JSON</string>
   <string name="export_patch_selection_fail">Níorbh fhéidir roghnú paiste a easpórtáil: %s</string>
   <string name="export_patch_selection_success">Rogha paiste easpórtáilte</string>
   <string name="select_bundle_for_export">Roghnaigh pacáiste le honnmhairiú uaidh</string>
@@ -182,28 +174,8 @@ Ní bheidh tú in ann na haipeanna a suiteáladh roimhe seo ón bhfoinse seo a n
   <string name="patch_selection_entries">Líon iomlán na bpaistí roghnaithe</string>
   <string name="reset_configuration">Athshocraigh an chumraíocht</string>
   <string name="reset_patch_selection">Roghanna paiste</string>
-  <string name="reset_patch_selection_description">Athshocraigh an roghnú paiste stóráilte</string>
   <string name="reset_patch_options">Roghanna paiste</string>
-  <string name="reset_patch_options_description">Athshocraigh na roghanna paiste stóráilte</string>
   <string name="reset_patch_selection_success">Athshocraíodh roghnú paiste</string>
-  <string name="patch_selection_reset_all">Athshocraigh roghnú paiste go domhanda</string>
-  <string name="patch_selection_reset_all_dialog_description">Tá tú ar tí gach roghnú paiste a athshocrú. Beidh ort gach paiste a roghnú de láimh arís.</string>
-  <string name="patch_selection_reset_all_description">Athshocraíonn sé gach roghnú paiste</string>
-  <string name="patch_selection_reset_package">Athshocraigh roghnú paiste don aip</string>
-  <string name="patch_selection_reset_package_dialog_description">Tá tú ar tí roghnú an phaiste don aip \"%s\" a athshocrú. Beidh ort gach paiste a roghnú de láimh arís.</string>
-  <string name="patch_selection_reset_package_description">Athshocraíonn sé roghnú paiste d\'aip amháin</string>
-  <string name="patch_selection_reset_patches">Athshocraigh roghnú paiste (singil)</string>
-  <string name="patch_selection_reset_patches_dialog_description">Tá tú ar tí an roghnú paiste do \"%s\" a athshocrú. Beidh ort gach paiste a roghnú de láimh arís.</string>
-  <string name="patch_selection_reset_patches_description">Athshocraíonn an roghnú paiste do bhailiúchán sonrach paistí</string>
-  <string name="patch_options_reset_package">Athshocraigh roghanna paiste don aip</string>
-  <string name="patch_options_reset_package_dialog_description">Tá tú ar tí na roghanna paiste don aip \"%s\" a athshocrú. Beidh ort gach rogha a chur i bhfeidhm arís.</string>
-  <string name="patch_options_reset_package_description">Athshocraíonn roghanna paiste d\'aip amháin</string>
-  <string name="patch_options_reset_patches">Athshocraigh roghanna paiste (singil)</string>
-  <string name="patch_options_reset_patches_dialog_description">Tá tú ar tí na roghanna paiste do \"%s\" a athshocrú. Beidh ort gach rogha a chur i bhfeidhm arís.</string>
-  <string name="patch_options_reset_patches_description">Athshocraíonn na roghanna paiste do bhailiúchán sonrach paistí</string>
-  <string name="patch_options_reset_all">Athshocraigh roghanna paiste go domhanda</string>
-  <string name="patch_options_reset_all_dialog_description">Tá tú ar tí gach rogha paiste a athshocrú. Beidh ort gach rogha a chur i bhfeidhm arís.</string>
-  <string name="patch_options_reset_all_description">Athshocraíonn gach rogha paiste</string>
   <string name="downloaders">Íoslódálaithe</string>
   <string name="downloader_prereleases">Úsáid réamh-eisiúintí</string>
   <string name="downloader_prereleases_description">Bain úsáid as leaganacha réamh-eisiúna den phríomh-íoslódálaí</string>
@@ -220,9 +192,6 @@ Ní bheidh tú in ann na haipeanna a suiteáladh roimhe seo ón bhfoinse seo a n
   <string name="select_downloader_type_dialog_description">Cuir íoslódálaithe nua leis ó URL nó ó chomhaid áitiúla</string>
   <string name="local_downloaders_description">Cuir íoslódálaithe leis ó stóráil áitiúil.</string>
   <string name="remote_downloaders_description">Cuir íoslódálaithe leis ó URL. Is féidir iad a nuashonrú go huathoibríoch.</string>
-  <string name="install_revanced_downloaders">Suiteáil íoslódálaithe chun aipeanna a fháil go díreach laistigh de Nexora Manager.</string>
-  <string name="cancel_downloader_install_title">Cealaigh suiteáil na n-íoslódálaithe?</string>
-  <string name="cancel_downloader_install_description">Tá suiteáil íoslódálaithe ar siúl. Má fhágann tú anois, cuirfear an íoslódáil ar ceal.</string>
   <string name="downloader_sources_unavailable_title">Tá na híoslódálaithe seo ar iarraidh</string>
   <string name="downloader_sources_unavailable_description">Cliceáil ar an gcnaipe nuashonraithe chun é a dheisiú.</string>
   <string name="downloader_update_failed">Theip ar nuashonrú an íoslódálaí: %s</string>
@@ -366,7 +335,6 @@ Níl sé comhoiriúnach ach leis an leagan(acha) seo a leanas: %2$s</string>
   <string name="downloader_error">Earráid íoslódálaí: %s</string>
   <string name="no_downloaders_installed">Níl aon íoslódálaithe aipeanna suiteáilte!</string>
   <string name="no_downloaders_trusted">Níl muinín curtha in aon íoslódálaithe aipeanna! Seiceáil do shocruithe le do thoil.</string>
-  <string name="already_patched">Paistithe cheana féin</string>
   <string name="patch_selector_sheet_filter_title">Scagaire</string>
   <string name="patch_selector_sheet_filter_compat_title">Comhoiriúnacht</string>
   <string name="patch_selector_sheet_filter_packages_title">Pacáistí</string>
@@ -492,9 +460,7 @@ Dúnfaidh Nexora Manager nuair a bheidh sé ag nuashonrú.</string>
   <string name="hours_ago">%su ó shin</string>
   <string name="days_ago">%sl ó shin</string>
   <string name="invalid_date">Dáta neamhbhailí</string>
-  <string name="disable_battery_optimization">Díchumasaigh optamú ceallraí</string>
   <string name="input_dialog_value_invalid">Luach neamhbhailí</string>
-  <string name="option_required">Teastaíonn an rogha seo</string>
   <string name="required_options_screen">Roghanna riachtanacha</string>
   <string name="failed_to_check_updates">Theip ar sheiceáil le haghaidh nuashonruithe: %s</string>
   <string name="no_update_available">Níl aon nuashonrú ar fáil</string>

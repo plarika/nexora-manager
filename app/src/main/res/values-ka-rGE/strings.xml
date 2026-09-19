@@ -92,9 +92,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">ახალი დამტვირთველების დამატება URL-დან ან ლოკალური ფაილებიდან</string>
   <string name="local_downloaders_description">დამტვირთველების დამატება ლოკალური მეხსიერებიდან.</string>
   <string name="remote_downloaders_description">დამტვირთველების დამატება URL-დან. შესაძლებელია ავტომატურად განახლება.</string>
-  <string name="install_revanced_downloaders">დააინსტალირეთ გადმომწერები, რათა მიიღოთ აპები უშუალოდ Nexora Manager-ის შიგნიდან.</string>
-<string name="cancel_downloader_install_title">გადმომწერების ინსტალაციის გაუქმება?</string>
-  <string name="cancel_downloader_install_description">გადმომწერების ინსტალაცია მიმდინარეობს. თუ ახლა დატოვებთ, ჩამოტვირთვა გაუქმდება.</string>
   <string name="downloader_sources_unavailable_title">ეს დამტვირთველები არ არის</string>
   <string name="downloader_sources_unavailable_description">მის გამოსასწორებლად დააჭირეთ განახლების ღილაკს.</string>
   <string name="downloader_update_failed">დამტვირთველის განახლება ვერ მოხერხდა: %s</string>

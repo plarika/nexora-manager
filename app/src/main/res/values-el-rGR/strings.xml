@@ -51,7 +51,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">Τροποποίηση εφαρμογής</string>
   <string name="fab_add_patches">Προσθήκη τροποποιήσεων</string>
   <string name="new_downloader_notification">Νέα διαθέσιμα προγράμματα λήψης. Πατήστε εδώ για να τα ρυθμίσετε.</string>
-  <string name="unsupported_architecture_warning">Η τροποποίηση σε αυτήν την αρχιτεκτονική συσκευής δεν υποστηρίζεται και πιθανότατα θα αποτύχει.</string>
   <string name="import_">Εισαγωγή</string>
   <string name="import_patches">Εισαγωγή τροποποιήσεων</string>
   <string name="file_field_set">Επιλεγμένο</string>
@@ -65,7 +64,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">Χωρίς Όνομα</string>
   <string name="android_11_bug_dialog_title">Σφάλμα Android 11</string>
   <string name="android_11_bug_dialog_description">Η άδεια εγκατάστασης εφαρμογών πρέπει να χορηγηθεί εκ των προτέρων για να αποφευχθεί ένα σφάλμα του συστήματος Android 11 που θα επηρεάσει αρνητικά την εμπειρία του χρήστη.</string>
-  <string name="no_network_toast">Δεν υπάρχει διαθέσιμη σύνδεση στο διαδίκτυο</string>
   <string name="selected_app_meta_any_version">Οποιαδήποτε διαθέσιμη έκδοση</string>
   <string name="app_source_dialog_title">Επιλέξτε πηγή</string>
   <string name="app_source_dialog_option_auto">Αυτόματη</string>
@@ -73,12 +71,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">Δεν βρέθηκε συμβατή εφαρμογή ή διαθέσιμα προγράμματα λήψης</string>
   <string name="app_source_dialog_option_installed_no_root">Οι εγκατεστημένες εφαρμογές δεν μπορούν να τροποποιηθούν ξανά χωρίς πρόσβαση root</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">Η έκδοση %s δεν ταιριάζει με την προτεινόμενη έκδοση</string>
-  <string name="patch_item_description">Έναρξη τροποποίησης της εφαρμογής</string>
   <string name="patch_selector_item">Επιλέξτε τροποποιήσεις</string>
   <string name="patch_selector_item_description">%d τροποποιήσεις επιλέχθηκαν</string>
   <string name="patch_selection_changed_warning">Η επιλογή ενημερώσεων έχει αλλάξει</string>
   <string name="no_patches_selected">Δεν έχουν επιλεχθεί τροποποιήσεις</string>
-  <string name="network_unavailable_warning">Η συσκευή σας δεν είναι συνδεδεμένη στο διαδίκτυο. Η λήψη θα αποτύχει αργότερα.</string>
   <string name="network_metered_warning">Είστε αυτήν τη στιγμή σε σύνδεση με περιορισμένα δεδομένα. Ενδέχεται να ισχύουν χρεώσεις δεδομένων από τον πάροχο υπηρεσιών σας.</string>
   <string name="apk_source_selector_item">Επιλέξτε πηγή APK</string>
   <string name="apk_source_auto">Αυτόματη</string>
@@ -168,13 +164,9 @@ Second \"item\" text"</string>
 
 Δεν θα μπορείτε να ενημερώσετε τις προηγουμένως εγκατεστημένες εφαρμογές από αυτήν την πηγή.</string>
   <string name="regenerate_keystore_success">Το keystore αντικαταστάθηκε επιτυχώς</string>
-  <string name="import_patch_selection">Εισαγωγή επιλογής τροποποιήσεων</string>
-  <string name="import_patch_selection_description">Εισαγωγή επιλεγμένων τροποποιήσεων από αρχείο JSON</string>
   <string name="import_patch_selection_fail">Δεν ήταν δυνατή η εισαγωγή επιλογής τροποποιήσεων: %s</string>
   <string name="import_patch_selection_success">Η επιλογή τροποποιήσεων εισήχθη επιτυχώς</string>
   <string name="select_bundle_for_import">Επιλέξτε πακέτο για εισαγωγή</string>
-  <string name="export_patch_selection">Εξαγωγή επιλογής τροποποιήσεων</string>
-  <string name="export_patch_selection_description">Εξαγωγή επιλεγμένων τροποποιήσεων σε αρχείο JSON</string>
   <string name="export_patch_selection_fail">Δεν ήταν δυνατή η εξαγωγή επιλογής τροποποιήσεων: %s</string>
   <string name="export_patch_selection_success">Η επιλογή τροποποιήσεων εξήχθη επιτυχώς</string>
   <string name="select_bundle_for_export">Επιλέξτε πακέτο για εξαγωγή</string>
@@ -182,28 +174,8 @@ Second \"item\" text"</string>
   <string name="patch_selection_entries">Σύνολο επιλεγμένων τροποποιήσεων</string>
   <string name="reset_configuration">Επαναφορά διαμόρφωσης</string>
   <string name="reset_patch_selection">Επιλογές τροποποιήσεων</string>
-  <string name="reset_patch_selection_description">Επαναφορά των αποθηκευμένων επιλεγμένων τροποποιήσεων</string>
   <string name="reset_patch_options">Παράμετροι τροποποιήσεων</string>
-  <string name="reset_patch_options_description">Επαναφορά των αποθηκευμένων παραμέτρων τροποποιήσεων</string>
   <string name="reset_patch_selection_success">Η επιλογή τροποποιήσεων επαναφέρθηκε επιτυχώς</string>
-  <string name="patch_selection_reset_all">Επαναφορά επιλογής τροποποιήσεων καθολικά</string>
-  <string name="patch_selection_reset_all_dialog_description">Πρόκειται να επαναφέρετε όλες τις επιλογές τροποποιήσεων. Θα χρειαστεί να επιλέξετε χειροκίνητα κάθε τροποποίηση ξανά.</string>
-  <string name="patch_selection_reset_all_description">Επαναφέρει όλες τις επιλογές τροποποιήσεων</string>
-  <string name="patch_selection_reset_package">Επαναφορά επιλογής τροποποιήσεων για εφαρμογή</string>
-  <string name="patch_selection_reset_package_dialog_description">Πρόκειται να επαναφέρετε την επιλογή τροποποιήσεων για την εφαρμογή \"%s\". Θα χρειαστεί να επιλέξετε χειροκίνητα κάθε τροποποίηση ξανά.</string>
-  <string name="patch_selection_reset_package_description">Επαναφέρει την επιλογή τροποποιήσεων για μία μόνο εφαρμογή</string>
-  <string name="patch_selection_reset_patches">Επαναφορά επιλογής τροποποιήσεων (μεμονωμένο)</string>
-  <string name="patch_selection_reset_patches_dialog_description">Πρόκειται να επαναφέρετε την επιλογή τροποποιήσεων για το \"%s\". Θα πρέπει να επιλέξετε χειροκίνητα κάθε τροποποίηση ξανά.</string>
-  <string name="patch_selection_reset_patches_description">Επαναφέρει την επιλογή τροποποιήσεων για μια συγκεκριμένη συλλογή τροποποιήσεων</string>
-  <string name="patch_options_reset_package">Επαναφορά παραμέτρων τροποποιήσεων για εφαρμογή</string>
-  <string name="patch_options_reset_package_dialog_description">Πρόκειται να επαναφέρετε τις παραμέτρους τροποποιήσεων για την εφαρμογή \"%s\". Θα πρέπει να εφαρμόσετε κάθε παράμετρο ξανά.</string>
-  <string name="patch_options_reset_package_description">Επαναφέρει τις παραμέτρους τροποποιήσεων για μία μόνο εφαρμογή</string>
-  <string name="patch_options_reset_patches">Επαναφορά παραμέτρων τροποποιήσεων (μεμονωμένο)</string>
-  <string name="patch_options_reset_patches_dialog_description">Πρόκειται να επαναφέρετε τις παραμέτρους τροποποιήσεων για το \"%s\". Θα πρέπει να εφαρμόσετε κάθε παράμετρο ξανά.</string>
-  <string name="patch_options_reset_patches_description">Επαναφέρει τις παραμέτρους τροποποιήσεων για μια συγκεκριμένη συλλογή τροποποιήσεων</string>
-  <string name="patch_options_reset_all">Επαναφορά παραμέτρων τροποποιήσεων καθολικά</string>
-  <string name="patch_options_reset_all_dialog_description">Πρόκειται να επαναφέρετε όλες τις παραμέτρους τροποποιήσεων. Θα πρέπει να εφαρμόσετε κάθε παράμετρο ξανά.</string>
-  <string name="patch_options_reset_all_description">Επαναφέρει όλες τις παραμέτρους τροποποιήσεων</string>
   <string name="downloaders">Προγράμματα λήψης</string>
   <string name="downloader_prereleases">Χρήση πρώιμων εκδόσεων</string>
   <string name="downloader_prereleases_description">Χρήση πρώιμων εκδόσεων του κυρίου προγράμματος λήψης</string>
@@ -220,9 +192,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">Προσθήκη νέων προγραμμάτων λήψης από URL ή τοπικά αρχεία</string>
   <string name="local_downloaders_description">Προσθήκη προγραμμάτων λήψης από τον τοπικό αποθηκευτικό χώρο.</string>
   <string name="remote_downloaders_description">Προσθήκη προγραμμάτων λήψης από σύνδεσμο URL. Μπορούν να ενημερώνονται αυτόματα.</string>
-  <string name="install_revanced_downloaders">Εγκαταστήστε προγράμματα λήψης για να κατεβάζετε εφαρμογές απευθείας εντός του Nexora Manager.</string>
-  <string name="cancel_downloader_install_title">Ακύρωση εγκατάστασης προγραμμάτων λήψης;</string>
-  <string name="cancel_downloader_install_description">Μια εγκατάσταση προγραμμάτων λήψης βρίσκεται σε εξέλιξη. Εάν φύγετε τώρα, η λήψη θα ακυρωθεί.</string>
   <string name="downloader_sources_unavailable_title">Αυτά τα προγράμματα λήψης λείπουν</string>
   <string name="downloader_sources_unavailable_description">Πατήστε στο κουμπί ενημέρωσης για να το διορθώσετε.</string>
   <string name="downloader_update_failed">Η ενημέρωση του προγράμματος λήψης απέτυχε: %s</string>
@@ -366,7 +335,6 @@ Second \"item\" text"</string>
   <string name="downloader_error">Σφάλμα προγράμματος λήψης: %s</string>
   <string name="no_downloaders_installed">Δεν έχουν εγκατασταθεί προγράμματα λήψης!</string>
   <string name="no_downloaders_trusted">Κανένα πρόγραμμα λήψης δεν έχει εμπιστευτεί! Παρακαλώ ελέγξτε τις ρυθμίσεις σας.</string>
-  <string name="already_patched">Τροποποιήθηκε ήδη</string>
   <string name="patch_selector_sheet_filter_title">Φίλτρο</string>
   <string name="patch_selector_sheet_filter_compat_title">Συμβατότητα</string>
   <string name="patch_selector_sheet_filter_packages_title">Πακέτα</string>
@@ -492,9 +460,7 @@ Second \"item\" text"</string>
   <string name="hours_ago">Πριν από %sώ</string>
   <string name="days_ago">Πριν από %sη</string>
   <string name="invalid_date">Μη έγκυρη ημερομηνία</string>
-  <string name="disable_battery_optimization">Απενεργοποίηση βελτιστοποίησης μπαταρίας</string>
   <string name="input_dialog_value_invalid">Μη έγκυρη τιμή</string>
-  <string name="option_required">Αυτή η παράμετρος είναι υποχρεωτική</string>
   <string name="required_options_screen">Υποχρεωτικές παράμετροι</string>
   <string name="failed_to_check_updates">Ο έλεγχος για ενημερώσεις απέτυχε: %s</string>
   <string name="no_update_available">Δεν υπάρχει διαθέσιμη ενημέρωση</string>

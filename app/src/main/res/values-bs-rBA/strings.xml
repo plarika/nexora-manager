@@ -89,9 +89,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">Dodajte nove preuzimače sa URL-a ili lokalnih datoteka</string>
   <string name="local_downloaders_description">Dodajte preuzimače iz lokalne pohrane.</string>
   <string name="remote_downloaders_description">Dodajte preuzimače sa URL-a. Mogu se automatski ažurirati.</string>
-  <string name="install_revanced_downloaders">Instalirajte downloadere da biste dobili aplikacije direktno unutar Nexora Managera.</string>
-  <string name="cancel_downloader_install_title">Otkaži instalaciju downloadera?</string>
-  <string name="cancel_downloader_install_description">Instalacija downloadera je u toku. Ako sada odete, preuzimanje će biti otkazano.</string>
   <string name="downloader_sources_unavailable_title">Ovi preuzimači nedostaju</string>
   <string name="downloader_sources_unavailable_description">Kliknite na dugme za ažuriranje da biste to popravili.</string>
   <string name="downloader_update_failed">Nije uspjelo ažuriranje preuzimača: %s</string>

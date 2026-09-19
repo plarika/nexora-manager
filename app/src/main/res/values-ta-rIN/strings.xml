@@ -89,9 +89,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">URL அல்லது உள்ளூர் கோப்புகளிலிருந்து புதிய பதிவிறக்கிகளைச் சேர்க்கவும்</string>
   <string name="local_downloaders_description">உள்ளூர் சேமிப்பகத்திலிருந்து பதிவிறக்கிகளைச் சேர்க்கவும்.</string>
   <string name="remote_downloaders_description">URL இலிருந்து பதிவிறக்கிகளைச் சேர்க்கவும். தானாகவே புதுப்பிக்கப்படலாம்.</string>
-  <string name="install_revanced_downloaders">Nexora Manager க்குள் நேரடியாக பயன்பாடுகளைப் பெற பதிவிறக்கிகளை நிறுவவும்.</string>
-  <string name="cancel_downloader_install_title">பதிவிறக்கிகளை நிறுவுவதை ரத்து செய்யவா?</string>
-  <string name="cancel_downloader_install_description">பதிவிறக்கிகளை நிறுவும் பணி நடைபெறுகிறது. நீங்கள் இப்போது வெளியேறினால், பதிவிறக்கம் ரத்து செய்யப்படும்.</string>
   <string name="downloader_sources_unavailable_title">இந்த பதிவிறக்கிகள் காணவில்லை</string>
   <string name="downloader_sources_unavailable_description">இதைச் சரிசெய்ய புதுப்பிப்பு பொத்தானைக் கிளிக் செய்யவும்.</string>
   <string name="downloader_update_failed">பதிவிறக்கியைப் புதுப்பிக்கத் தவறிவிட்டது: %s</string>

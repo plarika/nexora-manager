@@ -89,9 +89,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">Жаңы жүктөөчүлөрдү URL же жергиликтүү файлдардан кошуу</string>
   <string name="local_downloaders_description">Жүктөөчүлөрдү жергиликтүү сактагычтан кошуу.</string>
   <string name="remote_downloaders_description">Жүктөөчүлөрдү URL аркылуу кошуу. Автоматтык түрдө жаңыртылышы мүмкүн.</string>
-  <string name="install_revanced_downloaders">Колдонмолорду Nexora Manager ичинен түз алуу үчүн жүктөгүчтөрдү орнотуңуз.</string>
-  <string name="cancel_downloader_install_title">Жүктөгүчтөрдү орнотууну жокко чыгарасызбы?</string>
-  <string name="cancel_downloader_install_description">Жүктөгүчтөрдү орнотуу жүрүп жатат. Эгер азыр чыгып кетсеңиз, жүктөө жокко чыгарылат.</string>
   <string name="downloader_sources_unavailable_title">Бул жүктөөчүлөр жок</string>
   <string name="downloader_sources_unavailable_description">Оңдоо үчүн жаңыртуу баскычын басыңыз.</string>
   <string name="downloader_update_failed">Жүктөөчүнү жаңыртуу ишке ашкан жок: %s</string>

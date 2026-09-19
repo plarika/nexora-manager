@@ -89,9 +89,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">Engadir novos descargadores desde URL ou ficheiros locais</string>
   <string name="local_downloaders_description">Engadir descargadores desde o almacenamento local.</string>
   <string name="remote_downloaders_description">Engadir descargadores desde URL. Pódense actualizar automaticamente.</string>
-  <string name="install_revanced_downloaders">Instala descargadores para obter aplicacións directamente dentro de Nexora Manager.</string>
-  <string name="cancel_downloader_install_title">Cancelar instalación de descargadores?</string>
-  <string name="cancel_downloader_install_description">Unha instalación de descargadores está en progreso. Se saes agora, a descarga cancelarase.</string>
   <string name="downloader_sources_unavailable_title">Faltan estes descargadores</string>
   <string name="downloader_sources_unavailable_description">Fai clic no botón de actualizar para corrixilo.</string>
   <string name="downloader_update_failed">Fallou a actualización do descargador: %s</string>

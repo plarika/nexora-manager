@@ -89,9 +89,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">ເພີ່ມຕົວດາວໂຫຼດໃໝ່ຈາກ URL ຫຼື ໄຟລ໌ທ້ອງຖິ່ນ</string>
   <string name="local_downloaders_description">ເພີ່ມຕົວດາວໂຫຼດຈາກບ່ອນເກັບຂໍ້ມູນທ້ອງຖິ່ນ.</string>
   <string name="remote_downloaders_description">ເພີ່ມຕົວດາວໂຫຼດຈາກ URL. ສາມາດອັບເດດໄດ້ໂດຍອັດຕະໂນມັດ.</string>
-  <string name="install_revanced_downloaders">ຕິດຕັ້ງຕົວດາວໂຫລດເພື່ອຮັບແອັບໂດຍກົງພາຍໃນ Nexora Manager.</string>
-  <string name="cancel_downloader_install_title">ຍົກເລີກການຕິດຕັ້ງຕົວດາວໂຫລດບໍ?</string>
-  <string name="cancel_downloader_install_description">ການຕິດຕັ້ງຕົວດາວໂຫລດກຳລັງດຳເນີນຢູ່. ຖ້າທ່ານອອກໄປຕອນນີ້, ການດາວໂຫລດຈະຖືກຍົກເລີກ.</string>
   <string name="downloader_sources_unavailable_title">ຕົວດາວໂຫຼດເຫຼົ່ານີ້ຫາຍໄປ</string>
   <string name="downloader_sources_unavailable_description">ຄລິກທີ່ປຸ່ມອັບເດດເພື່ອແກ້ໄຂ.</string>
   <string name="downloader_update_failed">ບໍ່ສາມາດອັບເດດຕົວດາວໂຫຼດ: %s</string>

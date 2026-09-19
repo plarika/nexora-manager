@@ -89,9 +89,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">URL එකකින් හෝ දේශීය ගොනු වලින් නව බාගන්නන් එකතු කරන්න</string>
   <string name="local_downloaders_description">දේශීය ගබඩාවෙන් බාගන්නන් එකතු කරන්න.</string>
   <string name="remote_downloaders_description">URL එකකින් බාගන්නන් එකතු කරන්න. ස්වයංක්‍රීයව යාවත්කාලීන කළ හැක.</string>
-  <string name="install_revanced_downloaders">Nexora Manager තුළින් සෘජුවම යෙදුම් ලබා ගැනීමට බාගැනීම්කරු ස්ථාපනය කරන්න.</string>
-  <string name="cancel_downloader_install_title">බාගැනීම්කරු ස්ථාපනය අවලංගු කරනවාද?</string>
-  <string name="cancel_downloader_install_description">බාගැනීම්කරු ස්ථාපනයක් සිදුවෙමින් පවතී. ඔබ දැන් පිටව ගියහොත්, බාගත කිරීම අවලංගු වනු ඇත.</string>
   <string name="downloader_sources_unavailable_title">මෙම බාගන්නන් අතුරුදහන් වී ඇත</string>
   <string name="downloader_sources_unavailable_description">එය නිවැරදි කිරීමට යාවත්කාලීන බොත්තම ක්ලික් කරන්න.</string>
   <string name="downloader_update_failed">බාගන්නා යාවත්කාලීන කිරීම අසාර්ථක විය: %s</string>

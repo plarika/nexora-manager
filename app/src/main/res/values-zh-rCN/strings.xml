@@ -48,7 +48,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">修补应用</string>
   <string name="fab_add_patches">添加补丁</string>
   <string name="new_downloader_notification">有新的下载器可用。点击此处进行配置。</string>
-  <string name="unsupported_architecture_warning">此设备架构不支持打补丁，很可能会失败。</string>
   <string name="import_">导入</string>
   <string name="import_patches">导入补丁</string>
   <string name="file_field_set">已选择</string>
@@ -62,7 +61,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">未命名</string>
   <string name="android_11_bug_dialog_title">Android 11 错误</string>
   <string name="android_11_bug_dialog_description">必须提前授予应用安装权限，以避免 Android 11 系统中的一个错误，该错误将对用户体验产生负面影响。</string>
-  <string name="no_network_toast">无可用互联网连接</string>
   <string name="selected_app_meta_any_version">任何可用版本</string>
   <string name="app_source_dialog_title">选择来源</string>
   <string name="app_source_dialog_option_auto">自动</string>
@@ -70,12 +68,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">没有找到兼容的应用程序或下载器</string>
   <string name="app_source_dialog_option_installed_no_root">已挂载的应用程序在没有root权限的情况下无法再次修补</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">版本 %s 与建议版本不匹配</string>
-  <string name="patch_item_description">开始修补应用程序</string>
   <string name="patch_selector_item">选择补丁</string>
   <string name="patch_selector_item_description">已选择 %d 个补丁</string>
   <string name="patch_selection_changed_warning">补丁选择已更改</string>
   <string name="no_patches_selected">未选择补丁</string>
-  <string name="network_unavailable_warning">您的设备未连接到互联网。稍后下载将失败。</string>
   <string name="network_metered_warning">您目前使用的是按流量计费的网络连接。您的服务提供商可能会收取数据费用。</string>
   <string name="apk_source_selector_item">选择 APK 来源</string>
   <string name="apk_source_auto">自动</string>
@@ -165,13 +161,9 @@ Second \"item\" text"</string>
 
 您将无法从此源更新之前安装的应用。</string>
   <string name="regenerate_keystore_success">密钥库已成功替换</string>
-  <string name="import_patch_selection">导入补丁选择</string>
-  <string name="import_patch_selection_description">从 JSON 文件导入补丁选择</string>
   <string name="import_patch_selection_fail">无法导入补丁选择：%s</string>
   <string name="import_patch_selection_success">已导入补丁选择</string>
   <string name="select_bundle_for_import">选择要导入的捆绑包</string>
-  <string name="export_patch_selection">导出补丁选择</string>
-  <string name="export_patch_selection_description">将补丁选择导出到 JSON 文件</string>
   <string name="export_patch_selection_fail">无法导出补丁选择：%s</string>
   <string name="export_patch_selection_success">已导出补丁选择</string>
   <string name="select_bundle_for_export">选择要导出的捆绑包</string>
@@ -179,28 +171,8 @@ Second \"item\" text"</string>
   <string name="patch_selection_entries">已选择的补丁总数</string>
   <string name="reset_configuration">重置配置</string>
   <string name="reset_patch_selection">补丁选择</string>
-  <string name="reset_patch_selection_description">重置存储的补丁选择</string>
   <string name="reset_patch_options">补丁选项</string>
-  <string name="reset_patch_options_description">重置存储的补丁选项</string>
   <string name="reset_patch_selection_success">补丁选择已重置</string>
-  <string name="patch_selection_reset_all">全局重置补丁选择</string>
-  <string name="patch_selection_reset_all_dialog_description">您将重置所有补丁选择。您需要再次手动选择每个补丁。</string>
-  <string name="patch_selection_reset_all_description">重置所有补丁选择</string>
-  <string name="patch_selection_reset_package">重置应用的补丁选择</string>
-  <string name="patch_selection_reset_package_dialog_description">您将重置应用“%s”的补丁选择。您需要再次手动选择每个补丁。</string>
-  <string name="patch_selection_reset_package_description">重置单个应用的补丁选择</string>
-  <string name="patch_selection_reset_patches">重置补丁选择（单个）</string>
-  <string name="patch_selection_reset_patches_dialog_description">您即将重置“%s”的补丁选择。您需要再次手动选择每个补丁。</string>
-  <string name="patch_selection_reset_patches_description">重置特定补丁集的补丁选择</string>
-  <string name="patch_options_reset_package">重置应用的补丁选项</string>
-  <string name="patch_options_reset_package_dialog_description">您即将重置应用“%s”的补丁选项。您需要再次重新应用每个选项。</string>
-  <string name="patch_options_reset_package_description">重置单个应用的补丁选项</string>
-  <string name="patch_options_reset_patches">重置补丁选项（单个）</string>
-  <string name="patch_options_reset_patches_dialog_description">您即将重置“%s”的补丁选项。您需要再次重新应用每个选项。</string>
-  <string name="patch_options_reset_patches_description">重置特定补丁集的补丁选项</string>
-  <string name="patch_options_reset_all">全局重置补丁选项</string>
-  <string name="patch_options_reset_all_dialog_description">您即将重置所有补丁选项。您需要再次重新应用每个选项。</string>
-  <string name="patch_options_reset_all_description">重置所有补丁选项</string>
   <string name="downloaders">下载器</string>
   <string name="downloader_prereleases">使用预发布版本</string>
   <string name="downloader_prereleases_description">使用主下载器的预发布版本</string>
@@ -217,9 +189,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">从URL或本地文件添加新的下载器</string>
   <string name="local_downloaders_description">从本地存储添加下载器。</string>
   <string name="remote_downloaders_description">从URL添加下载器。可自动更新。</string>
-  <string name="install_revanced_downloaders">安装下载器以便直接在 Nexora Manager 中获取应用。</string>
-<string name="cancel_downloader_install_title">取消下载器安装？</string>
-  <string name="cancel_downloader_install_description">正在进行下载器安装。如果您现在离开，下载将被取消。</string>
   <string name="downloader_sources_unavailable_title">这些下载器缺失</string>
   <string name="downloader_sources_unavailable_description">点击更新按钮修复。</string>
   <string name="downloader_update_failed">更新下载器失败：%s</string>
@@ -353,7 +322,6 @@ Second \"item\" text"</string>
   <string name="downloader_error">下载器错误：%s</string>
   <string name="no_downloaders_installed">未安装任何应用下载器！</string>
   <string name="no_downloaders_trusted">没有应用下载器受到信任！请检查您的设置。</string>
-  <string name="already_patched">已打补丁</string>
   <string name="patch_selector_sheet_filter_title">筛选</string>
   <string name="patch_selector_sheet_filter_compat_title">兼容性</string>
   <string name="patch_selector_sheet_filter_packages_title">软件包</string>
@@ -479,9 +447,7 @@ Nexora Manager 更新时将关闭。</string>
   <string name="hours_ago">%s小时前</string>
   <string name="days_ago">%s天前</string>
   <string name="invalid_date">无效日期</string>
-  <string name="disable_battery_optimization">禁用电池优化</string>
   <string name="input_dialog_value_invalid">无效值</string>
-  <string name="option_required">此选项为必填项</string>
   <string name="required_options_screen">必填选项</string>
   <string name="failed_to_check_updates">检查更新失败：%s</string>
   <string name="no_update_available">无可用更新</string>

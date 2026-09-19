@@ -51,7 +51,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">앱 패치</string>
   <string name="fab_add_patches">패치 추가</string>
   <string name="new_downloader_notification">새 다운로더를 사용할 수 있습니다. 설정하려면 여기를 탭하세요.</string>
-  <string name="unsupported_architecture_warning">이 기기 아키텍처에 대한 패치는 지원되지 않으므로 실패할 가능성이 높습니다.</string>
   <string name="import_">가져오기</string>
   <string name="import_patches">패치 가져오기</string>
   <string name="file_field_set">선택됨</string>
@@ -65,7 +64,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">이름 없음</string>
   <string name="android_11_bug_dialog_title">Android 11 버그</string>
   <string name="android_11_bug_dialog_description">사용자 환경에 부정적인 영향을 미치는 Android 11 시스템 버그를 방지하려면 앱 설치 권한을 미리 부여해야 합니다.</string>
-  <string name="no_network_toast">인터넷에 연결할 수 없습니다</string>
   <string name="selected_app_meta_any_version">사용 가능한 모든 버전</string>
   <string name="app_source_dialog_title">소스 선택</string>
   <string name="app_source_dialog_option_auto">자동</string>
@@ -73,12 +71,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">호환되는 앱 또는 다운로더를 찾을 수 없습니다</string>
   <string name="app_source_dialog_option_installed_no_root">마운트된 앱은 루트 권한 없이는 다시 패치할 수 없습니다</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">%s 버전이 권장 버전과 일치하지 않습니다</string>
-  <string name="patch_item_description">애플리케이션 패치를 시작하였습니다</string>
   <string name="patch_selector_item">패치 선택</string>
   <string name="patch_selector_item_description">%d 개의 패치를 선택하였습니다</string>
   <string name="patch_selection_changed_warning">패치 선택이 변경되었습니다.</string>
   <string name="no_patches_selected">선택된 패치가 없습니다</string>
-  <string name="network_unavailable_warning">기기가 인터넷에 연결되어 있지 않습니다. 나중에 다운로드가 실패할 수 있습니다.</string>
   <string name="network_metered_warning">현재 모바일 데이터를 사용 중입니다. 통신사 데이터 요금이 부과될 수 있습니다.</string>
   <string name="apk_source_selector_item">APK 소스 선택</string>
   <string name="apk_source_auto">자동</string>
@@ -168,13 +164,9 @@ Second \"item\" text"</string>
 
 기존 키스토어로 서명된 앱들은 업데이트할 수 없게 됩니다.</string>
   <string name="regenerate_keystore_success">키스토어를 성공적으로 교체하였습니다</string>
-  <string name="import_patch_selection">패치 선택 목록 가져오기</string>
-  <string name="import_patch_selection_description">패치 선택 목록을 JSON 파일에서 가져옵니다</string>
   <string name="import_patch_selection_fail">패치 선택 목록을 가져올 수 없습니다: %s</string>
   <string name="import_patch_selection_success">패치 선택 목록을 가져왔습니다</string>
   <string name="select_bundle_for_import">가져올 번들 선택</string>
-  <string name="export_patch_selection">패치 선택 목록 내보내기</string>
-  <string name="export_patch_selection_description">패치 선택 목록을 JSON 파일으로 내보냅니다</string>
   <string name="export_patch_selection_fail">패치 선택 목록을 내보낼 수 없습니다: %s</string>
   <string name="export_patch_selection_success">패치 선택 목록을 내보냈습니다</string>
   <string name="select_bundle_for_export">내보낼 번들 선택</string>
@@ -182,28 +174,8 @@ Second \"item\" text"</string>
   <string name="patch_selection_entries">총 선택된 패치</string>
   <string name="reset_configuration">설정 초기화</string>
   <string name="reset_patch_selection">패치 선택</string>
-  <string name="reset_patch_selection_description">패치 선택 목록을 초기화합니다</string>
   <string name="reset_patch_options">패치 옵션</string>
-  <string name="reset_patch_options_description">패치 옵션을 초기화합니다</string>
   <string name="reset_patch_selection_success">패치 선택 목록을 초기화하였습니다</string>
-  <string name="patch_selection_reset_all">모든 패치 선택 목록 초기화</string>
-  <string name="patch_selection_reset_all_dialog_description">모든 패치 선택 목록을 초기화합니다. 각 패치를 직접 다시 선택해야 합니다.</string>
-  <string name="patch_selection_reset_all_description">모든 패치 선택 목록을 초기화합니다</string>
-  <string name="patch_selection_reset_package">앱 패치 선택 목록 초기화</string>
-  <string name="patch_selection_reset_package_dialog_description">\'%s\'에 대한 패치 선택 목록을 초기화합니다. 각 패치를 직접 다시 선택해야 합니다.</string>
-  <string name="patch_selection_reset_package_description">단일 앱에 대한 패치 선택 목록을 초기화합니다</string>
-  <string name="patch_selection_reset_patches">번들 패치 선택 목록 초기화</string>
-  <string name="patch_selection_reset_patches_dialog_description">\'%s\'에 대한 패치 선택 목록을 초기화합니다. 각 패치를 직접 다시 선택해야 합니다.</string>
-  <string name="patch_selection_reset_patches_description">단일 패치 번들에 대한 패치 선택 목록을 초기화합니다</string>
-  <string name="patch_options_reset_package">앱 패치 옵션 초기화</string>
-  <string name="patch_options_reset_package_dialog_description">\'%s\'에 대한 패치 옵션을 초기화합니다. 개별적으로 옵션을 다시 적용해야 합니다.</string>
-  <string name="patch_options_reset_package_description">단일 앱에 대한 패치 옵션을 초기화합니다</string>
-  <string name="patch_options_reset_patches">번들 패치 옵션 초기화</string>
-  <string name="patch_options_reset_patches_dialog_description">\'%s\'에 대한 패치 옵션을 초기화합니다. 개별적으로 옵션을 다시 적용해야 합니다.</string>
-  <string name="patch_options_reset_patches_description">단일 패치 번들에 대한 패치 옵션을 초기화합니다</string>
-  <string name="patch_options_reset_all">모든 패치 옵션 초기화</string>
-  <string name="patch_options_reset_all_dialog_description">모든 패치 옵션을 초기화합니다. 개별적으로 옵션을 다시 적용해야 합니다.</string>
-  <string name="patch_options_reset_all_description">모든 패치 옵션을 초기화합니다</string>
   <string name="downloaders">다운로더</string>
   <string name="downloader_prereleases">Pre-releases 버전 사용</string>
   <string name="downloader_prereleases_description">주요 다운로더의 Pre-release 버전을 사용합니다</string>
@@ -220,9 +192,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">URL 또는 기기 파일에서 새 다운로더를 추가합니다</string>
   <string name="local_downloaders_description">기기 저장소에서 다운로더를 추가합니다.</string>
   <string name="remote_downloaders_description">URL에서 다운로더를 추가합니다. 자동으로 업데이트될 수 있습니다.</string>
-  <string name="install_revanced_downloaders">Nexora Manager에서 앱을 직접 다운로드하려면 다운로더를 설치하세요.</string>
-  <string name="cancel_downloader_install_title">다운로더 설치를 취소하시겠습니까?</string>
-  <string name="cancel_downloader_install_description">다운로더 설치를 진행하는 중입니다. 지금 나가면 다운로드가 취소됩니다.</string>
   <string name="downloader_sources_unavailable_title">이 다운로더는 누락되었습니다</string>
   <string name="downloader_sources_unavailable_description">업데이트 버튼을 클릭하여 수정하세요.</string>
   <string name="downloader_update_failed">다운로더를 업데이트하지 못하였습니다: %s</string>
@@ -366,7 +335,6 @@ Second \"item\" text"</string>
   <string name="downloader_error">다운로더 오류: %s</string>
   <string name="no_downloaders_installed">설치된 앱 다운로더가 없습니다!</string>
   <string name="no_downloaders_trusted">신뢰할 수 있는 앱 다운로더가 없습니다! 설정을 확인하세요.</string>
-  <string name="already_patched">이미 패치됨</string>
   <string name="patch_selector_sheet_filter_title">필터</string>
   <string name="patch_selector_sheet_filter_compat_title">호환성</string>
   <string name="patch_selector_sheet_filter_packages_title">패키지</string>
@@ -492,9 +460,7 @@ Second \"item\" text"</string>
   <string name="hours_ago">%s시간 전</string>
   <string name="days_ago">%s일 전</string>
   <string name="invalid_date">잘못된 날짜</string>
-  <string name="disable_battery_optimization">배터리 최적화 비활성화</string>
   <string name="input_dialog_value_invalid">잘못된 값</string>
-  <string name="option_required">이 옵션은 필수입니다</string>
   <string name="required_options_screen">필수 옵션</string>
   <string name="failed_to_check_updates">업데이트를 확인할 수 없습니다: %s</string>
   <string name="no_update_available">새 업데이트가 없습니다</string>

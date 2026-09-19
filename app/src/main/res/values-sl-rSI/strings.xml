@@ -51,7 +51,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">Popravi aplikacijo</string>
   <string name="fab_add_patches">Dodaj popravke</string>
   <string name="new_downloader_notification">Na voljo je nov prenosnik(-i). Kliknite tukaj za konfiguracijo.</string>
-  <string name="unsupported_architecture_warning">Popravljanje na tej arhitekturi naprave ni podprto in bo najverjetneje neuspešno.</string>
   <string name="import_">Uvozi</string>
   <string name="import_patches">Uvozi popravke</string>
   <string name="file_field_set">Izbrano</string>
@@ -65,7 +64,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">Nepoimenovano</string>
   <string name="android_11_bug_dialog_title">Napaka v Androidu 11</string>
   <string name="android_11_bug_dialog_description">Dovoljenje za namestitev aplikacije mora biti podeljeno vnaprej, da se izognete napaki v sistemu Android 11, ki bi negativno vplivala na uporabniško izkušnjo.</string>
-  <string name="no_network_toast">Ni na voljo internetne povezave</string>
   <string name="selected_app_meta_any_version">Katera koli razpoložljiva različica</string>
   <string name="app_source_dialog_title">Izberi vir</string>
   <string name="app_source_dialog_option_auto">Samodejno</string>
@@ -73,12 +71,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">Na voljo ni združljive aplikacije ali prenašalnikov</string>
   <string name="app_source_dialog_option_installed_no_root">Nameščenih aplikacij ni mogoče znova popraviti brez dostopa root</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">Različica %s se ne ujema s predlagano različico</string>
-  <string name="patch_item_description">Začnite popravljati aplikacijo</string>
   <string name="patch_selector_item">Izberite popravke</string>
   <string name="patch_selector_item_description">%d izbranih popravkov</string>
   <string name="patch_selection_changed_warning">Izbor popravkov je bil spremenjen</string>
   <string name="no_patches_selected">Ni izbranih popravkov</string>
-  <string name="network_unavailable_warning">Vaša naprava ni povezana z internetom. Prenos bo kasneje neuspešen.</string>
   <string name="network_metered_warning">Trenutno ste na omejeni povezavi. Morda se zaračunajo stroški prenosa podatkov vašega ponudnika storitev.</string>
   <string name="apk_source_selector_item">Izberite vir APK-ja</string>
   <string name="apk_source_auto">Samodejno</string>
@@ -168,13 +164,9 @@ Omogoči kljub temu?</string>
 
 Prej nameščenih aplikacij s tega vira ne boste mogli posodobiti.</string>
   <string name="regenerate_keystore_success">Pomnilnik ključev je bil uspešno zamenjan</string>
-  <string name="import_patch_selection">Uvozi izbiro popravkov</string>
-  <string name="import_patch_selection_description">Uvozi izbiro popravkov iz datoteke JSON</string>
   <string name="import_patch_selection_fail">Izbire popravkov ni bilo mogoče uvoziti: %s</string>
   <string name="import_patch_selection_success">Uvožena izbira popravkov</string>
   <string name="select_bundle_for_import">Izberite paket za uvoz</string>
-  <string name="export_patch_selection">Izvozi izbiro popravkov</string>
-  <string name="export_patch_selection_description">Izvozi izbiro popravkov v datoteko JSON</string>
   <string name="export_patch_selection_fail">Izbire popravkov ni bilo mogoče izvoziti: %s</string>
   <string name="export_patch_selection_success">Izvožena izbira popravkov</string>
   <string name="select_bundle_for_export">Izberite paket za izvoz</string>
@@ -182,28 +174,8 @@ Prej nameščenih aplikacij s tega vira ne boste mogli posodobiti.</string>
   <string name="patch_selection_entries">Skupno izbranih popravkov</string>
   <string name="reset_configuration">Ponastavi konfiguracijo</string>
   <string name="reset_patch_selection">Izbire popravkov</string>
-  <string name="reset_patch_selection_description">Ponastavi shranjeno izbiro popravkov</string>
   <string name="reset_patch_options">Možnosti popravkov</string>
-  <string name="reset_patch_options_description">Ponastavi shranjene možnosti popravkov</string>
   <string name="reset_patch_selection_success">Izbira popravkov je bila ponastavljena</string>
-  <string name="patch_selection_reset_all">Globalno ponastavi izbiro popravkov</string>
-  <string name="patch_selection_reset_all_dialog_description">Ponastavili boste vse izbire popravkov. Vsak popravek boste morali znova izbrati ročno.</string>
-  <string name="patch_selection_reset_all_description">Ponastavi vse izbire popravkov</string>
-  <string name="patch_selection_reset_package">Ponastavi izbiro popravkov za aplikacijo</string>
-  <string name="patch_selection_reset_package_dialog_description">Ponastavili boste izbiro popravkov za aplikacijo \"%s\". Vsak popravek boste morali znova izbrati ročno.</string>
-  <string name="patch_selection_reset_package_description">Ponastavi izbiro popravkov za eno samo aplikacijo</string>
-  <string name="patch_selection_reset_patches">Ponastavi izbiro popravkov (posamezno)</string>
-  <string name="patch_selection_reset_patches_dialog_description">Ponastavili boste izbiro popravkov za \"%s\". Vsak popravek boste morali znova izbrati ročno.</string>
-  <string name="patch_selection_reset_patches_description">Ponastavi izbiro popravkov za določeno zbirko popravkov</string>
-  <string name="patch_options_reset_package">Ponastavi možnosti popravkov za aplikacijo</string>
-  <string name="patch_options_reset_package_dialog_description">Ponastavili boste možnosti popravkov za aplikacijo \"%s\". Vsako možnost boste morali znova uporabiti.</string>
-  <string name="patch_options_reset_package_description">Ponastavi možnosti popravkov za eno aplikacijo</string>
-  <string name="patch_options_reset_patches">Ponastavi možnosti popravkov (posamezno)</string>
-  <string name="patch_options_reset_patches_dialog_description">Ponastavili boste možnosti popravkov za \"%s\". Vsako možnost boste morali znova uporabiti.</string>
-  <string name="patch_options_reset_patches_description">Ponastavi možnosti popravkov za določeno zbirko popravkov</string>
-  <string name="patch_options_reset_all">Globalno ponastavi možnosti popravkov</string>
-  <string name="patch_options_reset_all_dialog_description">Ponastavili boste vse možnosti popravkov. Vsako možnost boste morali znova uporabiti.</string>
-  <string name="patch_options_reset_all_description">Ponastavi vse možnosti popravkov</string>
   <string name="downloaders">Prenosniki</string>
   <string name="downloader_prereleases">Uporabi predizdaje</string>
   <string name="downloader_prereleases_description">Uporabi predizdajne različice glavnega prenosnika</string>
@@ -220,9 +192,6 @@ Prej nameščenih aplikacij s tega vira ne boste mogli posodobiti.</string>
   <string name="select_downloader_type_dialog_description">Dodaj nove prenašalnike iz URL-ja ali lokalnih datotek</string>
   <string name="local_downloaders_description">Dodaj prenašalnike iz lokalnega pomnilnika.</string>
   <string name="remote_downloaders_description">Dodaj prenašalnike iz URL-ja. Lahko se samodejno posodobijo.</string>
-  <string name="install_revanced_downloaders">Namestite prenosnike za pridobivanje aplikacij neposredno znotraj Nexora Manager.</string>
-  <string name="cancel_downloader_install_title">Prekliči namestitev prenosnikov?</string>
-  <string name="cancel_downloader_install_description">Namestitev prenosnikov je v teku. Če zdaj odidete, bo prenos preklican.</string>
   <string name="downloader_sources_unavailable_title">Ti prenašalniki manjkajo</string>
   <string name="downloader_sources_unavailable_description">Za popravilo kliknite gumb za posodobitev.</string>
   <string name="downloader_update_failed">Posodobitev prenašalnika ni uspela: %s</string>
@@ -356,7 +325,6 @@ Prej nameščenih aplikacij s tega vira ne boste mogli posodobiti.</string>
   <string name="downloader_error">Napaka prenosnika: %s</string>
   <string name="no_downloaders_installed">Ni nameščenih prenosnikov aplikacij!</string>
   <string name="no_downloaders_trusted">Noben prenosnik aplikacij ni zaupanja vreden! Prosimo, preverite svoje nastavitve.</string>
-  <string name="already_patched">Že popravljeno</string>
   <string name="patch_selector_sheet_filter_title">Filter</string>
   <string name="patch_selector_sheet_filter_compat_title">Združljivost</string>
   <string name="patch_selector_sheet_filter_packages_title">Paketi</string>
@@ -482,9 +450,7 @@ Nexora Manager se bo med posodabljanjem zaprl.</string>
   <string name="hours_ago">pred %sh</string>
   <string name="days_ago">pred %sd</string>
   <string name="invalid_date">Neveljaven datum</string>
-  <string name="disable_battery_optimization">Onemogoči optimizacijo baterije</string>
   <string name="input_dialog_value_invalid">Neveljavna vrednost</string>
-  <string name="option_required">Ta možnost je obvezna</string>
   <string name="required_options_screen">Obvezne možnosti</string>
   <string name="failed_to_check_updates">Preverjanje posodobitev ni uspelo: %s</string>
   <string name="no_update_available">Posodobitev ni na voljo</string>

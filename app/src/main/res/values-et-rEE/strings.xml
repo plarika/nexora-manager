@@ -48,7 +48,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">Paiga rakendus</string>
   <string name="fab_add_patches">Lisa paikasid</string>
   <string name="new_downloader_notification">Uued allalaadijad on saadaval. Klõpsake siia nende konfigureerimiseks.</string>
-  <string name="unsupported_architecture_warning">Paigaldamine sellel seadme arhitektuuril pole toetatud ja tõenäoliselt ebaõnnestub.</string>
   <string name="import_">Impordi</string>
   <string name="import_patches">Impordi paigad</string>
   <string name="file_field_set">Valitud</string>
@@ -62,7 +61,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">Nimetu</string>
   <string name="android_11_bug_dialog_title">Android 11 viga</string>
   <string name="android_11_bug_dialog_description">Rakenduse installimise luba tuleb eelnevalt anda, et vältida Android 11 süsteemi viga, mis mõjutab negatiivselt kasutajakogemust.</string>
-  <string name="no_network_toast">Internetiühendus puudub</string>
   <string name="selected_app_meta_any_version">Mis tahes saadaolev versioon</string>
   <string name="app_source_dialog_title">Vali allikas</string>
   <string name="app_source_dialog_option_auto">Automaatne</string>
@@ -70,12 +68,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">Ühtegi ühilduvat rakendust ega allalaadijat ei leitud</string>
   <string name="app_source_dialog_option_installed_no_root">Paigaldatud rakendusi ei saa ilma juurjuurdepääsuta uuesti parandada</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">Versioon %s ei vasta soovitatud versioonile</string>
-  <string name="patch_item_description">Alusta rakenduse paigaldamist</string>
   <string name="patch_selector_item">Vali paigad</string>
   <string name="patch_selector_item_description">%d paika valitud</string>
   <string name="patch_selection_changed_warning">Paikade valik on muutunud.</string>
   <string name="no_patches_selected">Paikasid pole valitud</string>
-  <string name="network_unavailable_warning">Teie seade pole internetiga ühendatud. Allalaadimine ebaõnnestub hiljem.</string>
   <string name="network_metered_warning">Olete praegu piiratud andmemahuga ühendusel. Teenusepakkuja võib kohaldada andmeside tasusid.</string>
   <string name="apk_source_selector_item">Vali APK allikas</string>
   <string name="apk_source_auto">Automaatne</string>
@@ -165,13 +161,9 @@ Luba siiski?</string>
 
 Te ei saa enam värskendada varem installitud rakendusi sellest allikast.</string>
   <string name="regenerate_keystore_success">Võtmehoidla on edukalt asendatud</string>
-  <string name="import_patch_selection">Impordi paiga valik</string>
-  <string name="import_patch_selection_description">Impordi paiga valik JSON-failist</string>
   <string name="import_patch_selection_fail">Paiga valikut ei saanud importida: %s</string>
   <string name="import_patch_selection_success">Imporditud paiga valik</string>
   <string name="select_bundle_for_import">Vali pakett, kuhu importida</string>
-  <string name="export_patch_selection">Ekspordi paiga valik</string>
-  <string name="export_patch_selection_description">Ekspordi paiga valik JSON-faili</string>
   <string name="export_patch_selection_fail">Paiga valikut ei saanud eksportida: %s</string>
   <string name="export_patch_selection_success">Eksporditud paiga valik</string>
   <string name="select_bundle_for_export">Vali pakett, millest eksportida</string>
@@ -179,28 +171,8 @@ Te ei saa enam värskendada varem installitud rakendusi sellest allikast.</strin
   <string name="patch_selection_entries">Valitud paikade koguarv</string>
   <string name="reset_configuration">Lähtesta konfiguratsioon</string>
   <string name="reset_patch_selection">Paikade valikud</string>
-  <string name="reset_patch_selection_description">Lähtesta salvestatud paiga valik</string>
   <string name="reset_patch_options">Paikamise valikud</string>
-  <string name="reset_patch_options_description">Lähtesta salvestatud paiga valikud</string>
   <string name="reset_patch_selection_success">Paiga valik on lähtestatud</string>
-  <string name="patch_selection_reset_all">Lähtesta paiga valik globaalselt</string>
-  <string name="patch_selection_reset_all_dialog_description">Olete lähtestamas kõiki paiga valikuid. Peate iga paiga uuesti käsitsi valima.</string>
-  <string name="patch_selection_reset_all_description">Lähtestab kõik paiga valikud</string>
-  <string name="patch_selection_reset_package">Lähtesta paiga valik rakenduse jaoks</string>
-  <string name="patch_selection_reset_package_dialog_description">Olete lähtestamas rakenduse \"%s\" paiga valikut. Peate iga paiga uuesti käsitsi valima.</string>
-  <string name="patch_selection_reset_package_description">Lähtestab paigavaliku ühe rakenduse jaoks</string>
-  <string name="patch_selection_reset_patches">Lähtesta paigavalik (üksik)</string>
-  <string name="patch_selection_reset_patches_dialog_description">Olete kohe lähtestamas paigavaliku \"%s\" jaoks. Peate iga paiga uuesti käsitsi valima.</string>
-  <string name="patch_selection_reset_patches_description">Lähtestab paigavaliku kindla paikade kogumi jaoks</string>
-  <string name="patch_options_reset_package">Lähtesta rakenduse paigasuvandid</string>
-  <string name="patch_options_reset_package_dialog_description">Olete kohe lähtestamas rakenduse \"%s\" paigasuvandid. Peate iga suvandi uuesti rakendama.</string>
-  <string name="patch_options_reset_package_description">Lähtestab paigasuvandid ühe rakenduse jaoks</string>
-  <string name="patch_options_reset_patches">Lähtesta paigasuvandid (üksik)</string>
-  <string name="patch_options_reset_patches_dialog_description">Olete kohe lähtestamas \"%s\" paigasuvandid. Peate iga suvandi uuesti rakendama.</string>
-  <string name="patch_options_reset_patches_description">Lähtestab paigasuvandid kindla paikade kogumi jaoks</string>
-  <string name="patch_options_reset_all">Lähtesta paigasuvandid globaalselt</string>
-  <string name="patch_options_reset_all_dialog_description">Olete kohe lähtestamas kõik paigasuvandid. Peate iga suvandi uuesti rakendama.</string>
-  <string name="patch_options_reset_all_description">Lähtestab kõik paigasuvandid</string>
   <string name="downloaders">Allalaadijad</string>
   <string name="downloader_prereleases">Kasuta eelväljaandeid</string>
   <string name="downloader_prereleases_description">Kasuta peamise allalaadija eelväljaande versioone</string>
@@ -217,9 +189,6 @@ Te ei saa enam värskendada varem installitud rakendusi sellest allikast.</strin
   <string name="select_downloader_type_dialog_description">Lisa uusi allalaadijaid URL-ist või kohalikest failidest</string>
   <string name="local_downloaders_description">Lisa allalaadijaid kohalikust salvestusruumist.</string>
   <string name="remote_downloaders_description">Lisa allalaadijaid URL-ist. Saab automaatselt uuendada.</string>
-  <string name="install_revanced_downloaders">Installige allalaadijad, et saada rakendusi otse Nexora Manageri kaudu.</string>
-<string name="cancel_downloader_install_title">Tühista allalaadijate installimine?</string>
-  <string name="cancel_downloader_install_description">Allalaadijate installimine on pooleli. Kui lahkute praegu, tühistatakse allalaadimine.</string>
   <string name="downloader_sources_unavailable_title">Need allalaadijad on puudu</string>
   <string name="downloader_sources_unavailable_description">Selle parandamiseks klõpsake uuendamisnupul.</string>
   <string name="downloader_update_failed">Allalaadija uuendamine ebaõnnestus: %s</string>
@@ -353,7 +322,6 @@ Te ei saa enam värskendada varem installitud rakendusi sellest allikast.</strin
   <string name="downloader_error">Allalaadija viga: %s</string>
   <string name="no_downloaders_installed">Ühtegi rakenduse allalaadijat pole installitud!</string>
   <string name="no_downloaders_trusted">Ühtegi rakenduse allalaadijat pole usaldatud! Palun kontrollige oma seadeid.</string>
-  <string name="already_patched">Juba parandatud</string>
   <string name="patch_selector_sheet_filter_title">Filter</string>
   <string name="patch_selector_sheet_filter_compat_title">Ühilduvus</string>
   <string name="patch_selector_sheet_filter_packages_title">Paketid</string>
@@ -479,9 +447,7 @@ Nexora Manager suletakse uuendamise ajal.</string>
   <string name="hours_ago">%s h tagasi</string>
   <string name="days_ago">%s p tagasi</string>
   <string name="invalid_date">Vigane kuupäev</string>
-  <string name="disable_battery_optimization">Keela aku optimeerimine</string>
   <string name="input_dialog_value_invalid">Vigane väärtus</string>
-  <string name="option_required">See valik on kohustuslik</string>
   <string name="required_options_screen">Kohustuslikud valikud</string>
   <string name="failed_to_check_updates">Uuenduste kontrollimine ebaõnnestus: %s</string>
   <string name="no_update_available">Uuendust pole saadaval</string>

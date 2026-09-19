@@ -48,7 +48,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">একটি অ্যাপ প্যাচ করুন</string>
   <string name="fab_add_patches">প্যাচ যোগ করুন</string>
   <string name="new_downloader_notification">নতুন ডাউনলোডার(গুলি) উপলব্ধ। সেগুলি কনফিগার করতে এখানে ক্লিক করুন।</string>
-  <string name="unsupported_architecture_warning">এই ডিভাইসের আর্কিটেকচারে প্যাচিং অসমর্থিত এবং সম্ভবত ব্যর্থ হবে।</string>
   <string name="import_">আমদানি করুন</string>
   <string name="import_patches">প্যাচ আমদানি করুন</string>
   <string name="file_field_set">নির্বাচিত</string>
@@ -62,7 +61,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">নামহীন</string>
   <string name="android_11_bug_dialog_title">Android 11 বাগ</string>
   <string name="android_11_bug_dialog_description">Android 11 সিস্টেমে একটি বাগ এড়াতে অ্যাপ ইনস্টলেশনের অনুমতি আগে থেকেই দিতে হবে, যা ব্যবহারকারীর অভিজ্ঞতার উপর নেতিবাচক প্রভাব ফেলবে।</string>
-  <string name="no_network_toast">কোনো ইন্টারনেট সংযোগ উপলব্ধ নেই</string>
   <string name="selected_app_meta_any_version">যেকোনো উপলব্ধ সংস্করণ</string>
   <string name="app_source_dialog_title">উৎস নির্বাচন করুন</string>
   <string name="app_source_dialog_option_auto">স্বয়ংক্রিয়</string>
@@ -70,12 +68,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">কোনো সামঞ্জস্যপূর্ণ অ্যাপ বা ডাউনলোডার উপলব্ধ নেই</string>
   <string name="app_source_dialog_option_installed_no_root">রুট অ্যাক্সেস ছাড়া মাউন্ট করা অ্যাপ আবার প্যাচ করা যাবে না</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">সংস্করণ %s প্রস্তাবিত সংস্করণের সাথে মেলে না</string>
-  <string name="patch_item_description">অ্যাপ্লিকেশন প্যাচ করা শুরু করুন</string>
   <string name="patch_selector_item">প্যাচ নির্বাচন করুন</string>
   <string name="patch_selector_item_description">%d প্যাচ নির্বাচিত</string>
   <string name="patch_selection_changed_warning">প্যাচ নির্বাচন পরিবর্তন করা হয়েছে</string>
   <string name="no_patches_selected">কোনো প্যাচ নির্বাচিত নেই</string>
-  <string name="network_unavailable_warning">আপনার ডিভাইস ইন্টারনেটের সাথে সংযুক্ত নয়। ডাউনলোড পরে ব্যর্থ হবে।</string>
   <string name="network_metered_warning">আপনি বর্তমানে একটি মিটারযুক্ত সংযোগে আছেন। আপনার পরিষেবা প্রদানকারীর থেকে ডেটা চার্জ প্রযোজ্য হতে পারে।</string>
   <string name="apk_source_selector_item">APK উৎস নির্বাচন করুন</string>
   <string name="apk_source_auto">স্বতস্ফূর্তভাবে</string>
@@ -165,13 +161,9 @@ Second \"item\" text"</string>
 
 আপনি এই উৎস থেকে পূর্বে ইনস্টল করা অ্যাপগুলি আপডেট করতে পারবেন না।</string>
   <string name="regenerate_keystore_success">কিস্টোর সফলভাবে প্রতিস্থাপন করা হয়েছে</string>
-  <string name="import_patch_selection">প্যাচ নির্বাচন আমদানি করুন</string>
-  <string name="import_patch_selection_description">একটি JSON ফাইল থেকে প্যাচ নির্বাচন আমদানি করুন</string>
   <string name="import_patch_selection_fail">প্যাচ নির্বাচন আমদানি করা যায়নি: %s</string>
   <string name="import_patch_selection_success">আমদানি করা প্যাচ নির্বাচন</string>
   <string name="select_bundle_for_import">আমদানি করার জন্য বান্ডিল নির্বাচন করুন</string>
-  <string name="export_patch_selection">প্যাচ নির্বাচন রপ্তানি করুন</string>
-  <string name="export_patch_selection_description">একটি JSON ফাইলে প্যাচ নির্বাচন রপ্তানি করুন</string>
   <string name="export_patch_selection_fail">প্যাচ নির্বাচন রপ্তানি করা যায়নি: %s</string>
   <string name="export_patch_selection_success">রপ্তানি করা প্যাচ নির্বাচন</string>
   <string name="select_bundle_for_export">রপ্তানি করার জন্য বান্ডিল নির্বাচন করুন</string>
@@ -179,28 +171,8 @@ Second \"item\" text"</string>
   <string name="patch_selection_entries">মোট নির্বাচিত প্যাচ</string>
   <string name="reset_configuration">কনফিগারেশন রিসেট করুন</string>
   <string name="reset_patch_selection">প্যাচ নির্বাচনগুলি</string>
-  <string name="reset_patch_selection_description">সংরক্ষিত প্যাচ নির্বাচন রিসেট করুন</string>
   <string name="reset_patch_options">প্যাচ অপশনগুলি</string>
-  <string name="reset_patch_options_description">সংরক্ষিত প্যাচ বিকল্প রিসেট করুন</string>
   <string name="reset_patch_selection_success">প্যাচ নির্বাচন রিসেট করা হয়েছে</string>
-  <string name="patch_selection_reset_all">বৈশ্বিকভাবে প্যাচ নির্বাচন রিসেট করুন</string>
-  <string name="patch_selection_reset_all_dialog_description">আপনি সমস্ত প্যাচ নির্বাচন রিসেট করতে চলেছেন। আপনাকে প্রতিটি প্যাচ ম্যানুয়ালি আবার নির্বাচন করতে হবে।</string>
-  <string name="patch_selection_reset_all_description">সমস্ত প্যাচ নির্বাচন রিসেট করে</string>
-  <string name="patch_selection_reset_package">অ্যাপের জন্য প্যাচ নির্বাচন রিসেট করুন</string>
-  <string name="patch_selection_reset_package_dialog_description">আপনি \"%s\" অ্যাপের জন্য প্যাচ নির্বাচন রিসেট করতে চলেছেন। আপনাকে প্রতিটি প্যাচ ম্যানুয়ালি আবার নির্বাচন করতে হবে।</string>
-  <string name="patch_selection_reset_package_description">একটি একক অ্যাপের জন্য প্যাচ নির্বাচন পুনরায় সেট করে</string>
-  <string name="patch_selection_reset_patches">প্যাচ নির্বাচন পুনরায় সেট করুন (একক)</string>
-  <string name="patch_selection_reset_patches_dialog_description">আপনি \"%s\" এর জন্য প্যাচ নির্বাচন পুনরায় সেট করতে চলেছেন। আপনাকে প্রতিটি প্যাচ আবার ম্যানুয়ালি নির্বাচন করতে হবে।</string>
-  <string name="patch_selection_reset_patches_description">প্যাচের একটি নির্দিষ্ট সংগ্রহের জন্য প্যাচ নির্বাচন পুনরায় সেট করে</string>
-  <string name="patch_options_reset_package">অ্যাপের জন্য প্যাচ বিকল্পগুলি পুনরায় সেট করুন</string>
-  <string name="patch_options_reset_package_dialog_description">আপনি \"%s\" অ্যাপের জন্য প্যাচ বিকল্পগুলি পুনরায় সেট করতে চলেছেন। আপনাকে প্রতিটি বিকল্প আবার প্রয়োগ করতে হবে।</string>
-  <string name="patch_options_reset_package_description">একটি একক অ্যাপের জন্য প্যাচ বিকল্পগুলি পুনরায় সেট করে</string>
-  <string name="patch_options_reset_patches">প্যাচ বিকল্পগুলি পুনরায় সেট করুন (একক)</string>
-  <string name="patch_options_reset_patches_dialog_description">আপনি \"%s\" এর জন্য প্যাচ বিকল্পগুলি পুনরায় সেট করতে চলেছেন। আপনাকে প্রতিটি বিকল্প আবার প্রয়োগ করতে হবে।</string>
-  <string name="patch_options_reset_patches_description">প্যাচের একটি নির্দিষ্ট সংগ্রহের জন্য প্যাচ বিকল্পগুলি পুনরায় সেট করে</string>
-  <string name="patch_options_reset_all">বিশ্বব্যাপী প্যাচ বিকল্পগুলি পুনরায় সেট করুন</string>
-  <string name="patch_options_reset_all_dialog_description">আপনি সমস্ত প্যাচ বিকল্পগুলি পুনরায় সেট করতে চলেছেন। আপনাকে প্রতিটি বিকল্প আবার প্রয়োগ করতে হবে।</string>
-  <string name="patch_options_reset_all_description">সমস্ত প্যাচ বিকল্প পুনরায় সেট করে</string>
   <string name="downloaders">ডাউনলোডার</string>
   <string name="downloader_prereleases">প্রি-রিলিজ ব্যবহার করুন</string>
   <string name="downloader_prereleases_description">মূল ডাউনলোডারের প্রি-রিলিজ সংস্করণ ব্যবহার করুন</string>
@@ -217,9 +189,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">ইউআরএল বা স্থানীয় ফাইল থেকে নতুন ডাউনলোডার যোগ করুন</string>
   <string name="local_downloaders_description">স্থানীয় স্টোরেজ থেকে ডাউনলোডার যোগ করুন।</string>
   <string name="remote_downloaders_description">ইউআরএল থেকে ডাউনলোডার যোগ করুন। স্বয়ংক্রিয়ভাবে আপডেট করা যেতে পারে।</string>
-  <string name="install_revanced_downloaders">Nexora Manager এর মধ্যে সরাসরি অ্যাপ পেতে ডাউনলোডার ইনস্টল করুন।</string>
-<string name="cancel_downloader_install_title">ডাউনলোডার ইনস্টল বাতিল করবেন?</string>
-  <string name="cancel_downloader_install_description">একটি ডাউনলোডার ইনস্টল প্রক্রিয়া চলছে। আপনি যদি এখন চলে যান, তাহলে ডাউনলোড বাতিল হয়ে যাবে।</string>
   <string name="downloader_sources_unavailable_title">এই ডাউনলোডারগুলো নেই</string>
   <string name="downloader_sources_unavailable_description">এটি ঠিক করতে আপডেট বাটনে ক্লিক করুন।</string>
   <string name="downloader_update_failed">ডাউনলোডার আপডেট করা যায়নি: %s</string>
@@ -353,7 +322,6 @@ Second \"item\" text"</string>
   <string name="downloader_error">ডাউনলোডার ত্রুটি: %s</string>
   <string name="no_downloaders_installed">কোনো অ্যাপ ডাউনলোডার ইনস্টল করা হয়নি!</string>
   <string name="no_downloaders_trusted">কোনো অ্যাপ ডাউনলোডার বিশ্বস্ত করা হয়নি! আপনার সেটিংস পরীক্ষা করুন।</string>
-  <string name="already_patched">ইতিমধ্যেই প্যাচ করা হয়েছে</string>
   <string name="patch_selector_sheet_filter_title">ফিল্টার</string>
   <string name="patch_selector_sheet_filter_compat_title">সামঞ্জস্য</string>
   <string name="patch_selector_sheet_filter_packages_title">প্যাকেজসমূহ</string>
@@ -479,9 +447,7 @@ Second \"item\" text"</string>
   <string name="hours_ago">%sঘ আগে</string>
   <string name="days_ago">%sদি আগে</string>
   <string name="invalid_date">অবৈধ তারিখ</string>
-  <string name="disable_battery_optimization">ব্যাটারি অপটিমাইজেশন নিষ্ক্রিয় করুন</string>
   <string name="input_dialog_value_invalid">অবৈধ মান</string>
-  <string name="option_required">এই বিকল্পটি প্রয়োজনীয়</string>
   <string name="required_options_screen">প্রয়োজনীয় বিকল্পসমূহ</string>
   <string name="failed_to_check_updates">আপডেটগুলির জন্য পরীক্ষা করতে ব্যর্থ: %s</string>
   <string name="no_update_available">কোনো আপডেট উপলব্ধ নেই</string>

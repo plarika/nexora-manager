@@ -51,7 +51,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">Կարկատել հավելվածը</string>
   <string name="fab_add_patches">Ավելացնել կարկատաններ</string>
   <string name="new_downloader_notification">Նոր ներբեռնող(ներ) հասանելի է/են: Սեղմեք այստեղ՝ դրանք կարգավորելու համար:</string>
-  <string name="unsupported_architecture_warning">Կարկատումը այս սարքի ճարտարապետության վրա չի աջակցվում և ամենայն հավանականությամբ կձախողվի։</string>
   <string name="import_">Ներմուծել</string>
   <string name="import_patches">Ներմուծել կարկատաններ</string>
   <string name="file_field_set">Ընտրված է</string>
@@ -65,7 +64,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">Անանուն</string>
   <string name="android_11_bug_dialog_title">Android 11-ի սխալ</string>
   <string name="android_11_bug_dialog_description">Հավելվածի տեղադրման թույլտվությունը պետք է տրվի նախապես՝ խուսափելու համար Android 11 համակարգի սխալից, որը բացասաբար կազդի օգտագործողի փորձի վրա։</string>
-  <string name="no_network_toast">Ինտերնետ կապ չկա</string>
   <string name="selected_app_meta_any_version">Ցանկացած առկա տարբերակ</string>
   <string name="app_source_dialog_title">Ընտրել աղբյուր</string>
   <string name="app_source_dialog_option_auto">Ավտոմատ</string>
@@ -73,12 +71,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">Համատեղելի հավելված կամ ներբեռնիչներ առկա չեն</string>
   <string name="app_source_dialog_option_installed_no_root">Մոնտաժված հավելվածները հնարավոր չէ նորից կարկատել առանց root մուտքի</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">Տարբերակը %s չի համապատասխանում առաջարկվող տարբերակին</string>
-  <string name="patch_item_description">Սկսել հավելվածի կարկատումը</string>
   <string name="patch_selector_item">Ընտրել կարկատաններ</string>
   <string name="patch_selector_item_description">%d կարկատան ընտրված է</string>
   <string name="patch_selection_changed_warning">Կարկատանների ընտրությունը փոփոխվել է։</string>
   <string name="no_patches_selected">Կարկատաններ ընտրված չեն</string>
-  <string name="network_unavailable_warning">Ձեր սարքը միացված չէ ինտերնետին։ Ներբեռնումը հետագայում կձախողվի։</string>
   <string name="network_metered_warning">Դուք այժմ օգտագործում եք չափազանցված կապ։ Կարող են կիրառվել տվյալների վճարներ ձեր ծառայություն մատուցողից։</string>
   <string name="apk_source_selector_item">Ընտրել APK աղբյուրը</string>
   <string name="apk_source_auto">Ավտո</string>
@@ -168,13 +164,9 @@ Second \"item\" text"</string>
 
 Դուք չեք կարողանա թարմացնել նախկինում տեղադրված հավելվածները այս աղբյուրից։</string>
   <string name="regenerate_keystore_success">Բանալիի պահեստը հաջողությամբ փոխարինվել է</string>
-  <string name="import_patch_selection">Ներմուծել կարկատանների ընտրություն</string>
-  <string name="import_patch_selection_description">Ներմուծել կարկատանների ընտրություն JSON ֆայլից</string>
   <string name="import_patch_selection_fail">Հնարավոր չէր ներմուծել կարկատանների ընտրությունը՝ %s</string>
   <string name="import_patch_selection_success">Ներմուծված կարկատանների ընտրություն</string>
   <string name="select_bundle_for_import">Ընտրել փաթեթը՝ ներմուծելու համար</string>
-  <string name="export_patch_selection">Արտահանել կարկատանների ընտրություն</string>
-  <string name="export_patch_selection_description">Արտահանել կարկատանների ընտրություն JSON ֆայլ</string>
   <string name="export_patch_selection_fail">Հնարավոր չէր արտահանել կարկատանների ընտրությունը՝ %s</string>
   <string name="export_patch_selection_success">Արտահանված կարկատանների ընտրություն</string>
   <string name="select_bundle_for_export">Ընտրել փաթեթը՝ արտահանելու համար</string>
@@ -182,28 +174,8 @@ Second \"item\" text"</string>
   <string name="patch_selection_entries">Ընդհանուր ընտրված կարկատաններ</string>
   <string name="reset_configuration">Վերակայել կազմաձևումը</string>
   <string name="reset_patch_selection">Կարկատանների ընտրանքներ</string>
-  <string name="reset_patch_selection_description">Վերականգնել պահված կարկատանների ընտրությունը</string>
   <string name="reset_patch_options">Կարկատման ընտրանքներ</string>
-  <string name="reset_patch_options_description">Վերականգնել պահված կարկատանների ընտրանքները</string>
   <string name="reset_patch_selection_success">Կարկատանների ընտրությունը վերականգնվել է</string>
-  <string name="patch_selection_reset_all">Գլոբալ վերականգնել կարկատանների ընտրությունը</string>
-  <string name="patch_selection_reset_all_dialog_description">Դուք պատրաստվում եք վերականգնել բոլոր կարկատանների ընտրությունները։ Ձեզ հարկավոր կլինի ձեռքով նորից ընտրել յուրաքանչյուր կարկատան։</string>
-  <string name="patch_selection_reset_all_description">Վերականգնում է բոլոր կարկատանների ընտրությունները</string>
-  <string name="patch_selection_reset_package">Վերականգնել կարկատանների ընտրությունը հավելվածի համար</string>
-  <string name="patch_selection_reset_package_dialog_description">Դուք պատրաստվում եք վերականգնել կարկատանների ընտրությունը «%s» հավելվածի համար։ Ձեզ հարկավոր կլինի ձեռքով նորից ընտրել յուրաքանչյուր կարկատան։</string>
-  <string name="patch_selection_reset_package_description">Վերականգնում է կարկատանների ընտրությունը մեկ հավելվածի համար</string>
-  <string name="patch_selection_reset_patches">Վերակայել կարկատանների ընտրությունը (մեկ)</string>
-  <string name="patch_selection_reset_patches_dialog_description">Դուք պատրաստվում եք վերակայել կարկատանների ընտրությունը «%s»-ի համար։ Դուք ստիպված կլինեք յուրաքանչյուր կարկատան ընտրել ձեռքով։</string>
-  <string name="patch_selection_reset_patches_description">Վերակայում է կարկատանների ընտրությունը կարկատանների որոշակի հավաքածուի համար</string>
-  <string name="patch_options_reset_package">Վերակայել հավելվածի կարկատանների ընտրանքները</string>
-  <string name="patch_options_reset_package_dialog_description">Դուք պատրաստվում եք վերակայել կարկատանների ընտրանքները «%s» հավելվածի համար։ Դուք ստիպված կլինեք յուրաքանչյուր ընտրանք կրկին կիրառել։</string>
-  <string name="patch_options_reset_package_description">Վերակայում է կարկատանների ընտրանքները մեկ հավելվածի համար</string>
-  <string name="patch_options_reset_patches">Վերակայել կարկատանների ընտրանքները (մեկ)</string>
-  <string name="patch_options_reset_patches_dialog_description">Դուք պատրաստվում եք վերակայել կարկատանների ընտրանքները «%s»-ի համար։ Դուք ստիպված կլինեք յուրաքանչյուր ընտրանք կրկին կիրառել։</string>
-  <string name="patch_options_reset_patches_description">Վերակայում է կարկատանների ընտրանքները կարկատանների որոշակի հավաքածուի համար</string>
-  <string name="patch_options_reset_all">Վերակայել կարկատանների ընտրանքները գլոբալ կերպով</string>
-  <string name="patch_options_reset_all_dialog_description">Դուք պատրաստվում եք վերակայել բոլոր կարկատանների ընտրանքները։ Դուք ստիպված կլինեք յուրաքանչյուր ընտրանք կրկին կիրառել։</string>
-  <string name="patch_options_reset_all_description">Վերակայում է կարկատանների բոլոր ընտրանքները</string>
   <string name="downloaders">Ներբեռնողներ</string>
   <string name="downloader_prereleases">Օգտագործել նախաթողարկումները</string>
   <string name="downloader_prereleases_description">Օգտագործել հիմնական ներբեռնողի նախաթողարկման տարբերակները</string>
@@ -220,9 +192,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">Ավելացնել նոր ներբեռնողներ URL-ից կամ տեղական ֆայլերից</string>
   <string name="local_downloaders_description">Ավելացնել ներբեռնողներ տեղական պահեստից։</string>
   <string name="remote_downloaders_description">Ավելացնել ներբեռնողներ URL-ից։ Կարող են ավտոմատ կերպով թարմացվել։</string>
-  <string name="install_revanced_downloaders">Տեղադրել ներբեռնողներ՝ հավելվածներն անմիջապես Nexora Manager-ի ներսում ստանալու համար:</string>
-  <string name="cancel_downloader_install_title">Չեղարկե՞լ ներբեռնողների տեղադրումը:</string>
-  <string name="cancel_downloader_install_description">Ներբեռնողների տեղադրումը ընթացքի մեջ է: Եթա հիմա հեռանաք, ներբեռնումը կչեղարկվի:</string>
   <string name="downloader_sources_unavailable_title">Այս ներբեռնողները բացակայում են</string>
   <string name="downloader_sources_unavailable_description">Սեղմեք թարմացման կոճակը՝ այն շտկելու համար։</string>
   <string name="downloader_update_failed">Չհաջողվեց թարմացնել ներբեռնողը՝ %s</string>
@@ -356,7 +325,6 @@ Second \"item\" text"</string>
   <string name="downloader_error">Ներբեռնիչի սխալ՝ %s</string>
   <string name="no_downloaders_installed">Հավելվածների ներբեռնողներ տեղադրված չեն:</string>
   <string name="no_downloaders_trusted">Հավելվածների ներբեռնողներին չի վստահվել: Խնդրում ենք ստուգել ձեր կարգավորումները:</string>
-  <string name="already_patched">Արդեն կարկատված է</string>
   <string name="patch_selector_sheet_filter_title">Զտել</string>
   <string name="patch_selector_sheet_filter_compat_title">Համատեղելիություն</string>
   <string name="patch_selector_sheet_filter_packages_title">Փաթեթներ</string>
@@ -481,9 +449,7 @@ Second \"item\" text"</string>
   <string name="hours_ago">%s ժամ առաջ</string>
   <string name="days_ago">%s օր առաջ</string>
   <string name="invalid_date">Անվավեր ամսաթիվ</string>
-  <string name="disable_battery_optimization">Անջատել մարտկոցի օպտիմալացումը</string>
   <string name="input_dialog_value_invalid">Անվավեր արժեք</string>
-  <string name="option_required">Այս ընտրանքը պարտադիր է</string>
   <string name="required_options_screen">Պարտադիր ընտրանքներ</string>
   <string name="failed_to_check_updates">Չհաջողվեց ստուգել թարմացումները՝ %s</string>
   <string name="no_update_available">Թարմացում հասանելի չէ</string>

@@ -92,9 +92,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">Додај нови преземачи од URL или локални датотеки</string>
   <string name="local_downloaders_description">Додај преземачи од локално складирање.</string>
   <string name="remote_downloaders_description">Додај преземачи од URL. Може автоматски да се ажурира.</string>
-  <string name="install_revanced_downloaders">Инсталирајте преземачи за да добиете апликации директно во Nexora Manager.</string>
-<string name="cancel_downloader_install_title">Откажи инсталација на преземачи?</string>
-  <string name="cancel_downloader_install_description">Инсталацијата на преземачи е во тек. Ако заминете сега, преземањето ќе биде откажано.</string>
   <string name="downloader_sources_unavailable_title">Овие преземачи недостасуваат</string>
   <string name="downloader_sources_unavailable_description">Кликнете на копчето за ажурирање за да го поправите.</string>
   <string name="downloader_update_failed">Неуспешно ажурирање на преземачот: %s</string>

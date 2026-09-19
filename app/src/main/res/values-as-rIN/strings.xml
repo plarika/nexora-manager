@@ -89,9 +89,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">URL বা স্থানীয় ফাইলৰ পৰা নতুন ডাউনলোডাৰ যোগ কৰক</string>
   <string name="local_downloaders_description">স্থানীয় সংৰক্ষণৰ পৰা ডাউনলোডাৰ যোগ কৰক।</string>
   <string name="remote_downloaders_description">URL ৰ পৰা ডাউনলোডাৰ যোগ কৰক। আপোনা-আপুনি আপডেইট কৰিব পাৰি।</string>
-  <string name="install_revanced_downloaders">Nexora Manager-ৰ ভিতৰতে এপসমূহ পাবলৈ ডাউনলোডৰসমূহ ইনষ্টল কৰক।</string>
-  <string name="cancel_downloader_install_title">ডাউনলোডৰসমূহৰ ইনষ্টলেচন বাতিল কৰিবনে?</string>
-  <string name="cancel_downloader_install_description">ডাউনলোডৰসমূহৰ ইনষ্টলেচন চলি আছে। যদি আপুনি এতিয়া এৰি দিয়ে, ডাউনলোডটো বাতিল কৰা হ\'ব।</string>
   <string name="downloader_sources_unavailable_title">এই ডাউনলোডাৰবোৰ হেৰাই গৈছে</string>
   <string name="downloader_sources_unavailable_description">ইয়াক ঠিক কৰিবলৈ আপডেইট বুটামত ক্লিক কৰক।</string>
   <string name="downloader_update_failed">ডাউনলোডাৰ আপডেইট কৰাত ব্যৰ্থ হৈছে: %s</string>

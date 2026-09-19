@@ -48,7 +48,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">Патчити застосунок</string>
   <string name="fab_add_patches">Додати патчі</string>
   <string name="new_downloader_notification">Доступні нові завантажувачі. Натисніть тут, щоб налаштувати їх.</string>
-  <string name="unsupported_architecture_warning">Виправлення на цій архітектурі пристрою не підтримується і, найімовірніше, не спрацює.</string>
   <string name="import_">Імпорт</string>
   <string name="import_patches">Імпорт патчів</string>
   <string name="file_field_set">Вибрано</string>
@@ -62,7 +61,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">Без назви</string>
   <string name="android_11_bug_dialog_title">Помилка Android 11</string>
   <string name="android_11_bug_dialog_description">Дозвіл на встановлення програми має бути наданий заздалегідь, щоб уникнути помилки в системі Android 11, яка негативно вплине на взаємодію з користувачем.</string>
-  <string name="no_network_toast">Немає підключення до Інтернету</string>
   <string name="selected_app_meta_any_version">Будь-яка доступна версія</string>
   <string name="app_source_dialog_title">Вибрати джерело</string>
   <string name="app_source_dialog_option_auto">Авто</string>
@@ -70,12 +68,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">Немає сумісних програм або доступних завантажувачів</string>
   <string name="app_source_dialog_option_installed_no_root">Встановлені програми не можуть бути знову пропатчені без root-доступу</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">Версія %s не відповідає рекомендованій версії</string>
-  <string name="patch_item_description">Почати патчінг програми</string>
   <string name="patch_selector_item">Вибрати патчі</string>
   <string name="patch_selector_item_description">%d патчів вибрано</string>
   <string name="patch_selection_changed_warning">Вибір патчів змінено</string>
   <string name="no_patches_selected">Не вибрано жодного патча</string>
-  <string name="network_unavailable_warning">Ваш пристрій не під\'єднаний до Інтернету. Завантаження пізніше не вдасться.</string>
   <string name="network_metered_warning">Ви зараз використовуєте лімітоване підключення. Може стягуватися плата за дані від вашого постачальника послуг.</string>
   <string name="apk_source_selector_item">Вибрати джерело APK</string>
   <string name="apk_source_auto">Авто</string>
@@ -165,13 +161,9 @@ Second \"item\" text"</string>
 
 Ви не зможете оновлювати раніше встановлені програми з цього джерела.</string>
   <string name="regenerate_keystore_success">Сховище ключів успішно замінено</string>
-  <string name="import_patch_selection">Імпортувати вибір патчів</string>
-  <string name="import_patch_selection_description">Імпортувати вибір патчів з файлу JSON</string>
   <string name="import_patch_selection_fail">Не вдалося імпортувати вибір патчів: %s</string>
   <string name="import_patch_selection_success">Імпортований вибір патчів</string>
   <string name="select_bundle_for_import">Виберіть пакет для імпорту</string>
-  <string name="export_patch_selection">Експортувати вибір патчів</string>
-  <string name="export_patch_selection_description">Експортувати вибір патчів до файлу JSON</string>
   <string name="export_patch_selection_fail">Не вдалося експортувати вибір патчів: %s</string>
   <string name="export_patch_selection_success">Експортований вибір патчів</string>
   <string name="select_bundle_for_export">Виберіть пакет для експорту</string>
@@ -179,28 +171,8 @@ Second \"item\" text"</string>
   <string name="patch_selection_entries">Всього вибраних патчів</string>
   <string name="reset_configuration">Скинути конфігурацію</string>
   <string name="reset_patch_selection">Вибір патчів</string>
-  <string name="reset_patch_selection_description">Скинути збережений вибір патчів</string>
   <string name="reset_patch_options">Опції патчів</string>
-  <string name="reset_patch_options_description">Скинути збережені параметри патчів</string>
   <string name="reset_patch_selection_success">Вибір патчів було скинуто</string>
-  <string name="patch_selection_reset_all">Скинути вибір патчів глобально</string>
-  <string name="patch_selection_reset_all_dialog_description">Ви збираєтеся скинути всі вибори патчів. Вам потрібно буде вручну вибрати кожен патч знову.</string>
-  <string name="patch_selection_reset_all_description">Скидає всі вибори патчів</string>
-  <string name="patch_selection_reset_package">Скинути вибір патчів для програми</string>
-  <string name="patch_selection_reset_package_dialog_description">Ви збираєтеся скинути вибір патчів для програми \"%s\". Вам доведеться вручну вибрати кожен патч знову.</string>
-  <string name="patch_selection_reset_package_description">Скидає вибір патчів для одного застосунку</string>
-  <string name="patch_selection_reset_patches">Скинути вибір патчів (одиничний)</string>
-  <string name="patch_selection_reset_patches_dialog_description">Ви збираєтеся скинути вибір патчів для \"%s\". Вам доведеться вручну вибрати кожен патч знову.</string>
-  <string name="patch_selection_reset_patches_description">Скидає вибір патчів для певної колекції патчів</string>
-  <string name="patch_options_reset_package">Скинути параметри патчів для застосунку</string>
-  <string name="patch_options_reset_package_dialog_description">Ви збираєтеся скинути параметри патчів для застосунку \"%s\". Вам доведеться повторно застосувати кожен параметр.</string>
-  <string name="patch_options_reset_package_description">Скидає параметри патчів для одного застосунку</string>
-  <string name="patch_options_reset_patches">Скинути параметри патчів (одиничний)</string>
-  <string name="patch_options_reset_patches_dialog_description">Ви збираєтеся скинути параметри патчів для \"%s\". Вам доведеться повторно застосувати кожен параметр.</string>
-  <string name="patch_options_reset_patches_description">Скидає параметри патчів для певної колекції патчів</string>
-  <string name="patch_options_reset_all">Скинути параметри патчів глобально</string>
-  <string name="patch_options_reset_all_dialog_description">Ви збираєтеся скинути всі параметри патчів. Вам доведеться повторно застосувати кожен параметр.</string>
-  <string name="patch_options_reset_all_description">Скидає всі параметри патчів</string>
   <string name="downloaders">Завантажувачі</string>
   <string name="downloader_prereleases">Використовувати передрелізи</string>
   <string name="downloader_prereleases_description">Використовувати передрелізні версії основного завантажувача</string>
@@ -217,9 +189,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">Додайте нові завантажувачі з URL-адреси або локальних файлів</string>
   <string name="local_downloaders_description">Додайте завантажувачі з локального сховища.</string>
   <string name="remote_downloaders_description">Додайте завантажувачі з URL-адреси. Можуть оновлюватися автоматично.</string>
-  <string name="install_revanced_downloaders">Встановіть завантажувачі, щоб отримувати застосунки безпосередньо в Nexora Manager.</string>
-<string name="cancel_downloader_install_title">Скасувати встановлення завантажувачів?</string>
-  <string name="cancel_downloader_install_description">Встановлення завантажувачів триває. Якщо ви зараз підете, завантаження буде скасовано.</string>
   <string name="downloader_sources_unavailable_title">Ці завантажувачі відсутні</string>
   <string name="downloader_sources_unavailable_description">Натисніть кнопку оновлення, щоб виправити це.</string>
   <string name="downloader_update_failed">Не вдалося оновити завантажувач: %s</string>
@@ -353,7 +322,6 @@ Second \"item\" text"</string>
   <string name="downloader_error">Помилка завантажувача: %s</string>
   <string name="no_downloaders_installed">Завантажувачі застосунків не встановлено!</string>
   <string name="no_downloaders_trusted">Жодному завантажувачу застосунків не довірено! Будь ласка, перевірте свої налаштування.</string>
-  <string name="already_patched">Вже пропатчено</string>
   <string name="patch_selector_sheet_filter_title">Фільтр</string>
   <string name="patch_selector_sheet_filter_compat_title">Сумісність</string>
   <string name="patch_selector_sheet_filter_packages_title">Пакети</string>
@@ -478,9 +446,7 @@ Second \"item\" text"</string>
   <string name="hours_ago">%s год тому</string>
   <string name="days_ago">%s дн. тому</string>
   <string name="invalid_date">Недійсна дата</string>
-  <string name="disable_battery_optimization">Вимкнути оптимізацію батареї</string>
   <string name="input_dialog_value_invalid">Недійсне значення</string>
-  <string name="option_required">Ця опція обов\'язкова</string>
   <string name="required_options_screen">Обов\'язкові параметри</string>
   <string name="failed_to_check_updates">Не вдалося перевірити оновлення: %s</string>
   <string name="no_update_available">Оновлення недоступне</string>

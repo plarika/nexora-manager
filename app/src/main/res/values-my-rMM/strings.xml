@@ -89,9 +89,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">URL သို့မဟုတ် ဒေသတွင်းဖိုင်များမှ ဒေါင်းလုပ်လုပ်သူအသစ်များ ထည့်ပါ</string>
   <string name="local_downloaders_description">ဒေသတွင်းသိုလှောင်မှုမှ ဒေါင်းလုပ်လုပ်သူများထည့်ပါ</string>
   <string name="remote_downloaders_description">URL မှ ဒေါင်းလုပ်လုပ်သူများထည့်ပါ။ အလိုအလျောက် အပ်ဒိတ်လုပ်နိုင်ပါသည်။</string>
-  <string name="install_revanced_downloaders">Nexora Manager အတွင်း၌ အက်ပ်များကို တိုက်ရိုက်ရယူရန် ဒေါင်းလုပ်လုပ်သူများကို ထည့်သွင်းပါ။</string>
-  <string name="cancel_downloader_install_title">ဒေါင်းလုပ်လုပ်သူ ထည့်သွင်းခြင်းကို ပယ်ဖျက်မလား။</string>
-  <string name="cancel_downloader_install_description">ဒေါင်းလုပ်လုပ်သူ ထည့်သွင်းမှု လုပ်ဆောင်နေပါသည်။ ယခု ထွက်ခွာပါက ဒေါင်းလုပ်လုပ်ခြင်းကို ပယ်ဖျက်သွားမည်ဖြစ်သည်။</string>
   <string name="downloader_sources_unavailable_title">ဤဒေါင်းလုပ်လုပ်သူများ ပျောက်ဆုံးနေသည်</string>
   <string name="downloader_sources_unavailable_description">၎င်းကိုပြင်ဆင်ရန် အပ်ဒိတ်ခလုတ်ကို နှိပ်ပါ။</string>
   <string name="downloader_update_failed">ဒေါင်းလုပ်လုပ်သူ အပ်ဒိတ်လုပ်ရန် မအောင်မြင်ပါ- %s</string>

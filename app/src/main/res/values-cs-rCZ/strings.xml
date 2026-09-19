@@ -51,7 +51,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">Patchovat aplikaci</string>
   <string name="fab_add_patches">Přidat záplaty</string>
   <string name="new_downloader_notification">K dispozici nový(é) stahovač(e). Klikněte zde pro jejich konfiguraci.</string>
-  <string name="unsupported_architecture_warning">Patchování není na této architektuře zařízení podporováno a s největší pravděpodobností selže.</string>
   <string name="import_">Importovat</string>
   <string name="import_patches">Importovat záplaty</string>
   <string name="file_field_set">Vybráno</string>
@@ -65,7 +64,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">Nepojmenováno</string>
   <string name="android_11_bug_dialog_title">Chyba Androidu 11</string>
   <string name="android_11_bug_dialog_description">Povolení k instalaci aplikací musí být uděleno předem, aby se předešlo chybě v systému Android 11, která by negativně ovlivnila uživatelský zážitek.</string>
-  <string name="no_network_toast">Připojení k internetu není dostupné</string>
   <string name="selected_app_meta_any_version">Jakákoli dostupná verze</string>
   <string name="app_source_dialog_title">Vybrat zdroj</string>
   <string name="app_source_dialog_option_auto">Automaticky</string>
@@ -73,12 +71,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">Nebyly nalezeny žádné kompatibilní aplikace nebo dostupné nástroje pro stahování</string>
   <string name="app_source_dialog_option_installed_no_root">Namontované aplikace nelze znovu patchovat bez přístupu root</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">Verze %s neodpovídá doporučené verzi</string>
-  <string name="patch_item_description">Spustit patchování aplikace</string>
   <string name="patch_selector_item">Vybrat záplaty</string>
   <string name="patch_selector_item_description">%d záplat vybráno</string>
   <string name="patch_selection_changed_warning">Výběr záplat byl změněn</string>
   <string name="no_patches_selected">Žádné záplaty nejsou vybrány</string>
-  <string name="network_unavailable_warning">Vaše zařízení není připojeno k internetu. Stahování později selže.</string>
   <string name="network_metered_warning">Momentálně jste na účtovaném připojení. Mohou být účtovány poplatky za data od Vašeho poskytovatele služeb.</string>
   <string name="apk_source_selector_item">Vybrat zdroj souboru APK</string>
   <string name="apk_source_auto">Automaticky</string>
@@ -168,13 +164,9 @@ Přesto povolit?</string>
 
 Nebudete moci aktualizovat dříve nainstalované aplikace z tohoto zdroje.</string>
   <string name="regenerate_keystore_success">Úložiště klíčů bylo úspěšně nahrazeno</string>
-  <string name="import_patch_selection">Importovat výběr záplat</string>
-  <string name="import_patch_selection_description">Importovat výběr záplat ze souboru JSON</string>
   <string name="import_patch_selection_fail">Nepodařilo se importovat výběr záplat: %s</string>
   <string name="import_patch_selection_success">Výběr záplat importován</string>
   <string name="select_bundle_for_import">Vybrat balíček pro import</string>
-  <string name="export_patch_selection">Exportovat výběr záplat</string>
-  <string name="export_patch_selection_description">Exportovat výběr záplat do souboru JSON</string>
   <string name="export_patch_selection_fail">Nepodařilo se exportovat výběr záplat: %s</string>
   <string name="export_patch_selection_success">Výběr záplat exportován</string>
   <string name="select_bundle_for_export">Vybrat balíček pro export</string>
@@ -182,28 +174,8 @@ Nebudete moci aktualizovat dříve nainstalované aplikace z tohoto zdroje.</str
   <string name="patch_selection_entries">Celkem vybráno záplat</string>
   <string name="reset_configuration">Obnovit konfiguraci</string>
   <string name="reset_patch_selection">Výběr záplat</string>
-  <string name="reset_patch_selection_description">Resetovat uložený výběr záplat</string>
   <string name="reset_patch_options">Možnosti záplatování</string>
-  <string name="reset_patch_options_description">Resetovat uložené možnosti záplat</string>
   <string name="reset_patch_selection_success">Výběr záplat byl resetován</string>
-  <string name="patch_selection_reset_all">Globálně resetovat výběr záplat</string>
-  <string name="patch_selection_reset_all_dialog_description">Chystáte se resetovat všechny výběry záplat. Každou záplatu budete muset vybrat ručně znovu.</string>
-  <string name="patch_selection_reset_all_description">Resetuje všechny výběry záplat</string>
-  <string name="patch_selection_reset_package">Resetovat výběr záplat pro aplikaci</string>
-  <string name="patch_selection_reset_package_dialog_description">Chystáte se resetovat výběr záplat pro aplikaci \"%s\". Každou záplatu budete muset vybrat ručně znovu.</string>
-  <string name="patch_selection_reset_package_description">Resetuje výběr záplat pro jednu aplikaci</string>
-  <string name="patch_selection_reset_patches">Resetovat výběr záplat (jednotlivý)</string>
-  <string name="patch_selection_reset_patches_dialog_description">Chystáte se resetovat výběr záplat pro \"%s\". Každou záplatu budete muset vybrat znovu ručně.</string>
-  <string name="patch_selection_reset_patches_description">Resetuje výběr záplat pro konkrétní sadu záplat</string>
-  <string name="patch_options_reset_package">Resetovat možnosti záplat pro aplikaci</string>
-  <string name="patch_options_reset_package_dialog_description">Chystáte se resetovat možnosti záplat pro aplikaci \"%s\". Každou možnost budete muset znovu použít.</string>
-  <string name="patch_options_reset_package_description">Resetuje možnosti záplat pro jednu aplikaci</string>
-  <string name="patch_options_reset_patches">Resetovat možnosti záplat (jednotlivé)</string>
-  <string name="patch_options_reset_patches_dialog_description">Chystáte se resetovat možnosti záplat pro \"%s\". Každou možnost budete muset znovu použít.</string>
-  <string name="patch_options_reset_patches_description">Resetuje možnosti záplat pro konkrétní sadu záplat</string>
-  <string name="patch_options_reset_all">Globálně resetovat možnosti záplat</string>
-  <string name="patch_options_reset_all_dialog_description">Chystáte se resetovat všechny možnosti záplat. Každou možnost budete muset znovu použít.</string>
-  <string name="patch_options_reset_all_description">Resetuje všechny možnosti záplat</string>
   <string name="downloaders">Stahovače</string>
   <string name="downloader_prereleases">Používat předběžné verze</string>
   <string name="downloader_prereleases_description">Používat předběžné verze hlavního stahovače</string>
@@ -220,9 +192,6 @@ Nebudete moci aktualizovat dříve nainstalované aplikace z tohoto zdroje.</str
   <string name="select_downloader_type_dialog_description">Přidat nové stahovače z URL nebo lokálních souborů</string>
   <string name="local_downloaders_description">Přidat stahovače z místního úložiště.</string>
   <string name="remote_downloaders_description">Přidat stahovače z URL. Mohou být automaticky aktualizovány.</string>
-  <string name="install_revanced_downloaders">Nainstalujte stahovače pro získání aplikací přímo v Nexora Manageru.</string>
-  <string name="cancel_downloader_install_title">Zrušit instalaci stahovačů?</string>
-  <string name="cancel_downloader_install_description">Probíhá instalace stahovačů. Pokud nyní odejdete, stahování bude zrušeno.</string>
   <string name="downloader_sources_unavailable_title">Tyto stahovače chybí</string>
   <string name="downloader_sources_unavailable_description">Kliknutím na tlačítko aktualizace to opravíte.</string>
   <string name="downloader_update_failed">Nepodařilo se aktualizovat stahovač: %s</string>
@@ -356,7 +325,6 @@ Nebudete moci aktualizovat dříve nainstalované aplikace z tohoto zdroje.</str
   <string name="downloader_error">Chyba downloaderu: %s</string>
   <string name="no_downloaders_installed">Nejsou nainstalovány žádné stahovače aplikací!</string>
   <string name="no_downloaders_trusted">Žádným stahovačům aplikací nebylo důvěřováno! Zkontrolujte prosím svá nastavení.</string>
-  <string name="already_patched">Již patchováno</string>
   <string name="patch_selector_sheet_filter_title">Filtr</string>
   <string name="patch_selector_sheet_filter_compat_title">Kompatibilita</string>
   <string name="patch_selector_sheet_filter_packages_title">Balíčky</string>
@@ -481,9 +449,7 @@ Nebudete moci aktualizovat dříve nainstalované aplikace z tohoto zdroje.</str
   <string name="hours_ago">před %s h</string>
   <string name="days_ago">před %s d</string>
   <string name="invalid_date">Neplatné datum</string>
-  <string name="disable_battery_optimization">Zakázat optimalizaci baterie</string>
   <string name="input_dialog_value_invalid">Neplatná hodnota</string>
-  <string name="option_required">Tato možnost je povinná</string>
   <string name="required_options_screen">Požadované možnosti</string>
   <string name="failed_to_check_updates">Nepodařilo se zkontrolovat aktualizace: %s</string>
   <string name="no_update_available">Není dostupná žádná aktualizace</string>

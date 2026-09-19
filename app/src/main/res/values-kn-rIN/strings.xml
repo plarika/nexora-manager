@@ -89,9 +89,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">URL ಅಥವಾ ಸ್ಥಳೀಯ ಫೈಲ್‌ಗಳಿಂದ ಹೊಸ ಡೌನ್‌ಲೋಡರ್‌ಗಳನ್ನು ಸೇರಿಸಿ</string>
   <string name="local_downloaders_description">ಸ್ಥಳೀಯ ಸಂಗ್ರಹಣೆಯಿಂದ ಡೌನ್‌ಲೋಡರ್‌ಗಳನ್ನು ಸೇರಿಸಿ.</string>
   <string name="remote_downloaders_description">URL ನಿಂದ ಡೌನ್‌ಲೋಡರ್‌ಗಳನ್ನು ಸೇರಿಸಿ. ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನವೀಕರಿಸಬಹುದು.</string>
-  <string name="install_revanced_downloaders">Nexora Manager ಒಳಗೆ ನೇರವಾಗಿ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಪಡೆಯಲು ಡೌನ್‌ಲೋಡರ್‌ಗಳನ್ನು ಸ್ಥಾಪಿಸಿ.</string>
-  <string name="cancel_downloader_install_title">ಡೌನ್‌ಲೋಡರ್‌ಗಳ ಸ್ಥಾಪನೆಯನ್ನು ರದ್ದುಗೊಳಿಸಬೇಕೆ?</string>
-  <string name="cancel_downloader_install_description">ಡೌನ್‌ಲೋಡರ್‌ಗಳ ಸ್ಥಾಪನೆಯು ಪ್ರಗತಿಯಲ್ಲಿದೆ. ನೀವು ಈಗ ಹೊರಟರೆ, ಡೌನ್‌ಲೋಡ್ ರದ್ದುಗೊಳ್ಳುತ್ತದೆ.</string>
   <string name="downloader_sources_unavailable_title">ಈ ಡೌನ್‌ಲೋಡರ್‌ಗಳು ಕಾಣೆಯಾಗಿವೆ</string>
   <string name="downloader_sources_unavailable_description">ಇದನ್ನು ಸರಿಪಡಿಸಲು ನವೀಕರಿಸು ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ.</string>
   <string name="downloader_update_failed">ಡೌನ್‌ಲೋಡರ್ ನವೀಕರಿಸುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ: %s</string>

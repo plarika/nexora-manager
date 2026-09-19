@@ -89,9 +89,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">URL-ൽ നിന്നോ പ്രാദേശിക ഫയലുകളിൽ നിന്നോ പുതിയ ഡൗൺലോഡറുകൾ ചേർക്കുക</string>
   <string name="local_downloaders_description">പ്രാദേശിക സ്റ്റോറേജിൽ നിന്ന് ഡൗൺലോഡറുകൾ ചേർക്കുക.</string>
   <string name="remote_downloaders_description">URL-ൽ നിന്ന് ഡൗൺലോഡറുകൾ ചേർക്കുക. ഇത് സ്വയമേവ അപ്‌ഡേറ്റ് ചെയ്യാൻ കഴിയും.</string>
-  <string name="install_revanced_downloaders">Nexora Manager-നുള്ളിൽ നിന്ന് നേരിട്ട് ആപ്പുകൾ ലഭിക്കുന്നതിന് ഡൗൺലോഡറുകൾ ഇൻസ്റ്റാൾ ചെയ്യുക.</string>
-  <string name="cancel_downloader_install_title">ഡൗൺലോഡറുകൾ ഇൻസ്റ്റാളേഷൻ റദ്ദാക്കണോ?</string>
-  <string name="cancel_downloader_install_description">ഡൗൺലോഡറുകൾ ഇൻസ്റ്റാളേഷൻ നടന്നുകൊണ്ടിരിക്കുന്നു. ഇപ്പോൾ നിങ്ങൾ ഉപേക്ഷിക്കുകയാണെങ്കിൽ, ഡൗൺലോഡ് റദ്ദാക്കപ്പെടും.</string>
   <string name="downloader_sources_unavailable_title">ഈ ഡൗൺലോഡറുകൾ കാണുന്നില്ല</string>
   <string name="downloader_sources_unavailable_description">ഇത് ശരിയാക്കാൻ അപ്‌ഡേറ്റ് ബട്ടണിൽ ക്ലിക്കുചെയ്യുക.</string>
   <string name="downloader_update_failed">ഡൗൺലോഡർ അപ്‌ഡേറ്റ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു: %s</string>

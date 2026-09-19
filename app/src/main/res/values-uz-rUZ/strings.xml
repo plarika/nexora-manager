@@ -89,9 +89,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">Yangi yuklovchilarni URL manzilidan yoki mahalliy fayllardan qo\'shing</string>
   <string name="local_downloaders_description">Yuklovchilarni mahalliy xotiradan qo\'shish.</string>
   <string name="remote_downloaders_description">Yuklovchilarni URL manzilidan qo\'shish. Avtomatik yangilanishi mumkin.</string>
-  <string name="install_revanced_downloaders">Ilovalarni to\'g\'ridan-to\'g\'ri Nexora Manager ichida olish uchun yuklab oluvchilarni o\'rnating.</string>
-  <string name="cancel_downloader_install_title">Yuklab oluvchilarni o\'rnatishni bekor qilish kerakmi?</string>
-  <string name="cancel_downloader_install_description">Yuklab oluvchilar o\'rnatilmoqda. Agar hozir chiqib ketsangiz, yuklab olish bekor qilinadi.</string>
   <string name="downloader_sources_unavailable_title">Bu yuklovchilar topilmadi</string>
   <string name="downloader_sources_unavailable_description">Uni tuzatish uchun yangilash tugmasini bosing.</string>
   <string name="downloader_update_failed">Yuklovchini yangilash muvaffaqiyatsiz tugadi: %s</string>

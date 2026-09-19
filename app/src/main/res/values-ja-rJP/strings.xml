@@ -51,7 +51,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">アプリにパッチを適用</string>
   <string name="fab_add_patches">パッチを追加</string>
   <string name="new_downloader_notification">新しいダウンローダーが利用可能です。ここをクリックして設定してください。</string>
-  <string name="unsupported_architecture_warning">このデバイスアーキテクチャでのパッチ適用はサポートされておらず、失敗する可能性が高いです。</string>
   <string name="import_">インポート</string>
   <string name="import_patches">パッチをインポート</string>
   <string name="file_field_set">選択済み</string>
@@ -65,7 +64,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">名無し</string>
   <string name="android_11_bug_dialog_title">Android 11 のバグ</string>
   <string name="android_11_bug_dialog_description">アプリのインストール権限は、Android 11 システムのバグがユーザーエクスペリエンスに悪影響を与えるのを避けるため、事前に付与しておく必要があります。</string>
-  <string name="no_network_toast">インターネット接続がありません</string>
   <string name="selected_app_meta_any_version">任意の利用可能なバージョン</string>
   <string name="app_source_dialog_title">ソースを選択</string>
   <string name="app_source_dialog_option_auto">自動</string>
@@ -73,12 +71,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">互換性のあるアプリまたはダウンローダーが見つかりません</string>
   <string name="app_source_dialog_option_installed_no_root">マウントされたアプリは、root アクセスなしでは再度パッチを適用できません</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">バージョン %s は推奨バージョンと一致しません</string>
-  <string name="patch_item_description">アプリケーションのパッチ適用を開始</string>
   <string name="patch_selector_item">パッチを選択</string>
   <string name="patch_selector_item_description">%d個のパッチが選択されました</string>
   <string name="patch_selection_changed_warning">パッチの選択が変更されました</string>
   <string name="no_patches_selected">パッチが選択されていません</string>
-  <string name="network_unavailable_warning">お使いのデバイスはインターネットに接続されていません。後でダウンロードに失敗します。</string>
   <string name="network_metered_warning">現在、従量制課金接続を使用しています。サービスプロバイダーからのデータ料金が適用される場合があります。</string>
   <string name="apk_source_selector_item">APKソースを選択</string>
   <string name="apk_source_auto">自動</string>
@@ -168,13 +164,9 @@ Second \"item\" text"</string>
 
 以前にこのソースからインストールされたアプリを更新できなくなります。</string>
   <string name="regenerate_keystore_success">キーストアは正常に置き換えられました</string>
-  <string name="import_patch_selection">パッチ選択をインポート</string>
-  <string name="import_patch_selection_description">JSON ファイルからパッチ選択をインポート</string>
   <string name="import_patch_selection_fail">パッチ選択をインポートできませんでした: %s</string>
   <string name="import_patch_selection_success">パッチ選択をインポートしました</string>
   <string name="select_bundle_for_import">インポートするバンドルを選択</string>
-  <string name="export_patch_selection">パッチ選択をエクスポート</string>
-  <string name="export_patch_selection_description">JSON ファイルにパッチ選択をエクスポート</string>
   <string name="export_patch_selection_fail">パッチ選択をエクスポートできませんでした: %s</string>
   <string name="export_patch_selection_success">パッチ選択をエクスポートしました</string>
   <string name="select_bundle_for_export">エクスポートするバンドルを選択</string>
@@ -182,28 +174,8 @@ Second \"item\" text"</string>
   <string name="patch_selection_entries">選択されたパッチの合計</string>
   <string name="reset_configuration">設定をリセット</string>
   <string name="reset_patch_selection">パッチの選択</string>
-  <string name="reset_patch_selection_description">保存されているパッチ選択をリセット</string>
   <string name="reset_patch_options">パッチオプション</string>
-  <string name="reset_patch_options_description">保存されているパッチオプションをリセット</string>
   <string name="reset_patch_selection_success">パッチ選択がリセットされました</string>
-  <string name="patch_selection_reset_all">パッチ選択をグローバルにリセット</string>
-  <string name="patch_selection_reset_all_dialog_description">すべてのパッチ選択をリセットしようとしています。各パッチを再度手動で選択する必要があります。</string>
-  <string name="patch_selection_reset_all_description">すべてのパッチ選択をリセットします</string>
-  <string name="patch_selection_reset_package">アプリのパッチ選択をリセット</string>
-  <string name="patch_selection_reset_package_dialog_description">アプリ「%s」のパッチ選択をリセットしようとしています。各パッチを再度手動で選択する必要があります。</string>
-  <string name="patch_selection_reset_package_description">単一のアプリのパッチ選択をリセットします</string>
-  <string name="patch_selection_reset_patches">パッチの選択をリセット (単一)</string>
-  <string name="patch_selection_reset_patches_dialog_description">%s\" のパッチ選択をリセットしようとしています。各パッチを手動で再選択する必要があります。</string>
-  <string name="patch_selection_reset_patches_description">特定のパッチコレクションのパッチ選択をリセットします</string>
-  <string name="patch_options_reset_package">アプリのパッチオプションをリセット</string>
-  <string name="patch_options_reset_package_dialog_description">アプリ「%s」のパッチオプションをリセットしようとしています。各オプションを再度適用する必要があります。</string>
-  <string name="patch_options_reset_package_description">単一アプリのパッチオプションをリセットします</string>
-  <string name="patch_options_reset_patches">パッチオプションをリセット (単一)</string>
-  <string name="patch_options_reset_patches_dialog_description">%s\" のパッチオプションをリセットしようとしています。各オプションを再度適用する必要があります。</string>
-  <string name="patch_options_reset_patches_description">特定のパッチコレクションのパッチオプションをリセットします</string>
-  <string name="patch_options_reset_all">パッチオプションをグローバルにリセット</string>
-  <string name="patch_options_reset_all_dialog_description">すべてのパッチオプションをリセットしようとしています。各オプションを再度適用する必要があります。</string>
-  <string name="patch_options_reset_all_description">すべてのパッチオプションをリセットします</string>
   <string name="downloaders">ダウンローダー</string>
   <string name="downloader_prereleases">プレリリース版を使用</string>
   <string name="downloader_prereleases_description">メインダウンローダーのプレリリース版を使用する</string>
@@ -220,9 +192,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">URL またはローカルファイルから新しいダウンローダーを追加</string>
   <string name="local_downloaders_description">ローカルストレージからダウンローダーを追加します。</string>
   <string name="remote_downloaders_description">URL からダウンローダーを追加します。自動的に更新できます。</string>
-  <string name="install_revanced_downloaders">Nexora Manager内で直接アプリを取得するには、ダウンローダーをインストールしてください。</string>
-  <string name="cancel_downloader_install_title">ダウンローダーのインストールをキャンセルしますか？</string>
-  <string name="cancel_downloader_install_description">ダウンローダーのインストールが進行中です。今終了すると、ダウンロードはキャンセルされます。</string>
   <string name="downloader_sources_unavailable_title">これらのダウンローダーが見つかりません</string>
   <string name="downloader_sources_unavailable_description">更新ボタンをクリックして修正してください。</string>
   <string name="downloader_update_failed">ダウンローダーの更新に失敗しました: %s</string>
@@ -366,7 +335,6 @@ Second \"item\" text"</string>
   <string name="downloader_error">ダウンローダーエラー: %s</string>
   <string name="no_downloaders_installed">アプリダウンローダーがインストールされていません！</string>
   <string name="no_downloaders_trusted">アプリダウンローダーが信頼されていません！設定を確認してください。</string>
-  <string name="already_patched">すでにパッチ適用済み</string>
   <string name="patch_selector_sheet_filter_title">フィルタ</string>
   <string name="patch_selector_sheet_filter_compat_title">互換性</string>
   <string name="patch_selector_sheet_filter_packages_title">パッケージ</string>
@@ -492,9 +460,7 @@ Second \"item\" text"</string>
   <string name="hours_ago">%s時間前</string>
   <string name="days_ago">%s日前</string>
   <string name="invalid_date">無効な日付</string>
-  <string name="disable_battery_optimization">バッテリー最適化を無効にする</string>
   <string name="input_dialog_value_invalid">無効な値</string>
-  <string name="option_required">このオプションは必須です</string>
   <string name="required_options_screen">必須オプション</string>
   <string name="failed_to_check_updates">更新の確認に失敗しました: %s</string>
   <string name="no_update_available">更新はありません</string>

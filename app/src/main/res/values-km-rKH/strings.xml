@@ -89,9 +89,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">បន្ថែមឧបករណ៍ទាញយកថ្មីពី URL ឬឯកសារក្នុងស្រុក</string>
   <string name="local_downloaders_description">បន្ថែមឧបករណ៍ទាញយកពីកន្លែងផ្ទុកក្នុងស្រុក។</string>
   <string name="remote_downloaders_description">បន្ថែមឧបករណ៍ទាញយកពី URL។ អាចធ្វើបច្ចុប្បន្នភាពដោយស្វ័យប្រវត្តិ។</string>
-  <string name="install_revanced_downloaders">ដំឡើង downloaders ដើម្បីទទួលបានកម្មវិធីដោយផ្ទាល់នៅក្នុង Nexora Manager។</string>
-  <string name="cancel_downloader_install_title">បោះបង់ការដំឡើង downloaders ទេ?</string>
-  <string name="cancel_downloader_install_description">ការដំឡើង downloaders កំពុងដំណើរការ។ ប្រសិនបើអ្នកចេញឥឡូវនេះ ការទាញយកនឹងត្រូវបានបោះបង់។</string>
   <string name="downloader_sources_unavailable_title">ឧបករណ៍ទាញយកទាំងនេះបាត់</string>
   <string name="downloader_sources_unavailable_description">ចុចលើប៊ូតុងធ្វើបច្ចុប្បន្នភាពដើម្បីជួសជុលវា។</string>
   <string name="downloader_update_failed">មិនអាចធ្វើបច្ចុប្បន្នភាពឧបករណ៍ទាញយកបានទេ៖ %s</string>

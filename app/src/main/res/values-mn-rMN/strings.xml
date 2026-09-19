@@ -92,9 +92,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">Шинэ татаж авагчдыг URL эсвэл дотоод файлуудаас нэмнэ үү</string>
   <string name="local_downloaders_description">Дотоод санах ойгоос татаж авагчдыг нэмнэ үү.</string>
   <string name="remote_downloaders_description">URL-ээс татаж авагчдыг нэмнэ үү. Автоматаар шинэчлэгдэх боломжтой.</string>
-  <string name="install_revanced_downloaders">Nexora Manager дотор апп-уудыг шууд авахын тулд татагчуудыг суулгана уу.</string>
-<string name="cancel_downloader_install_title">Татагчуудын суулгалтыг цуцлах уу?</string>
-  <string name="cancel_downloader_install_description">Татагчуудын суулгалт явагдаж байна. Хэрэв та одоо гарах юм бол таталт цуцлагдах болно.</string>
   <string name="downloader_sources_unavailable_title">Эдгээр татаж авагчид алдагдсан байна</string>
   <string name="downloader_sources_unavailable_description">Шийдэхийн тулд шинэчлэх товчийг дарна уу.</string>
   <string name="downloader_update_failed">Татаж авагчийг шинэчлэх амжилтгүй боллоо: %s</string>

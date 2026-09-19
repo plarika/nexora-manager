@@ -89,9 +89,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">URL किंवा स्थानिक फाईल्समधून नवीन डाउनलोडर जोडा</string>
   <string name="local_downloaders_description">स्थानिक स्टोरेजमधून डाउनलोडर जोडा.</string>
   <string name="remote_downloaders_description">URL मधून डाउनलोडर जोडा. ते आपोआप अपडेट केले जाऊ शकतात.</string>
-  <string name="install_revanced_downloaders">Nexora Manager मध्ये थेट ॲप्स मिळवण्यासाठी डाउनलोडर स्थापित करा.</string>
-  <string name="cancel_downloader_install_title">डाउनलोडरची स्थापना रद्द करायची?</string>
-  <string name="cancel_downloader_install_description">डाउनलोडरची स्थापना प्रगतीपथावर आहे. तुम्ही आता सोडल्यास, डाउनलोड रद्द होईल.</string>
   <string name="downloader_sources_unavailable_title">हे डाउनलोडर गहाळ आहेत</string>
   <string name="downloader_sources_unavailable_description">ते ठीक करण्यासाठी अपडेट बटणावर क्लिक करा.</string>
   <string name="downloader_update_failed">डाउनलोडर अपडेट करण्यात अयशस्वी: %s</string>

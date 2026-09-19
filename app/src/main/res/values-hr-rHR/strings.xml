@@ -48,7 +48,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">Primijeni patch na aplikaciju</string>
   <string name="fab_add_patches">Dodaj patcheve</string>
   <string name="new_downloader_notification">Dostupni su novi preuzimatelji. Kliknite ovdje da biste ih konfigurirali.</string>
-  <string name="unsupported_architecture_warning">Primjenjivanje patcheva na ovoj arhitekturi uređaja nije podržano i najvjerojatnije neće uspjeti.</string>
   <string name="import_">Uvezi</string>
   <string name="import_patches">Uvezi patcheve</string>
   <string name="file_field_set">Odabrano</string>
@@ -115,9 +114,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">Dodajte nove preuzimatelje s URL-a ili lokalnih datoteka</string>
   <string name="local_downloaders_description">Dodajte preuzimatelje iz lokalne pohrane.</string>
   <string name="remote_downloaders_description">Dodajte preuzimatelje s URL-a. Mogu se automatski ažurirati.</string>
-  <string name="install_revanced_downloaders">Instalirajte preuzimatelje kako biste aplikacije nabavili izravno unutar Nexora Managera.</string>
-  <string name="cancel_downloader_install_title">Otkazati instalaciju preuzimatelja?</string>
-  <string name="cancel_downloader_install_description">Instalacija preuzimatelja je u tijeku. Ako sada izađete, preuzimanje će biti otkazano.</string>
   <string name="downloader_sources_unavailable_title">Ovi preuzimatelji nedostaju</string>
   <string name="downloader_sources_unavailable_description">Kliknite na gumb za ažuriranje kako biste to popravili.</string>
   <string name="downloader_update_failed">Ažuriranje preuzimatelja nije uspjelo: %s</string>

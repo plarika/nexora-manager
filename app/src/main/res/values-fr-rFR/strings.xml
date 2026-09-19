@@ -51,7 +51,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">Patcher une application</string>
   <string name="fab_add_patches">Ajouter des patchs</string>
   <string name="new_downloader_notification">De nouveaux téléchargeurs sont disponibles. Appuyez ici pour les configurer.</string>
-  <string name="unsupported_architecture_warning">Le processus de patching n\'est pas pris en charge sur l\'architecture de cet appareil et échouera très probablement.</string>
   <string name="import_">Importer</string>
   <string name="import_patches">Importer des patchs</string>
   <string name="file_field_set">Sélectionné</string>
@@ -65,7 +64,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">Sans nom</string>
   <string name="android_11_bug_dialog_title">Bug Android 11</string>
   <string name="android_11_bug_dialog_description">L\'autorisation d\'installation d\'applications doit être accordée à l\'avance pour contourner un bug système dans Android 11 qui affecterait négativement l\'expérience utilisateur.</string>
-  <string name="no_network_toast">Aucune connexion Internet disponible</string>
   <string name="selected_app_meta_any_version">Toute version disponible</string>
   <string name="app_source_dialog_title">Sélectionner la source</string>
   <string name="app_source_dialog_option_auto">Automatique</string>
@@ -73,12 +71,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">Aucune application compatible trouvée ou aucun téléchargeur disponible</string>
   <string name="app_source_dialog_option_installed_no_root">Les applications montées ne peuvent pas être patchées à nouveau sans accès root</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">La version %s ne correspond pas à la version suggérée</string>
-  <string name="patch_item_description">Commencez à patcher l\'application</string>
   <string name="patch_selector_item">Sélectionner des patchs</string>
   <string name="patch_selector_item_description">%d patchs sélectionnés</string>
   <string name="patch_selection_changed_warning">La sélection de patchs a été modifiée</string>
   <string name="no_patches_selected">Aucun patch sélectionné</string>
-  <string name="network_unavailable_warning">Votre appareil n\'est pas connecté à Internet. Le téléchargement va échouer.</string>
   <string name="network_metered_warning">Vous êtes actuellement sur une connexion facturée à l\'usage. Votre fournisseur de services pourrait vous facturer des frais d\'utilisation des données.</string>
   <string name="apk_source_selector_item">Sélectionner la source de l\'APK</string>
   <string name="apk_source_auto">Automatique</string>
@@ -168,13 +164,9 @@ Activer quand même ?</string>
 
 Vous ne pourrez pas mettre à jour les applications précédemment installées à partir de cette source.</string>
   <string name="regenerate_keystore_success">Le magasin de clés a été remplacé avec succès</string>
-  <string name="import_patch_selection">Importer la sélection de patchs</string>
-  <string name="import_patch_selection_description">Importez la sélection de patchs à partir d\'un fichier JSON</string>
   <string name="import_patch_selection_fail">Impossible d\'importer la sélection de patchs : %s</string>
   <string name="import_patch_selection_success">Sélection de patchs importée</string>
   <string name="select_bundle_for_import">Sélectionner le bundle pour l\'importation</string>
-  <string name="export_patch_selection">Exporter la sélection de patchs</string>
-  <string name="export_patch_selection_description">Exportez la sélection de patchs vers un fichier JSON</string>
   <string name="export_patch_selection_fail">Impossible d\'exporter la sélection de patchs : %s</string>
   <string name="export_patch_selection_success">Sélection de patchs exportée</string>
   <string name="select_bundle_for_export">Sélectionner le bundle pour l\'exportation</string>
@@ -182,28 +174,8 @@ Vous ne pourrez pas mettre à jour les applications précédemment installées �
   <string name="patch_selection_entries">Patchs sélectionnés au total</string>
   <string name="reset_configuration">Réinitialiser la configuration</string>
   <string name="reset_patch_selection">Sélections de patchs</string>
-  <string name="reset_patch_selection_description">Réinitialiser la sélection de patchs stockée</string>
   <string name="reset_patch_options">Options des patchs</string>
-  <string name="reset_patch_options_description">Réinitialiser les options de patchs stockées</string>
   <string name="reset_patch_selection_success">La sélection de patchs a été réinitialisée</string>
-  <string name="patch_selection_reset_all">Réinitialiser la sélection de patchs globalement</string>
-  <string name="patch_selection_reset_all_dialog_description">Vous êtes sur le point de réinitialiser toutes les sélections de patchs. Vous devrez sélectionner manuellement chaque patch à nouveau.</string>
-  <string name="patch_selection_reset_all_description">Réinitialise toutes les sélections de patchs</string>
-  <string name="patch_selection_reset_package">Réinitialiser la sélection de patchs pour l\'application</string>
-  <string name="patch_selection_reset_package_dialog_description">Vous êtes sur le point de réinitialiser la sélection de patchs pour l\'application \"%s\". Vous devrez sélectionner manuellement chaque patch à nouveau.</string>
-  <string name="patch_selection_reset_package_description">Réinitialise la sélection de patchs pour une seule application</string>
-  <string name="patch_selection_reset_patches">Réinitialiser la sélection de patchs (simple)</string>
-  <string name="patch_selection_reset_patches_dialog_description">Vous êtes sur le point de réinitialiser la sélection de patchs pour \"%s\". Vous devrez sélectionner manuellement chaque patch à nouveau.</string>
-  <string name="patch_selection_reset_patches_description">Réinitialise la sélection de patchs pour une collection spécifique de patchs</string>
-  <string name="patch_options_reset_package">Réinitialiser les options de patchs pour une application</string>
-  <string name="patch_options_reset_package_dialog_description">Vous êtes sur le point de réinitialiser les options de patchs pour l\'application \"%s\". Vous devrez réappliquer chaque option à nouveau.</string>
-  <string name="patch_options_reset_package_description">Réinitialise les options de patchs pour une seule application</string>
-  <string name="patch_options_reset_patches">Réinitialiser les options de patchs (unique)</string>
-  <string name="patch_options_reset_patches_dialog_description">Vous êtes sur le point de réinitialiser les options de patchs pour \"%s\". Vous devrez réappliquer chaque option à nouveau.</string>
-  <string name="patch_options_reset_patches_description">Réinitialise les options de patchs pour une collection spécifique de patchs</string>
-  <string name="patch_options_reset_all">Réinitialiser les options de patchs globalement</string>
-  <string name="patch_options_reset_all_dialog_description">Vous êtes sur le point de réinitialiser toutes les options de patchs. Vous devrez réappliquer chaque option à nouveau.</string>
-  <string name="patch_options_reset_all_description">Réinitialise toutes les options de patchs</string>
   <string name="downloaders">Téléchargeurs</string>
   <string name="downloader_prereleases">Utiliser les préversions</string>
   <string name="downloader_prereleases_description">Utilisez les versions préliminaires du téléchargeur principal</string>
@@ -220,9 +192,6 @@ Vous ne pourrez pas mettre à jour les applications précédemment installées �
   <string name="select_downloader_type_dialog_description">Ajoutez de nouveaux téléchargeurs à partir d\'une URL ou de fichiers locaux</string>
   <string name="local_downloaders_description">Ajoutez des téléchargeurs à partir du stockage local.</string>
   <string name="remote_downloaders_description">Ajoutez des téléchargeurs à partir d\'une URL. Ils pourront être mis à jour automatiquement.</string>
-  <string name="install_revanced_downloaders">Installez des téléchargeurs pour obtenir des applications directement depuis Nexora Manager.</string>
-  <string name="cancel_downloader_install_title">Annuler l\'installation des téléchargeurs ?</string>
-  <string name="cancel_downloader_install_description">Une installation de téléchargeurs est en cours. Si vous quittez maintenant, le téléchargement sera annulé.</string>
   <string name="downloader_sources_unavailable_title">Ces téléchargeurs sont manquants</string>
   <string name="downloader_sources_unavailable_description">Appuyez sur le bouton de mise à jour pour corriger le problème.</string>
   <string name="downloader_update_failed">Échec de la mise à jour du téléchargeur : %s</string>
@@ -366,7 +335,6 @@ Il n\'est compatible qu\'avec les versions suivantes : %2$s</string>
   <string name="downloader_error">Erreur du plugin de téléchargement : %s</string>
   <string name="no_downloaders_installed">Aucun téléchargeur d\'applications n\'est installé !</string>
   <string name="no_downloaders_trusted">Aucun téléchargeur d\'applications n\'a été approuvé ! Veuillez vérifier vos paramètres.</string>
-  <string name="already_patched">Déjà patchée</string>
   <string name="patch_selector_sheet_filter_title">Filtrer</string>
   <string name="patch_selector_sheet_filter_compat_title">Compatibilité</string>
   <string name="patch_selector_sheet_filter_packages_title">Packages</string>
@@ -492,9 +460,7 @@ Nexora Manager se fermera lors de la mise à jour.</string>
   <string name="hours_ago">il y a %s h</string>
   <string name="days_ago">il y a %s j</string>
   <string name="invalid_date">Date invalide</string>
-  <string name="disable_battery_optimization">Désactiver l\'optimisation de la batterie</string>
   <string name="input_dialog_value_invalid">Valeur invalide</string>
-  <string name="option_required">Cette option est requise</string>
   <string name="required_options_screen">Options requises</string>
   <string name="failed_to_check_updates">Échec de la recherche de mises à jour : %s</string>
   <string name="no_update_available">Aucune mise à jour disponible</string>

@@ -48,7 +48,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">แพตช์แอป</string>
   <string name="fab_add_patches">เพิ่มแพตช์</string>
   <string name="new_downloader_notification">มีตัวดาวน์โหลดใหม่พร้อมใช้งาน คลิกที่นี่เพื่อกำหนดค่า</string>
-  <string name="unsupported_architecture_warning">การแพตช์บนสถาปัตยกรรมอุปกรณ์นี้ไม่รองรับและมีแนวโน้มที่จะล้มเหลว</string>
   <string name="import_">นำเข้า</string>
   <string name="import_patches">นำเข้าแพตช์</string>
   <string name="file_field_set">เลือกแล้ว</string>
@@ -62,7 +61,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">ไม่มีชื่อ</string>
   <string name="android_11_bug_dialog_title">ข้อผิดพลาด Android 11</string>
   <string name="android_11_bug_dialog_description">ต้องได้รับอนุญาตการติดตั้งแอปก่อนเวลาเพื่อหลีกเลี่ยงข้อผิดพลาดในระบบ Android 11 ซึ่งจะส่งผลเสียต่อประสบการณ์ผู้ใช้</string>
-  <string name="no_network_toast">ไม่มีการเชื่อมต่ออินเทอร์เน็ต</string>
   <string name="selected_app_meta_any_version">เวอร์ชันใดก็ได้ที่มี</string>
   <string name="app_source_dialog_title">เลือกแหล่งที่มา</string>
   <string name="app_source_dialog_option_auto">อัตโนมัติ</string>
@@ -70,12 +68,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">ไม่พบแอปหรือโปรแกรมดาวน์โหลดที่เข้ากันได้</string>
   <string name="app_source_dialog_option_installed_no_root">แอปที่ติดตั้งแล้วจะไม่สามารถแพตช์ได้อีกโดยไม่มีสิทธิ์รูท</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">เวอร์ชัน %s ไม่ตรงกับเวอร์ชันที่แนะนำ</string>
-  <string name="patch_item_description">เริ่มแพตช์แอปพลิเคชัน</string>
   <string name="patch_selector_item">เลือกแพตช์</string>
   <string name="patch_selector_item_description">เลือกแพตช์แล้ว %d รายการ</string>
   <string name="patch_selection_changed_warning">มีการเปลี่ยนแปลงการเลือกแพตช์</string>
   <string name="no_patches_selected">ไม่ได้เลือกแพตช์</string>
-  <string name="network_unavailable_warning">อุปกรณ์ของคุณไม่ได้เชื่อมต่ออินเทอร์เน็ต การดาวน์โหลดจะล้มเหลวในภายหลัง</string>
   <string name="network_metered_warning">ขณะนี้คุณกำลังใช้การเชื่อมต่อแบบจำกัดปริมาณข้อมูล อาจมีค่าใช้จ่ายข้อมูลจากผู้ให้บริการของคุณ</string>
   <string name="apk_source_selector_item">เลือกแหล่งที่มา APK</string>
   <string name="apk_source_auto">อัตโนมัติ</string>
@@ -165,13 +161,9 @@ Second \"item\" text"</string>
 
 คุณจะไม่สามารถอัปเดตแอปที่ติดตั้งไว้ก่อนหน้านี้จากแหล่งที่มานี้ได้</string>
   <string name="regenerate_keystore_success">คีย์สโตร์ถูกแทนที่สำเร็จแล้ว</string>
-  <string name="import_patch_selection">นำเข้าการเลือกแพตช์</string>
-  <string name="import_patch_selection_description">นำเข้าการเลือกแพตช์จากไฟล์ JSON</string>
   <string name="import_patch_selection_fail">ไม่สามารถนำเข้าการเลือกแพตช์ได้: %s</string>
   <string name="import_patch_selection_success">นำเข้าการเลือกแพตช์แล้ว</string>
   <string name="select_bundle_for_import">เลือกบันเดิลที่จะนำเข้า</string>
-  <string name="export_patch_selection">ส่งออกการเลือกแพตช์</string>
-  <string name="export_patch_selection_description">ส่งออกการเลือกแพตช์ไปยังไฟล์ JSON</string>
   <string name="export_patch_selection_fail">ไม่สามารถส่งออกการเลือกแพตช์ได้: %s</string>
   <string name="export_patch_selection_success">ส่งออกการเลือกแพตช์แล้ว</string>
   <string name="select_bundle_for_export">เลือกบันเดิลที่จะส่งออก</string>
@@ -179,28 +171,8 @@ Second \"item\" text"</string>
   <string name="patch_selection_entries">แพตช์ที่เลือกทั้งหมด</string>
   <string name="reset_configuration">รีเซ็ตการกำหนดค่า</string>
   <string name="reset_patch_selection">การเลือกแพตช์</string>
-  <string name="reset_patch_selection_description">รีเซ็ตการเลือกแพตช์ที่จัดเก็บไว้</string>
   <string name="reset_patch_options">ตัวเลือกแพตช์</string>
-  <string name="reset_patch_options_description">รีเซ็ตตัวเลือกแพตช์ที่จัดเก็บไว้</string>
   <string name="reset_patch_selection_success">การเลือกแพตช์ถูกรีเซ็ตแล้ว</string>
-  <string name="patch_selection_reset_all">รีเซ็ตการเลือกแพตช์ทั่วโลก</string>
-  <string name="patch_selection_reset_all_dialog_description">คุณกำลังจะรีเซ็ตการเลือกแพตช์ทั้งหมด คุณจะต้องเลือกแพตช์แต่ละอันด้วยตนเองอีกครั้ง</string>
-  <string name="patch_selection_reset_all_description">รีเซ็ตการเลือกแพตช์ทั้งหมด</string>
-  <string name="patch_selection_reset_package">รีเซ็ตการเลือกแพตช์สำหรับแอป</string>
-  <string name="patch_selection_reset_package_dialog_description">คุณกำลังจะรีเซ็ตการเลือกแพตช์สำหรับแอป \"%s\" คุณจะต้องเลือกแพตช์แต่ละอันด้วยตนเองอีกครั้ง</string>
-  <string name="patch_selection_reset_package_description">รีเซ็ตการเลือกแพตช์สำหรับแอปเดียว</string>
-  <string name="patch_selection_reset_patches">รีเซ็ตการเลือกแพตช์ (เดี่ยว)</string>
-  <string name="patch_selection_reset_patches_dialog_description">คุณกำลังจะรีเซ็ตการเลือกแพตช์สำหรับ \"%s\" คุณจะต้องเลือกแพตช์แต่ละอันด้วยตนเองอีกครั้ง</string>
-  <string name="patch_selection_reset_patches_description">รีเซ็ตการเลือกแพตช์สำหรับชุดแพตช์ที่ระบุ</string>
-  <string name="patch_options_reset_package">รีเซ็ตตัวเลือกแพตช์สำหรับแอป</string>
-  <string name="patch_options_reset_package_dialog_description">คุณกำลังจะรีเซ็ตตัวเลือกแพตช์สำหรับแอป \"%s\" คุณจะต้องใช้ตัวเลือกแต่ละอันซ้ำอีกครั้ง</string>
-  <string name="patch_options_reset_package_description">รีเซ็ตตัวเลือกแพตช์สำหรับแอปเดียว</string>
-  <string name="patch_options_reset_patches">รีเซ็ตตัวเลือกแพตช์ (เดี่ยว)</string>
-  <string name="patch_options_reset_patches_dialog_description">คุณกำลังจะรีเซ็ตตัวเลือกแพตช์สำหรับ \"%s\" คุณจะต้องใช้ตัวเลือกแต่ละอันซ้ำอีกครั้ง</string>
-  <string name="patch_options_reset_patches_description">รีเซ็ตตัวเลือกแพตช์สำหรับชุดแพตช์ที่ระบุ</string>
-  <string name="patch_options_reset_all">รีเซ็ตตัวเลือกแพตช์ทั่วโลก</string>
-  <string name="patch_options_reset_all_dialog_description">คุณกำลังจะรีเซ็ตตัวเลือกแพตช์ทั้งหมด คุณจะต้องใช้ตัวเลือกแต่ละอันซ้ำอีกครั้ง</string>
-  <string name="patch_options_reset_all_description">รีเซ็ตตัวเลือกแพตช์ทั้งหมด</string>
   <string name="downloaders">ตัวดาวน์โหลด</string>
   <string name="downloader_prereleases">ใช้เวอร์ชันทดสอบ</string>
   <string name="downloader_prereleases_description">ใช้เวอร์ชันทดสอบของตัวดาวน์โหลดหลัก</string>
@@ -217,9 +189,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">เพิ่มตัวดาวน์โหลดใหม่จาก URL หรือไฟล์ในเครื่อง</string>
   <string name="local_downloaders_description">เพิ่มตัวดาวน์โหลดจากไฟล์ในเครื่อง</string>
   <string name="remote_downloaders_description">เพิ่มตัวดาวน์โหลดจาก URL สามารถอัปเดตอัตโนมัติได้</string>
-  <string name="install_revanced_downloaders">ติดตั้งตัวดาวน์โหลดเพื่อรับแอปโดยตรงภายใน Nexora Manager</string>
-<string name="cancel_downloader_install_title">ยกเลิกการติดตั้งตัวดาวน์โหลดหรือไม่</string>
-  <string name="cancel_downloader_install_description">กำลังติดตั้งตัวดาวน์โหลด หากคุณออกตอนนี้ การดาวน์โหลดจะถูกยกเลิก</string>
   <string name="downloader_sources_unavailable_title">ไม่พบตัวดาวน์โหลดเหล่านี้</string>
   <string name="downloader_sources_unavailable_description">กดอัปเดตเพื่อแก้ไขปัญหานี้</string>
   <string name="downloader_update_failed">อัปเดตตัวดาวน์โหลดไม่สำเร็จ: %s</string>
@@ -353,7 +322,6 @@ Second \"item\" text"</string>
   <string name="downloader_error">ข้อผิดพลาดของตัวดาวน์โหลด: %s</string>
   <string name="no_downloaders_installed">ไม่มีตัวดาวน์โหลดแอปติดตั้งอยู่!</string>
   <string name="no_downloaders_trusted">ไม่มีตัวดาวน์โหลดแอปใดที่ได้รับความเชื่อถือ! โปรดตรวจสอบการตั้งค่าของคุณ</string>
-  <string name="already_patched">แพตช์แล้ว</string>
   <string name="patch_selector_sheet_filter_title">ตัวกรอง</string>
   <string name="patch_selector_sheet_filter_compat_title">ความเข้ากันได้</string>
   <string name="patch_selector_sheet_filter_packages_title">แพ็กเกจ</string>
@@ -478,9 +446,7 @@ Second \"item\" text"</string>
   <string name="hours_ago">%s ชั่วโมงที่แล้ว</string>
   <string name="days_ago">%s วันที่แล้ว</string>
   <string name="invalid_date">วันที่ไม่ถูกต้อง</string>
-  <string name="disable_battery_optimization">ปิดการปรับปรุงแบตเตอรี่</string>
   <string name="input_dialog_value_invalid">ค่าไม่ถูกต้อง</string>
-  <string name="option_required">ตัวเลือกนี้จำเป็น</string>
   <string name="required_options_screen">ตัวเลือกที่จำเป็น</string>
   <string name="failed_to_check_updates">ตรวจสอบอัปเดตไม่สำเร็จ: %s</string>
   <string name="no_update_available">ไม่มีอัปเดตให้ใช้งาน</string>

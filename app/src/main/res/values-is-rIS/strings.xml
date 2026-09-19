@@ -89,9 +89,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">Bæta við nýjum niðurhölum af vefslóð eða staðbundnum skrám</string>
   <string name="local_downloaders_description">Bæta við niðurhölum úr staðbundinni geymslu.</string>
   <string name="remote_downloaders_description">Bæta við niðurhölum af vefslóð. Hægt að uppfæra sjálfvirkt.</string>
-  <string name="install_revanced_downloaders">Settu upp niðurhalara til að fá forrit beint innan Nexora Manager.</string>
-  <string name="cancel_downloader_install_title">Hætta við uppsetningu niðurhalara?</string>
-  <string name="cancel_downloader_install_description">Uppsetning niðurhalara er í gangi. Ef þú ferð núna verður niðurhalinu hætt.</string>
   <string name="downloader_sources_unavailable_title">Þessir niðurhalar vantar</string>
   <string name="downloader_sources_unavailable_description">Smelltu á uppfærsluhnappinn til að laga það.</string>
   <string name="downloader_update_failed">Tókst ekki að uppfæra niðurhala: %s</string>

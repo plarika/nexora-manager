@@ -48,7 +48,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">Korrigera en app</string>
   <string name="fab_add_patches">Lägg till korrigeringar</string>
   <string name="new_downloader_notification">Nya nedladdare tillgängliga. Klicka här för att konfigurera dem.</string>
-  <string name="unsupported_architecture_warning">Korrigering på denna enhetsarkitektur stöds inte och kommer troligen att misslyckas.</string>
   <string name="import_">Importera</string>
   <string name="import_patches">Importera korrigeringar</string>
   <string name="file_field_set">Vald</string>
@@ -62,7 +61,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">Namnlös</string>
   <string name="android_11_bug_dialog_title">Android 11-fel</string>
   <string name="android_11_bug_dialog_description">Behörigheten för appinstallation måste beviljas i förväg för att undvika en fel i Android 11-systemet som negativt påverkar användarupplevelsen.</string>
-  <string name="no_network_toast">Ingen internetanslutning är tillgänglig</string>
   <string name="selected_app_meta_any_version">Valfri tillgänglig version</string>
   <string name="app_source_dialog_title">Välj källa</string>
   <string name="app_source_dialog_option_auto">Automatisk</string>
@@ -70,12 +68,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">Inga kompatibla appar eller nedladdare tillgängliga</string>
   <string name="app_source_dialog_option_installed_no_root">Monterade appar kan inte korrigeras igen utan rotåtkomst</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">Versionen %s matchar inte den föreslagna versionen</string>
-  <string name="patch_item_description">Börja korrigera appen</string>
   <string name="patch_selector_item">Välj korrigeringar</string>
   <string name="patch_selector_item_description">%d korrigeringar valda</string>
   <string name="patch_selection_changed_warning">Valet av patchar har ändrats</string>
   <string name="no_patches_selected">Inga korrigeringar valda</string>
-  <string name="network_unavailable_warning">Enheten är inte ansluten till internet. Nedladdningen kommer att misslyckas senare.</string>
   <string name="network_metered_warning">Du använder för närvarande en anslutning med datapriser. Dataavgifter från din internetleverantör kan tillkomma.</string>
   <string name="apk_source_selector_item">Välj källa för APK-fil</string>
   <string name="apk_source_auto">Automatiskt</string>
@@ -165,13 +161,9 @@ Aktivera ändå?</string>
 
 Du kommer inte att kunna uppdatera tidigare installerade appar från denna källa.</string>
   <string name="regenerate_keystore_success">Nyckellagret har ersatts</string>
-  <string name="import_patch_selection">Importera korrigeringsurval</string>
-  <string name="import_patch_selection_description">Importera korrigeringsurval från en JSON-fil</string>
   <string name="import_patch_selection_fail">Det gick inte att importera korrigeringsurval: %s</string>
   <string name="import_patch_selection_success">Korrigeringsurval importerades</string>
   <string name="select_bundle_for_import">Välj paket att importera till</string>
-  <string name="export_patch_selection">Exportera korrigeringsurval</string>
-  <string name="export_patch_selection_description">Exportera korrigeringsurval till en JSON-fil</string>
   <string name="export_patch_selection_fail">Det gick inte att exportera korrigeringsurval: %s</string>
   <string name="export_patch_selection_success">Korrigeringsurval exporterades</string>
   <string name="select_bundle_for_export">Välj paket att exportera från</string>
@@ -179,28 +171,8 @@ Du kommer inte att kunna uppdatera tidigare installerade appar från denna käll
   <string name="patch_selection_entries">Totalt antal valda korrigeringar</string>
   <string name="reset_configuration">Återställ konfiguration</string>
   <string name="reset_patch_selection">Korrigeringsval</string>
-  <string name="reset_patch_selection_description">Återställ de lagrade korrigeringsurvalet</string>
   <string name="reset_patch_options">Återställ korrigeringsalternativ</string>
-  <string name="reset_patch_options_description">Återställ de lagrade korrigeringsalternativen</string>
   <string name="reset_patch_selection_success">Korrigeringsurval har återställts</string>
-  <string name="patch_selection_reset_all">Återställ korrigeringsurval globalt</string>
-  <string name="patch_selection_reset_all_dialog_description">Du är på väg att återställa alla korrigeringsurval. Du måste välja varje korrigering manuellt igen.</string>
-  <string name="patch_selection_reset_all_description">Återställer alla korrigeringsurval</string>
-  <string name="patch_selection_reset_package">Återställ korrigeringsurval för app</string>
-  <string name="patch_selection_reset_package_dialog_description">Du är på väg att återställa korrigeringsurvalet för appen \"%s\". Du måste välja varje korrigering manuellt igen.</string>
-  <string name="patch_selection_reset_package_description">Återställer korrigeringsurvalet för en enskild app</string>
-  <string name="patch_selection_reset_patches">Återställ korrigeringsurval (enskilt)</string>
-  <string name="patch_selection_reset_patches_dialog_description">Du är på väg att återställa korrigeringsurvalet för \"%s\". Du måste välja varje korrigering manuellt igen.</string>
-  <string name="patch_selection_reset_patches_description">Återställer korrigeringsurvalet för en specifik samling korrigeringar</string>
-  <string name="patch_options_reset_package">Återställ korrigeringsalternativ för app</string>
-  <string name="patch_options_reset_package_dialog_description">Du är på väg att återställa korrigeringsalternativen för appen \"%s\". Du måste tillämpa varje alternativ igen.</string>
-  <string name="patch_options_reset_package_description">Återställer korrigeringsalternativ för en enskild app</string>
-  <string name="patch_options_reset_patches">Återställ korrigeringsalternativ (enskilt)</string>
-  <string name="patch_options_reset_patches_dialog_description">Du är på väg att återställa korrigeringsalternativen för \"%s\". Du måste tillämpa varje alternativ igen.</string>
-  <string name="patch_options_reset_patches_description">Återställer korrigeringsalternativen för en specifik samling korrigeringar</string>
-  <string name="patch_options_reset_all">Återställ korrigeringsalternativ globalt</string>
-  <string name="patch_options_reset_all_dialog_description">Du är på väg att återställa alla korrigeringsalternativ. Du måste tillämpa varje alternativ igen.</string>
-  <string name="patch_options_reset_all_description">Återställer alla korrigeringsalternativ</string>
   <string name="downloaders">Nedladdningsprogram</string>
   <string name="downloader_prereleases">Använd förhandsversioner</string>
   <string name="downloader_prereleases_description">Använd förhandsversioner av den primära nedladdaren</string>
@@ -217,9 +189,6 @@ Du kommer inte att kunna uppdatera tidigare installerade appar från denna käll
   <string name="select_downloader_type_dialog_description">Lägg till nya nedladdare från webbadress eller lokala filer</string>
   <string name="local_downloaders_description">Lägg till nedladdare från lokal lagring.</string>
   <string name="remote_downloaders_description">Lägg till nedladdare från webbadress. Kan uppdateras automatiskt.</string>
-  <string name="install_revanced_downloaders">Installera nedladdare för att få appar direkt i Nexora Manager.</string>
-<string name="cancel_downloader_install_title">Avbryt installationen av nedladdare?</string>
-  <string name="cancel_downloader_install_description">En installation av nedladdare pågår. Om du lämnar nu kommer nedladdningen att avbrytas.</string>
   <string name="downloader_sources_unavailable_title">Dessa nedladdare saknas</string>
   <string name="downloader_sources_unavailable_description">Klicka på uppdateringsknappen för att åtgärda det.</string>
   <string name="downloader_update_failed">Det gick inte att uppdatera nedladdaren: %s</string>
@@ -363,7 +332,6 @@ Den är endast kompatibel med följande version(er): %2$s</string>
   <string name="downloader_error">Nedladdningsfel: %s</string>
   <string name="no_downloaders_installed">Inga appnedladdare är installerade!</string>
   <string name="no_downloaders_trusted">Inga appnedladdare har betrotts! Kontrollera dina inställningar.</string>
-  <string name="already_patched">Redan korrigerad</string>
   <string name="patch_selector_sheet_filter_title">Filtrera</string>
   <string name="patch_selector_sheet_filter_compat_title">Kompatibilitet</string>
   <string name="patch_selector_sheet_filter_packages_title">Paket</string>
@@ -488,9 +456,7 @@ Den är endast kompatibel med följande version(er): %2$s</string>
   <string name="hours_ago">för %s tim. sedan</string>
   <string name="days_ago">för %s dgr sedan</string>
   <string name="invalid_date">Ogiltigt datum</string>
-  <string name="disable_battery_optimization">Inaktivera batterioptimering</string>
   <string name="input_dialog_value_invalid">Ogiltigt värde</string>
-  <string name="option_required">Det här alternativet krävs</string>
   <string name="required_options_screen">Obligatoriska alternativ</string>
   <string name="failed_to_check_updates">Det gick inte att söka efter uppdateringar: %s</string>
   <string name="no_update_available">Ingen uppdatering tillgänglig</string>

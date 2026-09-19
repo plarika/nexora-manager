@@ -92,9 +92,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">Voeg nuwe aflaaiers by vanaf URL of plaaslike lêers</string>
   <string name="local_downloaders_description">Voeg aflaaiers by vanaf plaaslike stoorplek.</string>
   <string name="remote_downloaders_description">Voeg aflaaiers by vanaf URL. Kan outomaties bygewerk word.</string>
-  <string name="install_revanced_downloaders">Installeer aflaaiers om toepassings direk binne Nexora Manager te kry.</string>
-<string name="cancel_downloader_install_title">Kanselleer aflaaiersinstallasie?</string>
-  <string name="cancel_downloader_install_description">\'n Aflaaiersinstallasie is aan die gang. As jy nou vertrek, sal die aflaai gekanselleer word.</string>
   <string name="downloader_sources_unavailable_title">Hierdie aflaaiers ontbreek</string>
   <string name="downloader_sources_unavailable_description">Klik op die bywerk-knoppie om dit reg te stel.</string>
   <string name="downloader_update_failed">Kon nie aflaaier bywerk nie: %s</string>

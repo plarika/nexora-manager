@@ -89,9 +89,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">አዳዲስ ማውረጃዎችን ከURL ወይም ከአካባቢያዊ ፋይሎች ያክሉ</string>
   <string name="local_downloaders_description">ማውረጃዎችን ከአካባቢያዊ ማከማቻ ያክሉ</string>
   <string name="remote_downloaders_description">ማውረጃዎችን ከURL ያክሉ። በራስ-ሰር ሊዘመኑ ይችላሉ።</string>
-  <string name="install_revanced_downloaders">መተግበሪያዎችን በቀጥታ በNexora Manager ውስጥ ለማግኘት ማውረጃዎችን ይጫኑ።</string>
-  <string name="cancel_downloader_install_title">ማውረጃዎች መጫኑ ይሰረዝ?</string>
-  <string name="cancel_downloader_install_description">የማውረጃዎች መጫን በመካሄድ ላይ ነው። አሁን ከሄዱ፣ ውርዱ ይሰረዛል።</string>
   <string name="downloader_sources_unavailable_title">እነዚህ ማውረጃዎች ጠፍተዋል</string>
   <string name="downloader_sources_unavailable_description">ለማስተካከል የማዘመን አዝራርን ይጫኑ።</string>
   <string name="downloader_update_failed">ማውረጃውን ማዘመን አልተሳካም: %s</string>

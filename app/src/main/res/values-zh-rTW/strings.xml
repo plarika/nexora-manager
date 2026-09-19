@@ -48,7 +48,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">修補應用程式</string>
   <string name="fab_add_patches">新增修補</string>
   <string name="new_downloader_notification">有新的下載器可用。按這裡設定。</string>
-  <string name="unsupported_architecture_warning">此裝置架構不支援修補，且極有可能失敗。</string>
   <string name="import_">匯入</string>
   <string name="import_patches">匯入修補程式</string>
   <string name="file_field_set">已選取</string>
@@ -62,7 +61,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">未命名</string>
   <string name="android_11_bug_dialog_title">Android 11 錯誤</string>
   <string name="android_11_bug_dialog_description">必須提前授予應用程式安裝權限，以避免 Android 11 系統中的錯誤對使用者體驗產生負面影響。</string>
-  <string name="no_network_toast">無可用的網際網路連線</string>
   <string name="selected_app_meta_any_version">任何可用版本</string>
   <string name="app_source_dialog_title">選取來源</string>
   <string name="app_source_dialog_option_auto">自動</string>
@@ -70,12 +68,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">沒有相容的應用程式或下載器可用</string>
   <string name="app_source_dialog_option_installed_no_root">沒有 Root 權限無法再次修補已掛載的應用程式</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">版本 %s 與建議版本不符</string>
-  <string name="patch_item_description">開始修補應用程式</string>
   <string name="patch_selector_item">選取修補</string>
   <string name="patch_selector_item_description">已選取 %d 個修補</string>
   <string name="patch_selection_changed_warning">修補程式選擇已變更</string>
   <string name="no_patches_selected">未選取任何修補程式</string>
-  <string name="network_unavailable_warning">您的裝置未連線到網際網路。稍後下載將會失敗。</string>
   <string name="network_metered_warning">您目前使用計量付費連線。您的服務供應商可能會收取數據費用。</string>
   <string name="apk_source_selector_item">選取 APK 來源</string>
   <string name="apk_source_auto">自動</string>
@@ -165,13 +161,9 @@ Second \"item\" text"</string>
 
 您將無法從此來源更新先前安裝的應用程式。</string>
   <string name="regenerate_keystore_success">金鑰儲存庫已成功替換</string>
-  <string name="import_patch_selection">匯入修補程式選取</string>
-  <string name="import_patch_selection_description">從 JSON 檔案匯入修補程式選取</string>
   <string name="import_patch_selection_fail">無法匯入修補程式選取：%s</string>
   <string name="import_patch_selection_success">已匯入修補程式選取</string>
   <string name="select_bundle_for_import">選取要匯入的捆綁包</string>
-  <string name="export_patch_selection">匯出修補程式選取</string>
-  <string name="export_patch_selection_description">將修補程式選取匯出到 JSON 檔案</string>
   <string name="export_patch_selection_fail">無法匯出修補程式選取：%s</string>
   <string name="export_patch_selection_success">已匯出修補程式選取</string>
   <string name="select_bundle_for_export">選取要匯出的捆綁包</string>
@@ -179,28 +171,8 @@ Second \"item\" text"</string>
   <string name="patch_selection_entries">總共選取的修補</string>
   <string name="reset_configuration">重設設定</string>
   <string name="reset_patch_selection">修補選取項目</string>
-  <string name="reset_patch_selection_description">重設儲存的修補程式選取</string>
   <string name="reset_patch_options">修補選項</string>
-  <string name="reset_patch_options_description">重設儲存的修補程式選項</string>
   <string name="reset_patch_selection_success">修補程式選取已重設</string>
-  <string name="patch_selection_reset_all">全域重設修補程式選取</string>
-  <string name="patch_selection_reset_all_dialog_description">您即將重設所有修補程式選取。您將需要再次手動選取每個修補程式。</string>
-  <string name="patch_selection_reset_all_description">重設所有修補程式選取</string>
-  <string name="patch_selection_reset_package">重設應用程式的修補程式選取</string>
-  <string name="patch_selection_reset_package_dialog_description">您即將重設應用程式 \"%s\" 的修補程式選取。您將需要再次手動選取每個修補程式。</string>
-  <string name="patch_selection_reset_package_description">重設單一應用程式的修補程式選擇</string>
-  <string name="patch_selection_reset_patches">重設修補程式選擇（單一）</string>
-  <string name="patch_selection_reset_patches_dialog_description">您即將重設「%s」的修補程式選擇。您將必須再次手動選擇每個修補程式。</string>
-  <string name="patch_selection_reset_patches_description">重設特定修補程式集合的修補程式選擇</string>
-  <string name="patch_options_reset_package">重設應用程式的修補程式選項</string>
-  <string name="patch_options_reset_package_dialog_description">您即將重設應用程式「%s」的修補程式選項。您將必須再次重新套用每個選項。</string>
-  <string name="patch_options_reset_package_description">重設單一應用程式的修補程式選項</string>
-  <string name="patch_options_reset_patches">重設修補程式選項（單一）</string>
-  <string name="patch_options_reset_patches_dialog_description">您即將重設「%s」的修補程式選項。您將必須再次重新套用每個選項。</string>
-  <string name="patch_options_reset_patches_description">重設特定修補程式集合的修補程式選項</string>
-  <string name="patch_options_reset_all">全域重設修補程式選項</string>
-  <string name="patch_options_reset_all_dialog_description">您即將重設所有修補程式選項。您將必須再次重新套用每個選項。</string>
-  <string name="patch_options_reset_all_description">重設所有修補程式選項</string>
   <string name="downloaders">下載器</string>
   <string name="downloader_prereleases">使用預先發布版</string>
   <string name="downloader_prereleases_description">使用主要下載器的預先發布版</string>
@@ -217,9 +189,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">從網址或本機檔案新增下載器</string>
   <string name="local_downloaders_description">從本機儲存空間新增下載器。</string>
   <string name="remote_downloaders_description">從網址新增下載器。可自動更新。</string>
-  <string name="install_revanced_downloaders">安裝下載器以直接在 Nexora Manager 內取得應用程式。</string>
-<string name="cancel_downloader_install_title">取消下載器安裝？</string>
-  <string name="cancel_downloader_install_description">下載器安裝正在進行中。如果您現在離開，下載將會取消。</string>
   <string name="downloader_sources_unavailable_title">這些下載器遺失了</string>
   <string name="downloader_sources_unavailable_description">按一下更新按鈕以修正。</string>
   <string name="downloader_update_failed">更新下載器失敗：%s</string>
@@ -363,7 +332,6 @@ Second \"item\" text"</string>
   <string name="downloader_error">下載器錯誤：%s</string>
   <string name="no_downloaders_installed">未安裝任何應用程式下載器！</string>
   <string name="no_downloaders_trusted">沒有任何應用程式下載器被信任！請檢查您的設定。</string>
-  <string name="already_patched">已修補</string>
   <string name="patch_selector_sheet_filter_title">篩選</string>
   <string name="patch_selector_sheet_filter_compat_title">相容性</string>
   <string name="patch_selector_sheet_filter_packages_title">套件</string>
@@ -488,9 +456,7 @@ Second \"item\" text"</string>
   <string name="hours_ago">%s 小時前</string>
   <string name="days_ago">%s 天前</string>
   <string name="invalid_date">無效日期</string>
-  <string name="disable_battery_optimization">停用電池最佳化</string>
   <string name="input_dialog_value_invalid">無效值</string>
-  <string name="option_required">此選項為必填</string>
   <string name="required_options_screen">必填選項</string>
   <string name="failed_to_check_updates">檢查更新失敗：%s</string>
   <string name="no_update_available">無可用更新</string>

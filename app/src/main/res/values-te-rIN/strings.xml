@@ -89,9 +89,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">URL లేదా స్థానిక ఫైల్‌ల నుండి కొత్త డౌన్‌లోడర్‌లను జోడించండి</string>
   <string name="local_downloaders_description">స్థానిక నిల్వ నుండి డౌన్‌లోడర్‌లను జోడించండి.</string>
   <string name="remote_downloaders_description">URL నుండి డౌన్‌లోడర్‌లను జోడించండి. స్వయంచాలకంగా నవీకరించబడవచ్చు.</string>
-  <string name="install_revanced_downloaders">Nexora Manager లోపల నేరుగా యాప్‌లను పొందడానికి డౌన్‌లోడర్‌లను ఇన్‌స్టాల్ చేయండి.</string>
-  <string name="cancel_downloader_install_title">డౌన్‌లోడర్‌ల ఇన్‌స్టాల్‌ను రద్దు చేయాలా?</string>
-  <string name="cancel_downloader_install_description">డౌన్‌లోడర్‌ల ఇన్‌స్టాల్ పురోగతిలో ఉంది. మీరు ఇప్పుడు నిష్క్రమిస్తే, డౌన్‌లోడ్ రద్దు చేయబడుతుంది.</string>
   <string name="downloader_sources_unavailable_title">ఈ డౌన్‌లోడర్‌లు లేవు</string>
   <string name="downloader_sources_unavailable_description">దీన్ని సరిచేయడానికి అప్‌డేట్ బటన్‌పై క్లిక్ చేయండి.</string>
   <string name="downloader_update_failed">డౌన్‌లోడర్‌ను అప్‌డేట్ చేయడంలో విఫలమైంది: %s</string>

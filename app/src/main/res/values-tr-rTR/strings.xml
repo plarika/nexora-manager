@@ -48,7 +48,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">Bir uygulama yamala</string>
   <string name="fab_add_patches">Yamalar ekle</string>
   <string name="new_downloader_notification">Yeni indirici(ler) mevcut. Yapılandırmak için buraya tıklayın.</string>
-  <string name="unsupported_architecture_warning">Bu cihaz mimarisinde yamalama desteklenmiyor ve büyük olasılıkla başarısız olacaktır.</string>
   <string name="import_">İçe aktar</string>
   <string name="import_patches">Yamaları içe aktar</string>
   <string name="file_field_set">Seçili</string>
@@ -62,7 +61,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">Adsız</string>
   <string name="android_11_bug_dialog_title">Android 11 hatası</string>
   <string name="android_11_bug_dialog_description">Uygulama yükleme izni, Android 11 sistemindeki kullanıcı deneyimini olumsuz etkileyecek bir hatayı önlemek için önceden verilmelidir.</string>
-  <string name="no_network_toast">İnternet bağlantısı yok</string>
   <string name="selected_app_meta_any_version">Mevcut herhangi bir sürüm</string>
   <string name="app_source_dialog_title">Kaynak seç</string>
   <string name="app_source_dialog_option_auto">Otomatik</string>
@@ -70,12 +68,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">Uyumlu uygulama veya indirici bulunamadı</string>
   <string name="app_source_dialog_option_installed_no_root">Bağlanan uygulamalar, root erişimi olmadan tekrar yamalanamaz</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">Sürüm %s önerilen sürümle eşleşmiyor</string>
-  <string name="patch_item_description">Uygulamayı yamalamaya başla</string>
   <string name="patch_selector_item">Yamaları seç</string>
   <string name="patch_selector_item_description">%d yama seçildi</string>
   <string name="patch_selection_changed_warning">Yama seçimi değiştirildi</string>
   <string name="no_patches_selected">Hiç yama seçilmedi</string>
-  <string name="network_unavailable_warning">Cihazınız internete bağlı değil. İndirme işlemi başarısız olacaktır.</string>
   <string name="network_metered_warning">Şu anda tarifeli bir bağlantıdasınız. Hizmet sağlayıcınızdan veri ücretleri uygulanabilir.</string>
   <string name="apk_source_selector_item">APK kaynağını seç</string>
   <string name="apk_source_auto">Otomatik</string>
@@ -165,13 +161,9 @@ Yine de etkinleştirilsin mi?</string>
 
 Daha önce bu kaynaktan yüklenmiş uygulamaları güncelleyemeyeceksiniz.</string>
   <string name="regenerate_keystore_success">Anahtar deposu başarıyla değiştirildi</string>
-  <string name="import_patch_selection">Yama seçimini içe aktar</string>
-  <string name="import_patch_selection_description">Yama seçimini bir JSON dosyasından içe aktar</string>
   <string name="import_patch_selection_fail">Yama seçimi içe aktarılamadı: %s</string>
   <string name="import_patch_selection_success">Yama seçimi içe aktarıldı</string>
   <string name="select_bundle_for_import">İçe aktarılacak paketi seçin</string>
-  <string name="export_patch_selection">Yama seçimini dışa aktar</string>
-  <string name="export_patch_selection_description">Yama seçimini bir JSON dosyasına dışa aktar</string>
   <string name="export_patch_selection_fail">Yama seçimi dışa aktarılamadı: %s</string>
   <string name="export_patch_selection_success">Yama seçimi dışa aktarıldı</string>
   <string name="select_bundle_for_export">Dışa aktarılacak paketi seçin</string>
@@ -179,28 +171,8 @@ Daha önce bu kaynaktan yüklenmiş uygulamaları güncelleyemeyeceksiniz.</stri
   <string name="patch_selection_entries">Toplam seçilen yamalar</string>
   <string name="reset_configuration">Yapılandırmayı sıfırla</string>
   <string name="reset_patch_selection">Yama seçimleri</string>
-  <string name="reset_patch_selection_description">Kaydedilmiş yama seçimini sıfırla</string>
   <string name="reset_patch_options">Yama seçenekleri</string>
-  <string name="reset_patch_options_description">Kaydedilmiş yama seçeneklerini sıfırla</string>
   <string name="reset_patch_selection_success">Yama seçimi sıfırlandı</string>
-  <string name="patch_selection_reset_all">Yama seçimini küresel olarak sıfırla</string>
-  <string name="patch_selection_reset_all_dialog_description">Tüm yama seçimlerini sıfırlamak üzeresiniz. Her yamayı tekrar manuel olarak seçmeniz gerekecek.</string>
-  <string name="patch_selection_reset_all_description">Tüm yama seçimlerini sıfırlar</string>
-  <string name="patch_selection_reset_package">Uygulama için yama seçimini sıfırla</string>
-  <string name="patch_selection_reset_package_dialog_description">\"%s\" uygulaması için yama seçimini sıfırlamak üzeresiniz. Her yamayı tekrar manuel olarak seçmeniz gerekecek.</string>
-  <string name="patch_selection_reset_package_description">Tek bir uygulama için yama seçimini sıfırlar</string>
-  <string name="patch_selection_reset_patches">Yama seçimini sıfırla (tek)</string>
-  <string name="patch_selection_reset_patches_dialog_description">\"%s\" için yama seçimini sıfırlamak üzeresiniz. Her yamayı manuel olarak yeniden seçmeniz gerekecektir.</string>
-  <string name="patch_selection_reset_patches_description">Belirli bir yama koleksiyonu için yama seçimini sıfırlar</string>
-  <string name="patch_options_reset_package">Uygulama için yama seçeneklerini sıfırla</string>
-  <string name="patch_options_reset_package_dialog_description">\"%s\" uygulaması için yama seçeneklerini sıfırlamak üzeresiniz. Her seçeneği yeniden uygulamanız gerekecektir.</string>
-  <string name="patch_options_reset_package_description">Tek bir uygulama için yama seçeneklerini sıfırlar</string>
-  <string name="patch_options_reset_patches">Yama seçeneklerini sıfırla (tek)</string>
-  <string name="patch_options_reset_patches_dialog_description">\"%s\" için yama seçeneklerini sıfırlamak üzeresiniz. Her seçeneği yeniden uygulamanız gerekecektir.</string>
-  <string name="patch_options_reset_patches_description">Belirli bir yama koleksiyonu için yama seçeneklerini sıfırlar</string>
-  <string name="patch_options_reset_all">Yama seçeneklerini küresel olarak sıfırla</string>
-  <string name="patch_options_reset_all_dialog_description">Tüm yama seçeneklerini sıfırlamak üzeresiniz. Her seçeneği yeniden uygulamanız gerekecektir.</string>
-  <string name="patch_options_reset_all_description">Tüm yama seçeneklerini sıfırlar</string>
   <string name="downloaders">İndiriciler</string>
   <string name="downloader_prereleases">Ön sürümleri kullan</string>
   <string name="downloader_prereleases_description">Ana indiricinin ön sürüm versiyonlarını kullan</string>
@@ -217,9 +189,6 @@ Daha önce bu kaynaktan yüklenmiş uygulamaları güncelleyemeyeceksiniz.</stri
   <string name="select_downloader_type_dialog_description">URL\'den veya yerel dosyalardan yeni indiriciler ekle</string>
   <string name="local_downloaders_description">Yerel depolamadan indiriciler ekle.</string>
   <string name="remote_downloaders_description">URL\'den indiriciler ekle. Otomatik olarak güncellenebilir.</string>
-  <string name="install_revanced_downloaders">Uygulamaları doğrudan Nexora Manager içinde almak için indiricileri yükleyin.</string>
-<string name="cancel_downloader_install_title">İndiriciler kurulumunu iptal et?</string>
-  <string name="cancel_downloader_install_description">İndiriciler kurulumu devam ediyor. Şimdi çıkarsanız indirme iptal edilecektir.</string>
   <string name="downloader_sources_unavailable_title">Bu indiriciler eksik</string>
   <string name="downloader_sources_unavailable_description">Düzeltmek için güncelle düğmesine tıklayın.</string>
   <string name="downloader_update_failed">İndirici güncellenemedi: %s</string>
@@ -364,7 +333,6 @@ Yalnızca şu sürüm(ler) ile uyumludur: %2$s</string>
   <string name="downloader_error">İndirici hatası: %s</string>
   <string name="no_downloaders_installed">Hiç uygulama indiricisi yüklü değil!</string>
   <string name="no_downloaders_trusted">Hiçbir uygulama indiricisine güvenilmedi! Lütfen ayarlarınızı kontrol edin.</string>
-  <string name="already_patched">Zaten yamalanmış</string>
   <string name="patch_selector_sheet_filter_title">Filtre</string>
   <string name="patch_selector_sheet_filter_compat_title">Uyumluluk</string>
   <string name="patch_selector_sheet_filter_packages_title">Paketler</string>
@@ -490,9 +458,7 @@ Nexora Manager güncellenirken kapanacaktır.</string>
   <string name="hours_ago">%ssa önce</string>
   <string name="days_ago">%sg önce</string>
   <string name="invalid_date">Geçersiz tarih</string>
-  <string name="disable_battery_optimization">Pil optimizasyonunu devre dışı bırak</string>
   <string name="input_dialog_value_invalid">Geçersiz değer</string>
-  <string name="option_required">Bu seçenek gereklidir</string>
   <string name="required_options_screen">Gerekli seçenekler</string>
   <string name="failed_to_check_updates">Güncellemeler denetlenemedi: %s</string>
   <string name="no_update_available">Mevcut güncelleme yok</string>

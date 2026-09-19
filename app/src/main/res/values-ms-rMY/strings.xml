@@ -89,9 +89,6 @@ Second \"item\" text"</string>
   <string name="select_downloader_type_dialog_description">Tambah pemuat turun baharu daripada URL atau fail setempat</string>
   <string name="local_downloaders_description">Tambah pemuat turun daripada storan setempat.</string>
   <string name="remote_downloaders_description">Tambah pemuat turun daripada URL. Boleh dikemas kini secara automatik.</string>
-  <string name="install_revanced_downloaders">Pasang pemuat turun untuk mendapatkan aplikasi terus dalam Nexora Manager.</string>
-  <string name="cancel_downloader_install_title">Batalkan pemasangan pemuat turun?</string>
-  <string name="cancel_downloader_install_description">Pemasangan pemuat turun sedang berjalan. Jika anda keluar sekarang, muat turun akan dibatalkan.</string>
   <string name="downloader_sources_unavailable_title">Pemuat turun ini tiada</string>
   <string name="downloader_sources_unavailable_description">Klik pada butang kemas kini untuk memperbaikinya.</string>
   <string name="downloader_update_failed">Gagal mengemas kini pemuat turun: %s</string>

@@ -51,7 +51,6 @@ Second \"item\" text"</string>
   <string name="fab_patch_app">Patch een app</string>
   <string name="fab_add_patches">Patches toevoegen</string>
   <string name="new_downloader_notification">Nieuwe downloader(s) beschikbaar. Klik hier om ze te configureren.</string>
-  <string name="unsupported_architecture_warning">Patchen op deze apparaatarchitectuur wordt niet ondersteund en zal waarschijnlijk mislukken.</string>
   <string name="import_">Importeren</string>
   <string name="import_patches">Patches importeren</string>
   <string name="file_field_set">Geselecteerd</string>
@@ -65,7 +64,6 @@ Second \"item\" text"</string>
   <string name="source_name_fallback">Naamloos</string>
   <string name="android_11_bug_dialog_title">Android 11-bug</string>
   <string name="android_11_bug_dialog_description">De app-installatietoestemming moet vooraf worden verleend om een bug in het Android 11-systeem te voorkomen die de gebruikerservaring negatief zal beïnvloeden.</string>
-  <string name="no_network_toast">Geen internetverbinding beschikbaar</string>
   <string name="selected_app_meta_any_version">Elke beschikbare versie</string>
   <string name="app_source_dialog_title">Selecteer bron</string>
   <string name="app_source_dialog_option_auto">Automatisch</string>
@@ -73,12 +71,10 @@ Second \"item\" text"</string>
   <string name="app_source_dialog_option_auto_unavailable">Geen compatibele app of downloaders beschikbaar</string>
   <string name="app_source_dialog_option_installed_no_root">Gemonteerde apps kunnen niet opnieuw worden gepatcht zonder roottoegang</string>
   <string name="app_source_dialog_option_installed_version_not_suggested">Versie %s komt niet overeen met de voorgestelde versie</string>
-  <string name="patch_item_description">Begin met het patchen van de applicatie</string>
   <string name="patch_selector_item">Patches selecteren</string>
   <string name="patch_selector_item_description">%d patches geselecteerd</string>
   <string name="patch_selection_changed_warning">Selectie van patches is gewijzigd</string>
   <string name="no_patches_selected">Geen patches geselecteerd</string>
-  <string name="network_unavailable_warning">Uw apparaat is niet verbonden met internet. Downloaden zal later mislukken.</string>
   <string name="network_metered_warning">U gebruikt momenteel een verbinding met datalimiet. Er kunnen kosten voor dataverbruik in rekening worden gebracht door uw serviceprovider.</string>
   <string name="apk_source_selector_item">Selecteer APK-bron</string>
   <string name="apk_source_auto">Automatisch</string>
@@ -168,13 +164,9 @@ Toch inschakelen?</string>
 
 U zult de eerder geïnstalleerde apps niet meer kunnen bijwerken via deze bron.</string>
   <string name="regenerate_keystore_success">De keystore is succesvol vervangen</string>
-  <string name="import_patch_selection">Patchselectie importeren</string>
-  <string name="import_patch_selection_description">Patchselectie importeren uit een JSON-bestand</string>
   <string name="import_patch_selection_fail">Patchselectie kon niet worden geïmporteerd: %s</string>
   <string name="import_patch_selection_success">Patchselectie geïmporteerd</string>
   <string name="select_bundle_for_import">Selecteer bundel om naar te importeren</string>
-  <string name="export_patch_selection">Patchselectie exporteren</string>
-  <string name="export_patch_selection_description">Patchselectie exporteren naar een JSON-bestand</string>
   <string name="export_patch_selection_fail">Patchselectie kon niet worden geëxporteerd: %s</string>
   <string name="export_patch_selection_success">Patchselectie geëxporteerd</string>
   <string name="select_bundle_for_export">Selecteer bundel om uit te exporteren</string>
@@ -182,28 +174,8 @@ U zult de eerder geïnstalleerde apps niet meer kunnen bijwerken via deze bron.<
   <string name="patch_selection_entries">Totaal aantal geselecteerde patches</string>
   <string name="reset_configuration">Configuratie opnieuw instellen</string>
   <string name="reset_patch_selection">Patch-selecties</string>
-  <string name="reset_patch_selection_description">De opgeslagen patchselectie resetten</string>
   <string name="reset_patch_options">Patch-opties</string>
-  <string name="reset_patch_options_description">De opgeslagen patchopties resetten</string>
   <string name="reset_patch_selection_success">Patchselectie is gereset</string>
-  <string name="patch_selection_reset_all">Patchselectie wereldwijd resetten</string>
-  <string name="patch_selection_reset_all_dialog_description">U staat op het punt om alle patchselecties te resetten. U moet elke patch handmatig opnieuw selecteren.</string>
-  <string name="patch_selection_reset_all_description">Reset alle patchselecties</string>
-  <string name="patch_selection_reset_package">Patchselectie resetten voor app</string>
-  <string name="patch_selection_reset_package_dialog_description">U staat op het punt de patchselectie voor de app \"%s\" te resetten. U moet elke patch handmatig opnieuw selecteren.</string>
-  <string name="patch_selection_reset_package_description">Reset patchselectie voor één enkele app</string>
-  <string name="patch_selection_reset_patches">Patchselectie resetten (enkelvoudig)</string>
-  <string name="patch_selection_reset_patches_dialog_description">U staat op het punt de patchselectie voor \"%s\" te resetten. U moet elke patch handmatig opnieuw selecteren.</string>
-  <string name="patch_selection_reset_patches_description">Reset de patchselectie voor een specifieke verzameling patches</string>
-  <string name="patch_options_reset_package">Patchopties voor app resetten</string>
-  <string name="patch_options_reset_package_dialog_description">U staat op het punt de patchopties voor de app \"%s\" te resetten. U moet elke optie handmatig opnieuw toepassen.</string>
-  <string name="patch_options_reset_package_description">Reset patchopties voor één enkele app</string>
-  <string name="patch_options_reset_patches">Patchopties resetten (enkelvoudig)</string>
-  <string name="patch_options_reset_patches_dialog_description">U staat op het punt de patchopties voor \"%s\" te resetten. U moet elke optie handmatig opnieuw toepassen.</string>
-  <string name="patch_options_reset_patches_description">Reset de patchopties voor een specifieke verzameling patches</string>
-  <string name="patch_options_reset_all">Patchopties globaal resetten</string>
-  <string name="patch_options_reset_all_dialog_description">U staat op het punt alle patchopties te resetten. U moet elke optie handmatig opnieuw toepassen.</string>
-  <string name="patch_options_reset_all_description">Reset alle patchopties</string>
   <string name="downloaders">Downloaders</string>
   <string name="downloader_prereleases">Gebruik voorlopige versies</string>
   <string name="downloader_prereleases_description">Gebruik voorlopige versies van de hoofddownloader</string>
@@ -220,9 +192,6 @@ U zult de eerder geïnstalleerde apps niet meer kunnen bijwerken via deze bron.<
   <string name="select_downloader_type_dialog_description">Nieuwe downloaders toevoegen via URL of lokale bestanden</string>
   <string name="local_downloaders_description">Downloaders toevoegen vanuit lokale opslag.</string>
   <string name="remote_downloaders_description">Downloaders toevoegen via URL. Kunnen automatisch worden bijgewerkt.</string>
-  <string name="install_revanced_downloaders">Installeer downloaders om apps direct binnen Nexora Manager te krijgen.</string>
-  <string name="cancel_downloader_install_title">Installatie van downloaders annuleren?</string>
-  <string name="cancel_downloader_install_description">Een installatie van downloaders is bezig. Als je nu weggaat, wordt de download geannuleerd.</string>
   <string name="downloader_sources_unavailable_title">Deze downloaders ontbreken</string>
   <string name="downloader_sources_unavailable_description">Klik op de updateknop om dit te herstellen.</string>
   <string name="downloader_update_failed">Mislukt om downloader bij te werken: %s</string>
@@ -356,7 +325,6 @@ U zult de eerder geïnstalleerde apps niet meer kunnen bijwerken via deze bron.<
   <string name="downloader_error">Downloaderfout: %s</string>
   <string name="no_downloaders_installed">Geen app-downloaders zijn geïnstalleerd!</string>
   <string name="no_downloaders_trusted">Geen app-downloaders zijn vertrouwd! Controleer je instellingen.</string>
-  <string name="already_patched">Al gepatcht</string>
   <string name="patch_selector_sheet_filter_title">Filter</string>
   <string name="patch_selector_sheet_filter_compat_title">Compatibiliteit</string>
   <string name="patch_selector_sheet_filter_packages_title">Pakketten</string>
@@ -481,9 +449,7 @@ U zult de eerder geïnstalleerde apps niet meer kunnen bijwerken via deze bron.<
   <string name="hours_ago">%su geleden</string>
   <string name="days_ago">%sd geleden</string>
   <string name="invalid_date">Ongeldige datum</string>
-  <string name="disable_battery_optimization">Batterij-optimalisatie uitschakelen</string>
   <string name="input_dialog_value_invalid">Ongeldige waarde</string>
-  <string name="option_required">Deze optie is vereist</string>
   <string name="required_options_screen">Vereiste opties</string>
   <string name="failed_to_check_updates">Controleren op updates mislukt: %s</string>
   <string name="no_update_available">Geen update beschikbaar</string>
