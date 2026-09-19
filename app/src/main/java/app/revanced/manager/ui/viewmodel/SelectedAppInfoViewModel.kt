@@ -156,37 +156,42 @@ class SelectedAppInfoViewModel(
     }
 
     var options: Options by savedStateHandle.saveable {
-        viewModelScope.launch {
-            if (!persistConfiguration) return@launch // TODO: save options for patched apps.
-            val bundlePatches = bundleInfoFlow.first()
-                .associate { it.uid to it.patches.associateBy { patch -> patch.name } }
-
-            options = withContext(Dispatchers.Default) {
-                optionsRepository.getOptions(packageName, bundlePatches)
-            }
-        }
-
         mutableStateOf(emptyMap())
     }
         private set
 
     private var selectionState: SelectionState by savedStateHandle.saveable {
-        if (input.patches != null)
-            return@saveable mutableStateOf(SelectionState.Customized(input.patches))
-
-        // Try to get the previous selection if customization is enabled.
-        viewModelScope.launch {
-            if (!prefs.disableSelectionWarning.get()) return@launch
-
-            val previous = selectionRepository.getSelection(packageName)
-            if (previous.values.sumOf { it.size } == 0) return@launch
-            selectionState = SelectionState.Customized(previous)
-        }
-
-        mutableStateOf(SelectionState.Default)
+        mutableStateOf(
+            input.patches?.let(SelectionState::Customized) ?: SelectionState.Default
+        )
     }
 
     init {
+        // Start asynchronous state restoration only after both saveable delegates above
+        // have been fully assigned. Launching from inside either delegate initializer can
+        // race with its own assignment and call the generated setter through a null delegate.
+        viewModelScope.launch {
+            if (persistConfiguration) {
+                val bundlePatches = bundleInfoFlow.first()
+                    .associate { it.uid to it.patches.associateBy { patch -> patch.name } }
+
+                options = withContext(Dispatchers.Default) {
+                    optionsRepository.getOptions(packageName, bundlePatches)
+                }
+            }
+        }
+
+        if (input.patches == null) {
+            // Try to get the previous selection if customization is enabled.
+            viewModelScope.launch {
+                if (!prefs.disableSelectionWarning.get()) return@launch
+
+                val previous = selectionRepository.getSelection(packageName)
+                if (previous.values.sumOf { it.size } == 0) return@launch
+                selectionState = SelectionState.Customized(previous)
+            }
+        }
+
         viewModelScope.launch {
             prefs.disableSelectionWarning.flow.collect { customizationAllowed ->
                 // When customization safeguard is enabled again, return to defaults immediately.
