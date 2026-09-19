@@ -561,6 +561,7 @@ private fun AppSourceSelectorDialog(
                 items(downloaders, key = { "downloader_${it.packageName}_${it.name}" }) { downloader ->
                     NexoraSelectorRow(
                         title = downloader.name,
+                        subtitle = downloader.sourceName,
                         enabled = canSelect,
                         trailing = (@Composable { LoadingIndicator() }).takeIf { activeSearchJob == downloader },
                         onClick = { onSelectDownloader(downloader) },

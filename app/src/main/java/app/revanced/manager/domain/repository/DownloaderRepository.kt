@@ -163,6 +163,8 @@ class DownloaderRepository(
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) Api30ResourceImpl(File(apkPath))
             else OldResourceImpl(resources)
 
+        val sourceName = with(pm) { packageInfo.label() }
+
         return DownloaderPackage(
             classNames.map { className ->
                 val downloader = classLoader
@@ -178,6 +180,7 @@ class DownloaderRepository(
                     packageName,
                     className,
                     resources.getString(downloader.name),
+                    sourceName,
                     scopeImpl,
                     downloader
                 )
@@ -185,7 +188,7 @@ class DownloaderRepository(
             classLoader,
             resourceImpl,
             packageInfo.packageName,
-            with(pm) { packageInfo.label() },
+            sourceName,
             packageInfo.versionName.orEmpty()
         )
     }

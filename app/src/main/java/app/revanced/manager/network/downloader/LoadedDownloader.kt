@@ -8,6 +8,7 @@ class LoadedDownloader(
     val packageName: String,
     val className: String,
     val name: String,
+    val sourceName: String,
     val scopeImpl: Scope,
     val impl: Downloader<Parcelable>
 )
