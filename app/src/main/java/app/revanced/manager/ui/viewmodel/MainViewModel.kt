@@ -100,7 +100,8 @@ class MainViewModel(
             }
         }
 
-        val storedPatchesFile = File(app.filesDir.parentFile.absolutePath, "/app_flutter/selected-patches.json")
+        val legacyDataDir = app.filesDir.parentFile ?: app.filesDir
+        val storedPatchesFile = File(legacyDataDir, "app_flutter/selected-patches.json")
         val patches: SerializedSelection? =
             if (storedPatchesFile.exists()) {
                 json.decodeFromString<SerializedSelection>(storedPatchesFile.readText())
