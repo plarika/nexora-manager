@@ -61,7 +61,7 @@ import app.revanced.manager.ui.screen.settings.ImportExportSettingsScreen
 import app.revanced.manager.ui.screen.settings.LicensesSettingsScreen
 import app.revanced.manager.ui.screen.settings.update.ChangelogsSettingsScreen
 import app.revanced.manager.ui.screen.settings.update.UpdatesSettingsScreen
-import app.revanced.manager.ui.theme.ReVancedManagerTheme
+import app.revanced.manager.ui.theme.NexoraManagerTheme
 import app.revanced.manager.ui.theme.Theme
 import app.revanced.manager.ui.viewmodel.MainViewModel
 import app.revanced.manager.ui.viewmodel.SelectedAppInfoViewModel
@@ -95,19 +95,19 @@ class MainActivity : AppCompatActivity() {
                 resetListItemColorsCached()
             }
 
-            ReVancedManagerTheme(
+            NexoraManagerTheme(
                 darkTheme = theme == Theme.SYSTEM && isSystemInDarkTheme() || theme == Theme.DARK,
                 dynamicColor = dynamicColor,
                 pureBlackTheme = pureBlackTheme
             ) {
-                ReVancedManager(vm)
+                NexoraManager(vm)
             }
         }
     }
 }
 
 @Composable
-private fun ReVancedManager(vm: MainViewModel) {
+private fun NexoraManager(vm: MainViewModel) {
     val navController = rememberNavController()
     val completedOnboarding by vm.prefs.completedOnboarding.getAsState()
     // please dont unmemoize this bahahahah

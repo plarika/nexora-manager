@@ -116,7 +116,7 @@ private val DarkColorScheme = darkColorScheme(
 
 @OptIn(ExperimentalMaterial3ExpressiveApi::class)
 @Composable
-fun ReVancedManagerTheme(
+fun NexoraManagerTheme(
     darkTheme: Boolean,
     dynamicColor: Boolean,
     pureBlackTheme: Boolean,
