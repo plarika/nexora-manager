@@ -3,7 +3,6 @@ package app.revanced.manager.downloader.webview
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Context
-import android.net.Uri
 import android.os.Bundle
 import android.os.IBinder
 import android.os.Parcelable
@@ -12,7 +11,6 @@ import android.view.MenuInflater
 import android.view.MenuItem
 import android.view.View
 import android.webkit.CookieManager
-import android.webkit.WebResourceRequest
 import android.webkit.WebSettings
 import android.webkit.WebView
 import android.webkit.WebViewClient
@@ -167,37 +165,10 @@ internal class WebViewModel : ViewModel() {
     }
 
     val webViewClient = object : WebViewClient() {
-        override fun shouldOverrideUrlLoading(
-            view: WebView?,
-            request: WebResourceRequest?
-        ): Boolean {
-            val uri = request?.url ?: return false
-            if (!request.isForMainFrame || !isSignedObjectDownload(uri)) return false
-
-            onDownload(
-                uri.toString(),
-                "application/octet-stream",
-                view?.settings?.userAgentString.orEmpty()
-            )
-            return true
-        }
-
         override fun onPageFinished(view: WebView?, url: String?) {
             super.onPageFinished(view, url)
             eventBinder!!.pageLoad(url)
         }
-    }
-
-    private fun isSignedObjectDownload(uri: Uri): Boolean {
-        if (uri.scheme != "https") return false
-
-        val algorithm = uri.getQueryParameter("X-Amz-Algorithm")
-        val credential = uri.getQueryParameter("X-Amz-Credential")
-        val signature = uri.getQueryParameter("X-Amz-Signature")
-
-        return algorithm.equals("AWS4-HMAC-SHA256", ignoreCase = true) &&
-            !credential.isNullOrBlank() &&
-            !signature.isNullOrBlank()
     }
 
     fun onDownload(url: String, mimeType: String, userAgent: String) {
