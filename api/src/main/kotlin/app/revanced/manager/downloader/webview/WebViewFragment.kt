@@ -16,6 +16,7 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.activity.addCallback
 import androidx.activity.enableEdgeToEdge
+import androidx.core.os.BundleCompat
 import androidx.core.view.MenuProvider
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -39,7 +40,7 @@ class WebViewFragment : Fragment(R.layout.webview_fragment) {
     private val vm by viewModels<WebViewModel>()
     lateinit var webView: WebView
     private val args by lazy {
-        arguments?.getParcelable<Parameters>(KEY)!!
+        arguments?.let { BundleCompat.getParcelable(it, KEY, Parameters::class.java) }!!
     }
 
     override fun onAttach(context: Context) {
