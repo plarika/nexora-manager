@@ -6,7 +6,6 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
@@ -143,11 +142,6 @@ fun NexoraManagerTheme(
     if (!view.isInEditMode) {
         SideEffect {
             val activity = view.context as Activity
-
-            WindowCompat.setDecorFitsSystemWindows(activity.window, false)
-
-            activity.window.statusBarColor = Color.Transparent.toArgb()
-            activity.window.navigationBarColor = Color.Transparent.toArgb()
 
             WindowCompat.getInsetsController(activity.window, view).isAppearanceLightStatusBars = !darkTheme
             WindowCompat.getInsetsController(activity.window, view).isAppearanceLightNavigationBars = !darkTheme
