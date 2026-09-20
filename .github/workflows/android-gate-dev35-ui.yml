@@ -1,0 +1,97 @@
+name: Nexora Manager dev.35 UI Gate
+
+on:
+  push:
+    branches:
+      - validation/manager-dev35-ui-gate-20260920
+    paths:
+      - ".github/workflows/android-gate-dev35-ui.yml"
+      - "validation/**"
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  android-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      MANAGER_EXPECTED_SHA256: 1938360ca8f907cc30345163d2dc6281e7f3e1c153a80ce9fd363388a0d74b30
+      DOWNLOADER_EXPECTED_SHA256: 69e90c54a48d571bf3f7b644315b6dc4ed91b1fc517caa99109007f83815e641
+
+    steps:
+      - name: Checkout validation branch
+        uses: actions/checkout@v6
+
+      - name: Resolve exact Manager dev.35 and Downloader LKG
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p artifacts
+
+          curl --fail --location --silent --show-error --retry 5 --retry-all-errors --retry-delay 2 \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/plarika/nexora-manager/actions/artifacts/10604565044/zip \
+            -o artifacts/manager-dev35.apk
+          echo "$MANAGER_EXPECTED_SHA256  artifacts/manager-dev35.apk" | sha256sum -c -
+          unzip -tq artifacts/manager-dev35.apk >/dev/null
+
+          cp validation/fixtures/nexora-manager-downloaders-1.2.0-nexora.1-LKG.apk artifacts/downloader-lkg.apk
+          echo "$DOWNLOADER_EXPECTED_SHA256  artifacts/downloader-lkg.apk" | sha256sum -c -
+
+          echo "MANAGER_APK=artifacts/manager-dev35.apk" >> "$GITHUB_ENV"
+          echo "DOWNLOADER_APK=artifacts/downloader-lkg.apk" >> "$GITHUB_ENV"
+          printf 'Manager bytes: '; stat -c '%s' artifacts/manager-dev35.apk
+          printf 'Downloader bytes: '; stat -c '%s' artifacts/downloader-lkg.apk
+
+      - name: Enable KVM acceleration
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+          ls -l /dev/kvm
+
+      - name: Run Android Nexora UI stability gate
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 35
+          target: google_apis
+          arch: x86_64
+          profile: pixel_6
+          cores: 2
+          ram-size: 4096M
+          heap-size: 512M
+          disk-size: 8G
+          disable-animations: true
+          emulator-options: >-
+            -no-window
+            -gpu swiftshader_indirect
+            -noaudio
+            -no-boot-anim
+            -camera-back none
+            -camera-front none
+            -no-snapshot
+            -accel on
+          script: |
+            set -eu
+            adb wait-for-device
+            adb shell settings put system screen_off_timeout 2147483647
+            adb install -r "$MANAGER_APK"
+            adb shell mkdir -p /sdcard/Download
+            adb push "$DOWNLOADER_APK" /sdcard/Download/nexora-manager-downloaders-1.2.0-nexora.1.apk
+            python3 validation/android_gate.py
+
+      - name: Upload gate evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nexora-manager-dev35-ui-evidence-${{ github.run_id }}
+          path: evidence/
+          if-no-files-found: warn
+          retention-days: 14
