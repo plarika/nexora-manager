@@ -13,6 +13,7 @@ import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -31,9 +32,11 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.PagerState
 import androidx.compose.foundation.pager.rememberPagerState
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.AutoAwesome
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material.icons.filled.Notifications
 import androidx.compose.material.icons.filled.Settings
@@ -67,6 +70,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -430,7 +434,6 @@ fun DashboardScreen(
                                 pagerState.animateScrollToPage(DashboardPage.LIBRARY.ordinal)
                             }
                         },
-                        onUpdates = onUpdateClick,
                         onSettings = onSettingsClick,
                     )
                 },
@@ -581,24 +584,29 @@ private fun NexoraDashboardBottomBar(
     onPanel: () -> Unit,
     onApps: () -> Unit,
     onLibrary: () -> Unit,
-    onUpdates: () -> Unit,
     onSettings: () -> Unit,
 ) {
     val navInset = WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding()
+
     Surface(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(bottom = navInset),
+            .padding(
+                start = 10.dp,
+                end = 10.dp,
+                bottom = navInset + 8.dp,
+            ),
+        shape = RoundedCornerShape(26.dp),
         color = NexoraOfficialPanelStrong,
         border = BorderStroke(1.dp, NexoraOfficialBorder),
-        tonalElevation = 8.dp,
+        tonalElevation = 12.dp,
     ) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = 8.dp, vertical = 6.dp),
+                .padding(horizontal = 8.dp, vertical = 7.dp),
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(4.dp),
+            horizontalArrangement = Arrangement.spacedBy(2.dp),
         ) {
             NexoraBottomItem(
                 icon = Icons.Outlined.Home,
@@ -614,18 +622,15 @@ private fun NexoraDashboardBottomBar(
                 onClick = onApps,
                 modifier = Modifier.weight(1f),
             )
+            NexoraPatchDockAction(
+                onClick = onApps,
+                modifier = Modifier.weight(1.08f),
+            )
             NexoraBottomItem(
                 icon = Icons.Outlined.Source,
                 label = stringResource(R.string.nexora_nav_library),
                 selected = currentPage == DashboardPage.LIBRARY.ordinal,
                 onClick = onLibrary,
-                modifier = Modifier.weight(1f),
-            )
-            NexoraBottomItem(
-                icon = Icons.Filled.Update,
-                label = stringResource(R.string.nexora_nav_updates),
-                selected = false,
-                onClick = onUpdates,
                 modifier = Modifier.weight(1f),
             )
             NexoraBottomItem(
@@ -653,7 +658,9 @@ private fun NexoraBottomItem(
         shape = RoundedCornerShape(18.dp),
         color = if (selected) {
             NexoraOfficialViolet.copy(alpha = 0.18f)
-        } else Color.Transparent,
+        } else {
+            Color.Transparent
+        },
     ) {
         Column(
             modifier = Modifier.padding(horizontal = 1.dp, vertical = 8.dp),
@@ -664,18 +671,65 @@ private fun NexoraBottomItem(
                 imageVector = icon,
                 contentDescription = label,
                 modifier = Modifier.size(21.dp),
-                tint = if (selected) NexoraOfficialCyan
-                else Color(0xFF8B96B8),
+                tint = if (selected) NexoraOfficialCyan else Color(0xFF8B96B8),
             )
             Text(
                 text = label,
-                style = MaterialTheme.typography.labelSmall.copy(fontSize = 10.sp, letterSpacing = 0.sp),
-                color = if (selected) NexoraOfficialViolet
-                else Color(0xFF8B96B8),
+                style = MaterialTheme.typography.labelSmall.copy(
+                    fontSize = 10.sp,
+                    letterSpacing = 0.sp,
+                ),
+                color = if (selected) NexoraOfficialViolet else Color(0xFF8B96B8),
                 maxLines = 1,
                 overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis,
             )
         }
+    }
+}
+
+@Composable
+private fun NexoraPatchDockAction(
+    onClick: () -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    Column(
+        modifier = modifier,
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.spacedBy(4.dp),
+    ) {
+        Box(
+            modifier = Modifier
+                .size(50.dp)
+                .clip(CircleShape)
+                .background(
+                    Brush.linearGradient(
+                        listOf(
+                            NexoraOfficialViolet,
+                            Color(0xFF7048FF),
+                            NexoraOfficialCyan,
+                        )
+                    )
+                )
+                .border(1.dp, Color.White.copy(alpha = .22f), CircleShape)
+                .clickable(onClick = onClick),
+            contentAlignment = Alignment.Center,
+        ) {
+            Icon(
+                imageVector = Icons.Filled.AutoAwesome,
+                contentDescription = stringResource(R.string.fab_patch_app),
+                tint = Color.White,
+                modifier = Modifier.size(24.dp),
+            )
+        }
+        Text(
+            text = stringResource(R.string.patch),
+            style = MaterialTheme.typography.labelSmall.copy(
+                fontSize = 10.sp,
+                letterSpacing = 0.sp,
+            ),
+            color = NexoraOfficialCyan,
+            maxLines = 1,
+        )
     }
 }
 
